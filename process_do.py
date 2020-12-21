@@ -34,12 +34,11 @@ xrdb = "Entrez"
 #genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap.txt"
 
 # dhu: hardcoded paths of input files
-do_obo_filename = "data/HumanDO.obo"
+obo_filename = "data/HumanDO.obo"
 mim2gene_filename = "data/omim/mim2gene.txt"
 
 # dhu: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
 #      this column are empty.
-#
 #      For differences between "genemap.txt" and "genemap2.txt", see the end of both files.
 #      "genemap2.txt" is probably a better choice, because it already maps "MIM Number" to
 #      "Entrez Gene ID".
@@ -79,7 +78,7 @@ def build_tags_dictionary(
     tag_file_fh.close()
     return tags_dict
 
-
+# dhu: This function is copied from "annotation-refinery/process_do.py"
 def build_doid_omim_dict(obo_filename):
     """
     Function to read in DO OBO file and build dictionary of DO terms
@@ -127,7 +126,8 @@ def build_doid_omim_dict(obo_filename):
     return doid_omim_dict
 
 
-def build_mim2entrez_dict(mim2gene_file):
+# dhu: This function is copied from "annotation-refinery/process_do.py".
+def build_mim2entrez_dict(mim2gene_filename):
     """
     Function to parse mim2gene.txt file and build dictionary of MIM
     numbers to Entrez IDs. The file itself is called mim2gene, and it
@@ -135,7 +135,7 @@ def build_mim2entrez_dict(mim2gene_file):
     Entrez.
 
     Arguments:
-    mim2gene_file -- A string. Location of the mim2gene.txt file to read in.
+    mim2gene_filename -- A string. Location of the mim2gene.txt file to read in.
 
     Returns:
     mim2entrez_dict -- A dictionary mapping MIM IDs to Entrez IDs for MIM
@@ -144,7 +144,7 @@ def build_mim2entrez_dict(mim2gene_file):
     """
     mim2entrez_dict = {}
 
-    mim2gene_fh = open(mim2gene_file, 'r')
+    mim2gene_fh = open(mim2gene_filename, 'r')
 
     for line in mim2gene_fh:  # Loop based on loop from Dima @ Princeton
         toks = line.split('\t')
@@ -162,7 +162,7 @@ def build_mim2entrez_dict(mim2gene_file):
                     "Gene Entrez ID was blank for MIM ID '%s' in %s"
                     " mim-to-gene mapping file",
                     mim,
-                    mim2gene_file
+                    mim2gene_filename
                 )
                 continue
             if mim in mim2entrez_dict:
@@ -184,14 +184,14 @@ def build_mim_diseases_dict(genemap_filename, mim2entrez_dict):
     diseases.
 
     Arguments:
-    genemap_file -- A string. Location of the genemap file to read in.
+    genemap_filename -- A string. Location of the genemap file to read in.
 
     mim2entrez_dict -- A dictionary mapping MIM gene IDs to Entrez IDs.
     This is the output of the build_mim2entrez_dict() function above.
 
     Returns:
     mim_diseases -- A dictionary. The keys are MIM disease IDs, and the
-    values are MIMdisease objects, defined by the class above.
+    values are `MIMdisease` objects, defined by the class above.
 
     *N.B. MIM IDs are not all one type of object (unlike Entrez IDs,
     for example) - they can refer to phenotypes/diseases, genes, etc.
@@ -214,6 +214,7 @@ def build_mim_diseases_dict(genemap_filename, mim2entrez_dict):
 
         # Skip line if disorders field is empty, or confidence is
         # something other than the one(s) in our filter.
+        #
         # dhu: 'confidence' field is deprecated, so its value is always empty now
         #if disorders == '' or confidence not in CONF_FILTER:
         if disorders == '':
@@ -393,7 +394,7 @@ def process_do_terms():
     """
 
     disease_ontology = go()
-    loaded_obo_bool = disease_ontology.load_obo(do_obo_filename)
+    loaded_obo_bool = disease_ontology.load_obo(obo_filename)
 
     if loaded_obo_bool is False:
         logger.error('DO OBO file could not be loaded.')
@@ -424,7 +425,6 @@ def process_do_terms():
 
     do_terms = []
     for term_id, term in disease_ontology.go_terms.items():
-        # dhu: all `term.annotations` are empty set, why???
         if len(term.annotations):
             print(f"term_id:", term_id)
             print(f"term.annotations:", term.annotations, "\n")
@@ -453,9 +453,20 @@ def process_do_terms():
 
 # Test harness
 if __name__ == "__main__":
+    #doid_omim_dict = build_doid_omim_dict(obo_filename)
+    #for k, v in doid_omim_dict.items(): print(k, ":", v)
+
+    mim2entrez = build_mim2entrez_dict(mim2gene_filename)
+    #for k, v in mim2entrez.items(): print(k, ":", v)
+    mim_diseases = build_mim_diseases_dict(genemap_filename, mim2entrez)
+    for k, v in mim_diseases.items(): print(k, ":", v)
+
+
+    """
     do_terms = process_do_terms()
 
     #for gs in do_terms:
     #    print(json.dumps(gs, indent=2))
 
     print("\nTotal number of gs:", len(do_terms))
+    """
