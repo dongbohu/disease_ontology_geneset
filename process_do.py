@@ -34,7 +34,7 @@ xrdb = "Entrez"
 #genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap.txt"
 
 # dhu: hardcoded paths of input files
-do_obo_filename = "data/github/HumanDO.obo"
+do_obo_filename = "data/HumanDO.obo"
 mim2gene_filename = "data/omim/mim2gene.txt"
 
 # dhu: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
