@@ -15,8 +15,7 @@ logger = logging.getLogger(__name__)
 tax_id = 9606
 
 #do_obo_url = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/HumanDO.obo"
-#mim2gene_url = "https://omim.org/static/omim/data/mim2gene.txt"
-#genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap.txt"
+#genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
 
 # dhu: hardcoded paths of input files
 obo_filename = "data/HumanDO.obo"
@@ -32,25 +31,23 @@ genemap_filename = "data/omim/genemap2.txt"
 FIND_MIMID = re.compile('\, [0-9]* \([1-4]\)')  # Regex pattern
 PHENOTYPE_FILTER = '(3)'
 
-"""
-# dhu: ignore "tag_mapping_filename" for now
-###################################################################
-tag_mapping_filename = None
+# dhu: Do we still need this?
+tag_mapping_filename = "data/tissue-disease_curated-associations.txt"
 
 
 # This function is copied from `annotation-refinery/utils.py`
 def build_tags_dictionary(
-        tag_mapping_file,
+        tag_mapping_filename,
         geneset_id_column,
         geneset_name_column,
         tag_column,
         header
 ):
     tags_dict = {}
-    tag_file_fh = open(tag_mapping_file, 'r')
+    tag_file_fh = open(tag_mapping_filename, 'r')
 
     if header:
-        tag_file_fh.next()
+        next(tag_file_fh)
 
     for line in tag_file_fh:
         toks = line.strip().split('\t')
@@ -68,7 +65,7 @@ def build_tags_dictionary(
     tag_file_fh.close()
 
     return tags_dict
-"""
+
 
 # dhu: This function is copied from "annotation-refinery/process_do.py"
 def build_doid_omim_dict(obo_filename):
@@ -331,32 +328,30 @@ def process_do_terms():
     disease_ontology.populated = True
     disease_ontology.propagate()
 
-    # dhu: "TAG_MAPPING_FILE" is ignored for now
-    #tags_dictionary = None
-    #if tag_mapping_filename:
-    #    # The following 4 variables are copied from `human.ini`
-    #    do_id_column = 2
-    #    do_name_column = 3
-    #    tag_column = 1
-    #    header = True
+    tags_dictionary = None
+    if tag_mapping_filename:
+        # The following 4 variables are copied from `human.ini`
+        do_id_column = 2
+        do_name_column = 3
+        tag_column = 1
+        header = True
 
-    #    tags_dictionary = build_tags_dictionary(
-    #        tag_mapping_filename, do_id_column, do_name_column, tag_column, header
-    #    )
+        tags_dictionary = build_tags_dictionary(
+            tag_mapping_filename, do_id_column, do_name_column, tag_column, header
+        )
 
     do_terms = []
     for term_id, term in disease_ontology.go_terms.items():
         do_term = {}
-        do_term['_id'] = create_do_term_title(term)
+        do_term['_id'] = create_term_title(term)
         do_term['is_public'] = True
         do_term['creator'] = 'disease_ontology_parser'
-        do_term['date'] = date.today().isoformat(),
-        do_term['abstract'] =
+        do_term['date'] = date.today().isoformat()
         do_term['taxid'] = tax_id
         do_term['genes'] = []
         do_term['disease_ontology'] = {
             'id': term_id,
-            'abstract': create_do_term_abstract(term, doid_omim_dict)
+            'abstract': create_term_abstract(term, doid_omim_dict)
         }
 
         for annotation in term.annotations:
@@ -364,8 +359,8 @@ def process_do_terms():
                 do_term['genes'].append(annotation.gid)
 
         if do_term['genes']:
-            #if tags_dictionary and term_id in tags_dictionary:
-            #    do_term['tags'] = tags_dictionary[term_id]['gs_tags']
+            if tags_dictionary and term_id in tags_dictionary:
+                do_term['disease_ontology']['tags'] = tags_dictionary[term_id]['gs_tags']
 
             do_term['genes'].sort()  # sort genes to make output reproducible
             do_terms.append(do_term)
@@ -389,8 +384,6 @@ if __name__ == "__main__":
 
     do_terms = process_do_terms()
     print(json.dumps(do_terms, indent=2))
-    #for gs in do_terms:
-    #    print(json.dumps(gs, indent=2))
 
     #print("\nTotal number of gs:", len(do_terms))
 
