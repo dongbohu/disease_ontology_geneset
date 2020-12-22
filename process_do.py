@@ -31,9 +31,6 @@ genemap_filename = "data/omim/genemap2.txt"
 FIND_MIMID = re.compile('\, [0-9]* \([1-4]\)')  # Regex pattern
 PHENOTYPE_FILTER = '(3)'
 
-# dhu: Do we still need this?
-tag_mapping_filename = "data/tissue-disease_curated-associations.txt"
-
 
 # Based on `go` class in "annotation-refinery/go.py".
 class GO:
@@ -384,38 +381,6 @@ class GOTerm:
         return self.namespace
 
 
-# Copied from `annotation-refinery/utils.py`
-def build_tags_dictionary(
-        tag_mapping_filename,
-        geneset_id_column,
-        geneset_name_column,
-        tag_column,
-        header
-):
-    tags_dict = {}
-    tag_file_fh = open(tag_mapping_filename, 'r')
-
-    if header:
-        next(tag_file_fh)
-
-    for line in tag_file_fh:
-        toks = line.strip().split('\t')
-        gs_id = toks[geneset_id_column]
-        gs_name = toks[geneset_name_column]
-        # Underscores may be used in files in place of spaces
-        gs_name = gs_name.replace('_', ' ')
-        gs_tag = toks[tag_column]
-
-        if gs_id not in tags_dict:
-            tags_dict[gs_id] = {'gs_name': gs_name, 'gs_tags': [gs_tag]}
-        else:
-            tags_dict[gs_id]['gs_tags'].append(gs_tag)
-
-    tag_file_fh.close()
-
-    return tags_dict
-
-
 # Copied from "annotation-refinery/process_do.py"
 def build_doid_omim_dict(obo_filename):
     """
@@ -667,9 +632,9 @@ def process_do_terms():
     """
 
     disease_ontology = GO()
-    loaded_obo_bool = disease_ontology.load_obo(obo_filename)
+    obo_is_loaded = disease_ontology.load_obo(obo_filename)
 
-    if loaded_obo_bool is False:
+    if obo_is_loaded is False:
         logger.error('DO OBO file could not be loaded.')
 
     doid_omim_dict = build_doid_omim_dict(obo_filename)
@@ -680,18 +645,6 @@ def process_do_terms():
 
     disease_ontology.populated = True
     disease_ontology.propagate()
-
-    tags_dictionary = None
-    if tag_mapping_filename:
-        # The following 4 variables are copied from `human.ini`
-        do_id_column = 2
-        do_name_column = 3
-        tag_column = 1
-        header = True
-
-        tags_dictionary = build_tags_dictionary(
-            tag_mapping_filename, do_id_column, do_name_column, tag_column, header
-        )
 
     do_terms = []
     for term_id, term in disease_ontology.go_terms.items():
@@ -712,9 +665,6 @@ def process_do_terms():
                 do_term['genes'].append(annotation.gid)
 
         if do_term['genes']:
-            if tags_dictionary and term_id in tags_dictionary:
-                do_term['disease_ontology']['tags'] = tags_dictionary[term_id]['gs_tags']
-
             do_term['genes'].sort()  # sort genes to make output reproducible
             do_terms.append(do_term)
 
