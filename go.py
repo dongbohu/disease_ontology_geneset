@@ -1,8 +1,6 @@
-import sys
-import re
-from idmap import idmap
-
 import logging
+import re
+
 logger = logging.getLogger(__name__)
 logger.addHandler(logging.NullHandler())
 
@@ -304,11 +302,16 @@ class GOTerm:
                 continue
             for mgene in mapped_genes:
                 mapped_annotations_set.add(
-                    Annotation(xdb=None, gid=mgene, direct=annotation.direct,
-                               ref=annotation.ref,
-                               evidence=annotation.evidence,
-                               date=annotation.date,
-                               cross_annotated=annotation.cross_annotated))
+                    Annotation(
+                        xdb=None,
+                        gid=mgene,
+                        direct=annotation.direct,
+                        ref=annotation.ref,
+                        evidence=annotation.evidence,
+                        date=annotation.date,
+                        cross_annotated=annotation.cross_annotated
+                    )
+                )
         self.annotations = mapped_annotations_set
 
     def get_annotated_genes(self, include_cross_annotated=True):
@@ -319,16 +322,28 @@ class GOTerm:
             genes.append(annotation.gid)
         return genes
 
-    def add_annotation(self, gid, ref=None, cross_annotated=False,
-                       allow_duplicate_gid=True, origin=None,
-                       ortho_evidence=None):
+    def add_annotation(
+            self,
+            gid,
+            ref=None,
+            cross_annotated=False,
+            allow_duplicate_gid=True,
+            origin=None,
+            ortho_evidence=None
+    ):
         if not allow_duplicate_gid:
             for annotated in self.annotations:
                 if annotated.gid == gid:
                     return
         self.annotations.add(
-            Annotation(gid=gid, ref=ref, cross_annotated=cross_annotated,
-                       origin=origin, ortho_evidence=ortho_evidence))
+            Annotation(
+                gid=gid,
+                ref=ref,
+                cross_annotated=cross_annotated,
+                origin=origin,
+                ortho_evidence=ortho_evidence
+            )
+        )
 
     def get_annotation_size(self):
         return len(self.annotations)
