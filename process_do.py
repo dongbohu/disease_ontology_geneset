@@ -18,14 +18,16 @@ tax_id = 9606
 # dhu: hardcoded paths of input files
 obo_filename = "data/HumanDO.obo"
 
-# "confidence" column (#7) in "genemap.txt" is deprecated. All values in this
-# column are empty.  For differences between "genemap.txt" and "genemap2.txt",
-# see the end of both files.
+# "confidence" column (#7) in "genemap.txt" is deprecated. All values in
+# this column are empty, so "genemap.txt" is a deprecated file.
+# "genemap2.txt" replaces "genemap.txt" now. Since it already maps "MIM Number"
+# to "Entrez Gene ID", we don't need to read "mim2gene.txt" any more.
 #
-# "genemap2.txt" is better because it already maps "MIM Number" to "Entrez Gene ID".
+# The differences between "genemap.txt" and "genemap2.txt" are described at
+# the end of both files.
 genemap_filename = "data/omim/genemap2.txt"
 
-# Two varibles when searching MIM Disease ID from "Phenotypes" column in `genemap_filename`
+# Varibles when searching MIM Disease ID from "Phenotypes" column in "genemap2.txt"
 FIND_MIMID = re.compile('\, [0-9]* \([1-4]\)')  # Regex pattern
 PHENOTYPE_FILTER = '(3)'
 
