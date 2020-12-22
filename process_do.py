@@ -33,10 +33,9 @@ PHENOTYPE_FILTER = '(3)'
 tag_mapping_filename = "data/tissue-disease_curated-associations.txt"
 
 
-# Copied from `go` class in "annotation-refinery/go.py".
+# Based on `go` class in "annotation-refinery/go.py".
 class GO:
     heads = None
-    go_terms = None
     alt_id2std_id = None
     populated = None
     s_orgs = None
