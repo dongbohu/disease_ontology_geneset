@@ -4,7 +4,7 @@
   "dumper": {
     "data_url": [
       "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/HumanDO.obo",
-      "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
+      "https://raw.githubusercontent.com/greenelab/disease_ontology_geneset/master/data/omim/genemap2.txt"
     ],
     "uncompress": false,
     "release": "version:get_release"

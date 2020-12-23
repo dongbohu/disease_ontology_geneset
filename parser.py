@@ -737,9 +737,7 @@ def download_file(url, saved_filename):
 # Test harness
 if __name__ == "__main__":
     # Location of OBO file
-    obo_url = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/HumanDO.obo"
     obo_filename = "data/HumanDO.obo"
-    #download_file(obo_url, obo_filename)
 
     # Location of genemap file
     # NOTE #1: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
@@ -754,11 +752,7 @@ if __name__ == "__main__":
     # has been downloaded frequently, the following response may show up:
     #   > This data account exceeded its download cap, please contact us at
     #   > https://omim.org/contact if this is an issue
-    genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
-
-
     genemap_filename = "data/omim/genemap2.txt"
-    #download_file(genemap_url, genemap_filename)
 
     genesets = get_genesets(obo_filename, genemap_filename)
     print(json.dumps(genesets, indent=2))
