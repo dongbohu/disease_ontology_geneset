@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script automatically updates `data/HumanDO.obo` and `data/omim/genemap2.txt`.
+
 FORMAT_STR="############"
 
 # Update `./data/HumanDO.obo`
