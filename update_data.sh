@@ -18,7 +18,6 @@ else
     rm -f ./HumanDO.obo
 fi
 
-
 # Update `./data/omim/genemap2.txt`
 echo
 echo "${FORMAT_STR} Updating genemap2.txt ... ${FORMAT_STR}"
@@ -30,7 +29,6 @@ elif [ $(diff -q ./genemap2.txt ./data/omim/genemap2.txt) ]; then
     mv -f ./genemap2.txt ./data/omim/
     git ci -m "Update genemap2.txt" ./data/omim/genemap2.txt
     echo "${FORMAT_STR} genemap2.txt updated ${FORMAT_STR}"
-
 else
     echo "${FORMAT_STR} No need to update genemap2.txt ${FORMAT_STR}"
     rm -f ./genemap2.txt
