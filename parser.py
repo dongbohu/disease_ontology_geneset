@@ -84,10 +84,10 @@ class GO:
 
             elif inside and fields[0] == 'id:':
                 if fields[1] in self.go_terms:
-                    logging.debug("Term %s exists in GO()", fields[1])
+                    #logging.debug("Term %s exists in GO()", fields[1])
                     gterm = self.go_terms[fields[1]]
                 else:
-                    logging.debug("Adding term %s to GO()", fields[1])
+                    #logging.debug("Adding term %s to GO()", fields[1])
                     gterm = GOTerm(fields[1])
                     self.go_terms[gterm.get_id()] = gterm
             elif inside and fields[0] == 'def:':
@@ -109,7 +109,7 @@ class GO:
                 gterm.alt_id.append(fields[1])
                 self.alt_id2std_id[fields[1]] = gterm.get_id()
             elif inside and fields[0] == 'is_a:':
-                logging.debug("Making term.head for term %s = False", gterm)
+                #logging.debug("Making term.head for term %s = False", gterm)
                 gterm.head = False
                 fields.pop(0)
                 pgo_id = fields.pop(0)
@@ -124,7 +124,7 @@ class GO:
                     # Has part is not a parental relationship --
                     # it is actually for children.
                     continue
-                logging.debug("Making term.head for term %s = False", gterm)
+                #logging.debug("Making term.head for term %s = False", gterm)
                 gterm.head = False
                 pgo_id = fields[2]
                 if pgo_id not in self.go_terms:
@@ -137,13 +137,12 @@ class GO:
                 elif fields[1] == 'part_of':
                     gterm.relationship_part_of.append(self.go_terms[pgo_id])
                 else:
-                    logging.info("Unkown relationship %s",
-                                self.go_terms[pgo_id].name)
+                    logging.info("Unkown relationship %s", self.go_terms[pgo_id].name)
 
                 self.go_terms[pgo_id].parent_of.add(gterm)
                 gterm.child_of.add(self.go_terms[pgo_id])
             elif inside and fields[0] == 'is_obsolete:':
-                logging.debug("Making term.head for term %s = False", gterm)
+                #logging.debug("Making term.head for term %s = False", gterm)
                 gterm.head = False
                 del self.go_terms[gterm.get_id()]
 
@@ -152,10 +151,10 @@ class GO:
         for term_id, term in self.go_terms.items():
             if term.head:
                 if term not in self.heads:
-                    logging.debug("Term %s not in self.heads, adding now", term)
+                    #logging.debug("Term %s not in self.heads, adding now", term)
                     self.heads.append(term)
 
-        logging.debug("Terms that are heads: %s", self.heads)
+        #logging.debug("Terms that are heads: %s", self.heads)
 
     def propagate(self):
         """
@@ -169,7 +168,7 @@ class GO:
 
     def propagate_recurse(self, gterm):
         if not len(gterm.parent_of):
-            logging.debug("Base case with term %s", gterm.name)
+            #logging.debug("Base case with term %s", gterm.name)
             return
 
         for child_term in gterm.parent_of:
@@ -201,7 +200,7 @@ class GO:
             gterm.annotations = gterm.annotations | new_annotations
 
     def get_term(self, tid):
-        logging.debug('get_term: %s', tid)
+        #logging.debug('get_term: %s', tid)
         term = None
         try:
             term = self.go_terms[tid]
@@ -471,7 +470,7 @@ def build_mim_diseases_dict(genemap_filename):
 
         # Log message for empty "Entrez Gene ID" column
         if entrez_id == '':
-            logging.info(f"Empty Entrez Gene ID for MIM NUmber {mim_geneid}")
+            #logging.info(f"Empty Entrez Gene ID for MIM Number {mim_geneid}")
             continue
 
         # Split disorders and handle them one by one
@@ -527,7 +526,7 @@ def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
     A set of Entrez gene IDs, which will be used in MyGene.info query.
     """
 
-    logging.debug(disease_ontology.go_terms)
+    #logging.debug(disease_ontology.go_terms)
 
     entrez_set = set()
     for doid in doid_omim_dict.keys():
@@ -535,7 +534,7 @@ def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
         if term is None:
             continue
 
-        logging.info("Processing %s", term)
+        #logging.info("Processing %s", term)
 
         omim_id_list = doid_omim_dict[doid]
         for omim_id in omim_id_list:
@@ -622,7 +621,7 @@ def create_gs_abstract(do_term, doid_omim_dict):
         + omim_clause
     )
 
-    logging.info(abstract)
+    #logging.info(abstract)
     return abstract
 
 
@@ -670,7 +669,7 @@ def get_genesets(obo_filename, genemap_filename):
     obo_is_loaded = disease_ontology.load_obo(obo_filename)
 
     if obo_is_loaded is False:
-        logging.error('DO OBO file could not be loaded.')
+        logging.error('Failed to load OBO file.')
 
     doid_omim_dict = build_doid_omim_dict(obo_filename)
 
@@ -748,8 +747,8 @@ if __name__ == "__main__":
     # The differences between "genemap.txt" and "genemap2.txt" are described at
     # the end of both files.
     #
-    # NOTE #2: When a file in "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/"
-    # has been downloaded frequently, the following response may show up:
+    # NOTE #2: When a file in "https://data.omim.org/downloads/<key>/" has
+    # been downloaded frequently, the following response may show up:
     #   > This data account exceeded its download cap, please contact us at
     #   > https://omim.org/contact if this is an issue
     genemap_filename = "data/omim/genemap2.txt"
