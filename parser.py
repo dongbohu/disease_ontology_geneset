@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import json
 import os
 import re
 import sys
@@ -16,7 +17,6 @@ except Exception:            # run locally as a standalone script
     import logging
     LOG_LEVEL=logging.WARNING
     logging.basicConfig(level=LOG_LEVEL, format='%(asctime)s: %(message)s')
-
 
 TAX_ID = 9606  # Taxonomy ID of human being
 
@@ -524,21 +524,20 @@ def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
     objects (defined above) as values.
 
     Returns:
-    Nothing, only adds annotations to DO terms.
-
+    A set of Entrez gene IDs, which will be used in MyGene.info query.
     """
+
     logging.debug(disease_ontology.go_terms)
 
+    entrez_set = set()
     for doid in doid_omim_dict.keys():
         term = disease_ontology.get_term(doid)
-
         if term is None:
             continue
 
         logging.info("Processing %s", term)
 
         omim_id_list = doid_omim_dict[doid]
-
         for omim_id in omim_id_list:
             # If omim_id is not in mim_diseases dict, ignore it.
             if omim_id not in mim_diseases:
@@ -547,12 +546,14 @@ def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
             mim_entry = mim_diseases[omim_id]
             for gene_id in mim_entry.genes:
                 entrez = int(gene_id)
+                entrez_set.add(entrez)
                 term.add_annotation(gid=entrez, ref=None)
 
+    return entrez_set
 
 # Based on `create_do_term_title()` in "annotation-refinery/process_do.py"
 # See https://github.com/greenelab/annotation-refinery
-def create_term_title(do_term):
+def create_gs_id(do_term):
     """
     Small function to create the DO term title in the desired
     format: DO-<DO integer ID>:<DO term full name>
@@ -573,7 +574,7 @@ def create_term_title(do_term):
 
 # Based on `create_do_term_bastract()` in "annotation-refinery/process_do.py".
 # See https://github.com/greenelab/annotation-refinery
-def create_term_abstract(do_term, doid_omim_dict):
+def create_gs_abstract(do_term, doid_omim_dict):
     """
     Function to create the DO term abstract in the desired
     format.
@@ -625,9 +626,41 @@ def create_term_abstract(do_term, doid_omim_dict):
     return abstract
 
 
+def query_mygene(entrez_set, tax_id):
+    """Query MyGene.info to get detailed gene information."""
+
+    q_genes = entrez_set
+    q_scopes = ['entrezgene', 'retired']
+    output_fields = ['entrezgene', 'ensembl.gene', 'symbol', 'uniprot']
+
+    mg = mygene.MyGeneInfo()
+    logging.info(f"Querying {q_scopes} in MyGene.info ...")
+    q_results = mg.querymany(
+        q_genes,
+        scopes=q_scopes,
+        fields=output_fields,
+        species=tax_id,
+        returnall=True
+    )
+
+    genes_info = dict()
+    for gene in q_results['out']:
+        q_str = gene["query"]
+        genes_info[q_str] = {
+            'source': q_str,
+            'mygene': gene.get('_id', None),
+            'ncbigene': gene.get('entrezgene', None),
+            'ensemblgene': gene.get('ensembl', None),
+            'symbol': gene.get('symbol', None),
+            'uniprot': gene.get('uniprot', None)
+        }
+
+    return genes_info
+
+
 # Based on `process_do_terms()` in "annotation-refinery/process_do.py".
 # See https://github.com/greenelab/annotation-refinery
-def get_do_terms(obo_filename, genemap_filename):
+def get_genesets(obo_filename, genemap_filename):
     """
     Function to read in config INI file and run the other functions to
     process DO terms.
@@ -643,43 +676,53 @@ def get_do_terms(obo_filename, genemap_filename):
 
     mim_diseases = build_mim_diseases_dict(genemap_filename)
 
-    add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases)
+    entrez_set = add_term_annotations(
+        doid_omim_dict,
+        disease_ontology,
+        mim_diseases
+    )
 
+    all_genes_info = query_mygene(entrez_set, TAX_ID)
     disease_ontology.populated = True
     disease_ontology.propagate()
 
-    do_terms = []
+    genesets = []
     for term_id, term in disease_ontology.go_terms.items():
-        do_term = {}
-        do_term['_id'] = create_term_title(term)
-        do_term['is_public'] = True
-        do_term['creator'] = 'disease_ontology_parser'
-        do_term['date'] = date.today().isoformat()
-        do_term['taxid'] = TAX_ID
-        do_term['genes'] = []
-        do_term['disease_ontology'] = {
-            'id': term_id,
-            'abstract': create_term_abstract(term, doid_omim_dict)
-        }
-
+        # If a term includes anyvalid gene IDs, add it as a geneset.
+        gs_genes_info = dict()
         for annotation in term.annotations:
-            if annotation.gid not in do_term['genes']:
-                do_term['genes'].append(annotation.gid)
+            gid = annotation.gid
+            if gid not in gs_genes_info:
+                gs_genes_info[gid] = all_genes_info[str(gid)]
 
-        if do_term['genes']:
-            do_term['genes'].sort()  # sort genes to make output reproducible
-            do_terms.append(do_term)
+        if gs_genes_info:
+            curr_gs = {}
+            curr_gs['_id'] = create_gs_id(term)
+            curr_gs['is_public'] = True
+            curr_gs['creator'] = 'disease_ontology_parser'
+            curr_gs['date'] = date.today().isoformat()
+            curr_gs['taxid'] = TAX_ID
 
-    return do_terms
+            # Sort genes by their IDs in current geneset to make output reproducible
+            sorted_gids= sorted(gs_genes_info.keys())
+            curr_gs['genes'] = [gs_genes_info[gid] for gid in sorted_gids]
+
+            curr_gs['disease_ontology'] = {
+                'id': term_id,
+                'abstract': create_gs_abstract(term, doid_omim_dict)
+            }
+            genesets.append(curr_gs)
+
+    return genesets
 
 
 def load_data(data_dir):
     """Generator that will be used by Biothings SDK."""
     obo_filename = os.path.join(data_dir, "HumanDO.obo")
     genemap_filename = os.path.join(data_dir, "genemap2.txt")
-    do_terms = get_do_terms(obo_filename, genemap_filename)
-    for term in do_terms():
-        yield term
+    genesets = get_genesets(obo_filename, genemap_filename)
+    for gs in genesets():
+        yield gs
 
 
 def download_file(url, saved_filename):
@@ -696,12 +739,10 @@ def download_file(url, saved_filename):
 
 # Test harness
 if __name__ == "__main__":
-    import json
-
     # Location of OBO file
     obo_url = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/HumanDO.obo"
     obo_filename = "data/HumanDO.obo"
-    download_file(obo_url, obo_filename)
+    #download_file(obo_url, obo_filename)
 
     # Location of genemap file
     # Note: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
@@ -713,13 +754,17 @@ if __name__ == "__main__":
     # the end of both files.
     genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
     genemap_filename = "data/omim/genemap2.txt"
-    download_file(genemap_url, genemap_filename)
+    #download_file(genemap_url, genemap_filename)
 
-    do_terms = get_do_terms(obo_filename, genemap_filename)
-    print(json.dumps(do_terms, indent=2))
+    genesets = get_genesets(obo_filename, genemap_filename)
+    print(json.dumps(genesets, indent=2))
 
-    print("\nTotal number of gs:", len(do_terms))
+    print("\nTotal number of gs:", len(genesets))
 
-    # genemap.txt:  4,192 genesets
-    # genemap2.txt: 4,194 genesets (2020-12-22)
-    # genemap2.txt: 4,222 genesets (2020-12-23)
+    # 2020-12-22:
+    #   - genemap.txt:  4,192 genesets
+    #   - genemap2.txt: 4,194 genesets
+
+    # 2020-12-23:
+    #   - 2,959 unique Entrez gene IDs to query
+    #   - 4,222 genesets
