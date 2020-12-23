@@ -696,22 +696,24 @@ def get_genesets(obo_filename, genemap_filename):
                 gs_genes_info[gid] = all_genes_info[str(gid)]
 
         if gs_genes_info:
-            curr_gs = {}
-            curr_gs['_id'] = create_gs_id(term)
-            curr_gs['is_public'] = True
-            curr_gs['creator'] = 'disease_ontology_parser'
-            curr_gs['date'] = date.today().isoformat()
-            curr_gs['taxid'] = TAX_ID
+            my_geneset = {}
+            my_geneset['_id'] = create_gs_id(term)
+            my_geneset['is_public'] = True
+            my_geneset['creator'] = 'disease_ontology_parser'
+            my_geneset['date'] = date.today().isoformat()
+            my_geneset['taxid'] = TAX_ID
 
             # Sort genes by their IDs in current geneset to make output reproducible
             sorted_gids= sorted(gs_genes_info.keys())
-            curr_gs['genes'] = [gs_genes_info[gid] for gid in sorted_gids]
+            my_geneset['genes'] = [gs_genes_info[gid] for gid in sorted_gids]
 
-            curr_gs['disease_ontology'] = {
+            my_geneset['disease_ontology'] = {
                 'id': term_id,
                 'abstract': create_gs_abstract(term, doid_omim_dict)
             }
-            genesets.append(curr_gs)
+            my_geneset = dict_sweep(my_geneset, vals=[None], remove_invalid_list=True)
+            my_geneset = unlist(my_geneset)
+            genesets.append(my_geneset)
 
     return genesets
 
