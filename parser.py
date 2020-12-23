@@ -682,20 +682,18 @@ def get_genesets(obo_filename, genemap_filename):
         mim_diseases
     )
 
-    all_genes_info = query_mygene(entrez_set, TAX_ID)
+    genes_info = query_mygene(entrez_set, TAX_ID)
     disease_ontology.populated = True
     disease_ontology.propagate()
 
     genesets = []
     for term_id, term in disease_ontology.go_terms.items():
         # If a term includes anyvalid gene IDs, add it as a geneset.
-        gs_genes_info = dict()
+        gid_set = set()
         for annotation in term.annotations:
-            gid = annotation.gid
-            if gid not in gs_genes_info:
-                gs_genes_info[gid] = all_genes_info[str(gid)]
+            gid_set.add(annotation.gid)
 
-        if gs_genes_info:
+        if gid_set:
             my_geneset = {}
             my_geneset['_id'] = create_gs_id(term)
             my_geneset['is_public'] = True
@@ -703,10 +701,8 @@ def get_genesets(obo_filename, genemap_filename):
             my_geneset['date'] = date.today().isoformat()
             my_geneset['taxid'] = TAX_ID
 
-            # Sort genes by their IDs in current geneset to make output reproducible
-            sorted_gids= sorted(gs_genes_info.keys())
-            my_geneset['genes'] = [gs_genes_info[gid] for gid in sorted_gids]
-
+            # Genes in a geneset are sorted by their IDs to make output reproducible.
+            my_geneset['genes'] = [genes_info[str(gid)] for gid in sorted(git_set)]
             my_geneset['disease_ontology'] = {
                 'id': term_id,
                 'abstract': create_gs_abstract(term, doid_omim_dict)
@@ -723,8 +719,7 @@ def load_data(data_dir):
     obo_filename = os.path.join(data_dir, "HumanDO.obo")
     genemap_filename = os.path.join(data_dir, "genemap2.txt")
     genesets = get_genesets(obo_filename, genemap_filename)
-    for gs in genesets():
-        yield gs
+    return genesets
 
 
 def download_file(url, saved_filename):
