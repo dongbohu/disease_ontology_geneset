@@ -7,32 +7,26 @@ import sys
 
 from datetime import date
 
-import logging
-logger = logging.getLogger(__name__)
+import mygene
+from biothings.utils.dataload import dict_sweep, unlist
 
-tax_id = 9606
+try:                         # run as a data plugin module of Biothings SDK
+    from biothings import config
+    logging = config.logger
+except Exception:  # run locally as a standalone script
+    import logging
+    LOG_LEVEL=logging.WARNING
+    logging.basicConfig(level=LOG_LEVEL, format='%(asctime)s: %(message)s')
 
-#do_obo_url = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/HumanDO.obo"
-#genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
 
-# dhu: hardcoded paths of input files
-obo_filename = "data/HumanDO.obo"
-
-# "confidence" column (#7) in "genemap.txt" is deprecated. All values in
-# this column are empty, so "genemap.txt" is a deprecated file.
-# "genemap2.txt" replaces "genemap.txt" now. Since it already maps "MIM Number"
-# to "Entrez Gene ID", we don't need to read "mim2gene.txt" any more.
-#
-# The differences between "genemap.txt" and "genemap2.txt" are described at
-# the end of both files.
-genemap_filename = "data/omim/genemap2.txt"
+TAX_ID = 9606  # Taxonomy ID of human being
 
 # Varibles when searching MIM Disease ID from "Phenotypes" column in "genemap2.txt"
 FIND_MIMID = re.compile('\, [0-9]* \([1-4]\)')  # Regex pattern
 PHENOTYPE_FILTER = '(3)'
 
-
 # Based on `go` class in "annotation-refinery/go.py".
+# See https://github.com/greenelab/annotation-refinery
 class GO:
     heads = None
     alt_id2std_id = None
@@ -58,10 +52,10 @@ class GO:
         try:
             obo_fh = open(path)
         except IOError:
-            logger.error('Could not open %s on the local filesystem.', path)
+            logging.error('Could not open %s on the local filesystem.', path)
 
         if obo_fh is None:
-            logger.error('Could not open %s.', path)
+            logging.error('Could not open %s.', path)
             return False
 
         self.parse(obo_fh)
@@ -91,10 +85,10 @@ class GO:
 
             elif inside and fields[0] == 'id:':
                 if fields[1] in self.go_terms:
-                    logger.debug("Term %s exists in GO()", fields[1])
+                    logging.debug("Term %s exists in GO()", fields[1])
                     gterm = self.go_terms[fields[1]]
                 else:
-                    logger.debug("Adding term %s to GO()", fields[1])
+                    logging.debug("Adding term %s to GO()", fields[1])
                     gterm = GOTerm(fields[1])
                     self.go_terms[gterm.get_id()] = gterm
             elif inside and fields[0] == 'def:':
@@ -116,7 +110,7 @@ class GO:
                 gterm.alt_id.append(fields[1])
                 self.alt_id2std_id[fields[1]] = gterm.get_id()
             elif inside and fields[0] == 'is_a:':
-                logger.debug("Making term.head for term %s = False", gterm)
+                logging.debug("Making term.head for term %s = False", gterm)
                 gterm.head = False
                 fields.pop(0)
                 pgo_id = fields.pop(0)
@@ -131,7 +125,7 @@ class GO:
                     # Has part is not a parental relationship --
                     # it is actually for children.
                     continue
-                logger.debug("Making term.head for term %s = False", gterm)
+                logging.debug("Making term.head for term %s = False", gterm)
                 gterm.head = False
                 pgo_id = fields[2]
                 if pgo_id not in self.go_terms:
@@ -144,13 +138,13 @@ class GO:
                 elif fields[1] == 'part_of':
                     gterm.relationship_part_of.append(self.go_terms[pgo_id])
                 else:
-                    logger.info("Unkown relationship %s",
+                    logging.info("Unkown relationship %s",
                                 self.go_terms[pgo_id].name)
 
                 self.go_terms[pgo_id].parent_of.add(gterm)
                 gterm.child_of.add(self.go_terms[pgo_id])
             elif inside and fields[0] == 'is_obsolete:':
-                logger.debug("Making term.head for term %s = False", gterm)
+                logging.debug("Making term.head for term %s = False", gterm)
                 gterm.head = False
                 del self.go_terms[gterm.get_id()]
 
@@ -159,24 +153,24 @@ class GO:
         for term_id, term in self.go_terms.items():
             if term.head:
                 if term not in self.heads:
-                    logger.debug("Term %s not in self.heads, adding now", term)
+                    logging.debug("Term %s not in self.heads, adding now", term)
                     self.heads.append(term)
 
-        logger.debug("Terms that are heads: %s", self.heads)
+        logging.debug("Terms that are heads: %s", self.heads)
 
     def propagate(self):
         """
         propagate all gene annotations
         """
-        logger.info("Propagate gene annotations")
-        logger.debug("Head term(s) = %s", self.heads)
+        logging.info("Propagate gene annotations")
+        logging.debug("Head term(s) = %s", self.heads)
         for head_gterm in self.heads:
-            logger.info("Propagating %s", head_gterm.name)
+            logging.info("Propagating %s", head_gterm.name)
             self.propagate_recurse(head_gterm)
 
     def propagate_recurse(self, gterm):
         if not len(gterm.parent_of):
-            logger.debug("Base case with term %s", gterm.name)
+            logging.debug("Base case with term %s", gterm.name)
             return
 
         for child_term in gterm.parent_of:
@@ -208,7 +202,7 @@ class GO:
             gterm.annotations = gterm.annotations | new_annotations
 
     def get_term(self, tid):
-        logger.debug('get_term: %s', tid)
+        logging.debug('get_term: %s', tid)
         term = None
         try:
             term = self.go_terms[tid]
@@ -216,11 +210,12 @@ class GO:
             try:
                 term = self.go_terms[self.alt_id2std_id[tid]]
             except KeyError:
-                logger.error('Term name does not exist: %s', tid)
+                logging.error('Term name does not exist: %s', tid)
         return term
 
 
-# This class is copied from "annotation-refinery/go.py".
+# Copied from "annotation-refinery/go.py".
+# See https://github.com/greenelab/annotation-refinery
 class Annotation(object):
     def __init__(self, xdb=None, gid=None, ref=None, evidence=None, date=None,
                  direct=False, cross_annotated=False, origin=None,
@@ -267,6 +262,7 @@ class Annotation(object):
 
 
 # Copied from "annotation-refinery/go.py".
+# See https://github.com/greenelab/annotation-refinery
 class GOTerm:
     go_id = ''
     is_a = None
@@ -327,7 +323,7 @@ class GOTerm:
         for annotation in self.annotations:
             mapped_genes = id_name.get(annotation.gid)
             if mapped_genes is None:
-                logger.warning('No matching gene id: %s', annotation.gid)
+                logging.warning('No matching gene id: %s', annotation.gid)
                 continue
             for mgene in mapped_genes:
                 mapped_annotations_set.add(
@@ -382,6 +378,7 @@ class GOTerm:
 
 
 # Copied from "annotation-refinery/process_do.py"
+# See https://github.com/greenelab/annotation-refinery
 def build_doid_omim_dict(obo_filename):
     """
     Function to read in DO OBO file and build dictionary of DO terms
@@ -429,7 +426,8 @@ def build_doid_omim_dict(obo_filename):
     return doid_omim_dict
 
 
-# Based on `MIMdisease` class in "annotation-refinery/process_do.py"
+# Based on `MIMdisease` class in "annotation-refinery/process_do.py".
+# See https://github.com/greenelab/annotation-refinery
 class MIMdisease:
     def __init__(self):
         self.id = ''
@@ -437,7 +435,8 @@ class MIMdisease:
         self.genes = []      # list of gene IDs
 
 
-# Based on `build_mim_diseases_dict()` in "annotation-refinery/process_do.py"
+# Based on `build_mim_diseases_dict()` in "annotation-refinery/process_do.py".
+# See https://github.com/greenelab/annotation-refinery
 def build_mim_diseases_dict(genemap_filename):
     """
     Function to parse genemap file and build a dictionary of MIM
@@ -473,7 +472,7 @@ def build_mim_diseases_dict(genemap_filename):
 
         # Log message for empty "Entrez Gene ID" column
         if entrez_id == '':
-            logger.info(f"Empty Entrez Gene ID for MIM NUmber {mim_geneid}")
+            logging.info(f"Empty Entrez Gene ID for MIM NUmber {mim_geneid}")
             continue
 
         # Split disorders and handle them one by one
@@ -508,6 +507,7 @@ def build_mim_diseases_dict(genemap_filename):
 
 
 # Based on `add_do_term_annotations()` in "annotation-refinery/process_do.py"
+# See https://github.com/greenelab/annotation-refinery
 def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
     """
     Function to add annotations to only the disease_ontology terms found in
@@ -528,7 +528,7 @@ def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
     Nothing, only adds annotations to DO terms.
 
     """
-    logger.debug(disease_ontology.go_terms)
+    logging.debug(disease_ontology.go_terms)
 
     for doid in doid_omim_dict.keys():
         term = disease_ontology.get_term(doid)
@@ -536,7 +536,7 @@ def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
         if term is None:
             continue
 
-        logger.info("Processing %s", term)
+        logging.info("Processing %s", term)
 
         omim_id_list = doid_omim_dict[doid]
 
@@ -552,6 +552,7 @@ def add_term_annotations(doid_omim_dict, disease_ontology, mim_diseases):
 
 
 # Based on `create_do_term_title()` in "annotation-refinery/process_do.py"
+# See https://github.com/greenelab/annotation-refinery
 def create_term_title(do_term):
     """
     Small function to create the DO term title in the desired
@@ -571,7 +572,8 @@ def create_term_title(do_term):
     return title
 
 
-# Based on `create_do_term_bastract()` in "annotation-refinery/process_do.py"
+# Based on `create_do_term_bastract()` in "annotation-refinery/process_do.py".
+# See https://github.com/greenelab/annotation-refinery
 def create_term_abstract(do_term, doid_omim_dict):
     """
     Function to create the DO term abstract in the desired
@@ -612,7 +614,7 @@ def create_term_abstract(do_term, doid_omim_dict):
         abstract += do_term.description
 
     else:
-        logger.info("No OBO description for term %s", do_term)
+        logging.info("No OBO description for term %s", do_term)
 
     abstract += (
         ' Annotations from child terms in the disease ontology are'
@@ -620,12 +622,13 @@ def create_term_abstract(do_term, doid_omim_dict):
         + omim_clause
     )
 
-    logger.info(abstract)
+    logging.info(abstract)
     return abstract
 
 
-# Based on `process_do_terms()` in "annotation-refinery/process_do.py"
-def process_do_terms():
+# Based on `process_do_terms()` in "annotation-refinery/process_do.py".
+# See https://github.com/greenelab/annotation-refinery
+def get_do_terms(obo_filename, genemap_filename):
     """
     Function to read in config INI file and run the other functions to
     process DO terms.
@@ -635,7 +638,7 @@ def process_do_terms():
     obo_is_loaded = disease_ontology.load_obo(obo_filename)
 
     if obo_is_loaded is False:
-        logger.error('DO OBO file could not be loaded.')
+        logging.error('DO OBO file could not be loaded.')
 
     doid_omim_dict = build_doid_omim_dict(obo_filename)
 
@@ -653,7 +656,7 @@ def process_do_terms():
         do_term['is_public'] = True
         do_term['creator'] = 'disease_ontology_parser'
         do_term['date'] = date.today().isoformat()
-        do_term['taxid'] = tax_id
+        do_term['taxid'] = TAX_ID
         do_term['genes'] = []
         do_term['disease_ontology'] = {
             'id': term_id,
@@ -671,9 +674,32 @@ def process_do_terms():
     return do_terms
 
 
+def load_data(data_dir):
+    """Generator defined for Biothings SDK."""
+    obo_filename = os.path.join(data_dir, "HumanDO.obo")
+    genemap_filename = os.path.join(data_dir, "genemap2.txt")
+    do_terms = get_do_terms(obo_filename, genemap_filename)
+    for term in do_terms():
+        yield term
+
+
+
 # Test harness
 if __name__ == "__main__":
-    do_terms = process_do_terms()
+    # Local OBO file's name
+    obo_filename = "data/HumanDO.obo"
+
+    # Local genemap file's name
+    # Note: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
+    # this column are empty, so "genemap.txt" is a deprecated file.
+    # "genemap2.txt" replaces "genemap.txt" now. Since it already maps "MIM Number"
+    # to "Entrez Gene ID", we don't need to read "mim2gene.txt" any more.
+    #
+    # The differences between "genemap.txt" and "genemap2.txt" are described at
+    # the end of both files.
+    genemap_filename = "data/omim/genemap2.txt"
+
+    do_terms = get_do_terms(obo_filename, genemap_filename)
     print(json.dumps(do_terms, indent=2))
 
     #print("\nTotal number of gs:", len(do_terms))

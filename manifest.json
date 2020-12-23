@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "requires" : ["biothings", "mygene"],
+  "dumper": {
+    "data_url": [
+      "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/HumanDO.obo",
+      "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
+    ],
+    "uncompress": false,
+    "release": "version:get_release"
+  },
+  "uploader" : {
+    "parser": "parser:load_data",
+    "on_duplicates": "error"
+  }
+}
