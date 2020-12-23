@@ -17,8 +17,9 @@ elif [ "$(diff -q ./HumanDO.obo ./data/HumanDO.obo)" ]; then
     echo "${FORMAT_STR} HumanDO.obo updated ${FORMAT_STR}"
 else
     echo "${FORMAT_STR} No need to update HumanDO.obo ${FORMAT_STR}"
-    rm -f ./HumanDO.obo
 fi
+
+rm -f ./HumanDO.obo
 
 # Update `./data/omim/genemap2.txt`
 echo
@@ -33,5 +34,6 @@ elif [ $(diff -q ./genemap2.txt ./data/omim/genemap2.txt) ]; then
     echo "${FORMAT_STR} genemap2.txt updated ${FORMAT_STR}"
 else
     echo "${FORMAT_STR} No need to update genemap2.txt ${FORMAT_STR}"
-    rm -f ./genemap2.txt
 fi
+
+rm -f ./genemap2.txt
