@@ -715,7 +715,7 @@ def get_genesets(obo_filename, genemap_filename):
 
 
 def load_data(data_dir):
-    """Generator that will be used by Biothings SDK."""
+    """Template function for Biothings SDK."""
     obo_filename = os.path.join(data_dir, "HumanDO.obo")
     genemap_filename = os.path.join(data_dir, "genemap2.txt")
     genesets = get_genesets(obo_filename, genemap_filename)
