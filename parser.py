@@ -751,6 +751,8 @@ if __name__ == "__main__":
     # been downloaded frequently, the following response may show up:
     #   > This data account exceeded its download cap, please contact us at
     #   > https://omim.org/contact if this is an issue
+    # OMIM maintainers confirmed that the download cap is 10 per day, and genemap2.txt
+    # is updated daily. So there is no reason to download it more than once per day.
     genemap_filename = "data/omim/genemap2.txt"
 
     genesets = get_genesets(obo_filename, genemap_filename)
