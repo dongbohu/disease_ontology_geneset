@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import json
 import os
 import re
 import sys
@@ -683,13 +682,28 @@ def load_data(data_dir):
         yield term
 
 
+def download_file(url, saved_filename):
+    """Function to download a file from URL and save it as `saved_filename`."""
+    import requests
+
+    resp = requests.get(url)
+    if resp.status_code != 200:
+        raise Exception(f"Failed to request {url}")
+
+    with open(saved_filename, 'w') as ofh:  # ofh: output file handle
+        ofh.write(resp.text)
+
 
 # Test harness
 if __name__ == "__main__":
-    # Local OBO file's name
-    obo_filename = "data/HumanDO.obo"
+    import json
 
-    # Local genemap file's name
+    # Location of OBO file
+    obo_url = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/HumanDO.obo"
+    obo_filename = "data/HumanDO.obo"
+    download_file(obo_url, obo_filename)
+
+    # Location of genemap file
     # Note: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
     # this column are empty, so "genemap.txt" is a deprecated file.
     # "genemap2.txt" replaces "genemap.txt" now. Since it already maps "MIM Number"
@@ -697,12 +711,15 @@ if __name__ == "__main__":
     #
     # The differences between "genemap.txt" and "genemap2.txt" are described at
     # the end of both files.
+    genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
     genemap_filename = "data/omim/genemap2.txt"
+    download_file(genemap_url, genemap_filename)
 
     do_terms = get_do_terms(obo_filename, genemap_filename)
     print(json.dumps(do_terms, indent=2))
 
-    #print("\nTotal number of gs:", len(do_terms))
+    print("\nTotal number of gs:", len(do_terms))
 
     # genemap.txt:  4,192 genesets
-    # genemap2.txt: 4,194 genesets
+    # genemap2.txt: 4,194 genesets (2020-12-22)
+    # genemap2.txt: 4,222 genesets (2020-12-23)
