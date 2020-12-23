@@ -12,7 +12,7 @@ from biothings.utils.dataload import dict_sweep, unlist
 try:                         # run as a data plugin module of Biothings SDK
     from biothings import config
     logging = config.logger
-except Exception:  # run locally as a standalone script
+except Exception:            # run locally as a standalone script
     import logging
     LOG_LEVEL=logging.WARNING
     logging.basicConfig(level=LOG_LEVEL, format='%(asctime)s: %(message)s')
