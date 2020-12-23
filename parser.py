@@ -675,7 +675,7 @@ def get_do_terms(obo_filename, genemap_filename):
 
 
 def load_data(data_dir):
-    """Generator defined for Biothings SDK."""
+    """Generator that will be used by Biothings SDK."""
     obo_filename = os.path.join(data_dir, "HumanDO.obo")
     genemap_filename = os.path.join(data_dir, "genemap2.txt")
     do_terms = get_do_terms(obo_filename, genemap_filename)
