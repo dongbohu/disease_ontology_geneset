@@ -702,7 +702,7 @@ def get_genesets(obo_filename, genemap_filename):
             my_geneset['taxid'] = TAX_ID
 
             # Genes in a geneset are sorted by their IDs to make output reproducible.
-            my_geneset['genes'] = [genes_info[str(gid)] for gid in sorted(git_set)]
+            my_geneset['genes'] = [genes_info[str(gid)] for gid in sorted(gid_set)]
             my_geneset['disease_ontology'] = {
                 'id': term_id,
                 'abstract': create_gs_abstract(term, doid_omim_dict)
