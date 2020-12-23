@@ -745,14 +745,21 @@ if __name__ == "__main__":
     #download_file(obo_url, obo_filename)
 
     # Location of genemap file
-    # Note: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
+    # NOTE #1: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
     # this column are empty, so "genemap.txt" is a deprecated file.
     # "genemap2.txt" replaces "genemap.txt" now. Since it already maps "MIM Number"
     # to "Entrez Gene ID", we don't need to read "mim2gene.txt" any more.
     #
     # The differences between "genemap.txt" and "genemap2.txt" are described at
     # the end of both files.
+    #
+    # NOTE #2: When a file in "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/"
+    # has been downloaded frequently, the following response may show up:
+    #   > This data account exceeded its download cap, please contact us at
+    #   > https://omim.org/contact if this is an issue
     genemap_url = "https://data.omim.org/downloads/z9hwkkLwTHyKrrmsmXkYiQ/genemap2.txt"
+
+
     genemap_filename = "data/omim/genemap2.txt"
     #download_file(genemap_url, genemap_filename)
 
