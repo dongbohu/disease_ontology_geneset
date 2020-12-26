@@ -659,11 +659,10 @@ def query_mygene(entrez_set, tax_id):
 
 # Based on `process_do_terms()` in "annotation-refinery/process_do.py".
 # See https://github.com/greenelab/annotation-refinery
-def get_genesets(obo_filename, genemap_filename):
-    """
-    Function to read in config INI file and run the other functions to
-    process DO terms.
-    """
+# Changed from a regular function to generator to work with Biothings SDK.
+def load_data(data_dir):
+    obo_filename = os.path.join(data_dir, "HumanDO.obo")
+    genemap_filename = os.path.join(data_dir, "genemap2.txt")
 
     disease_ontology = GO()
     obo_is_loaded = disease_ontology.load_obo(obo_filename)
@@ -685,7 +684,6 @@ def get_genesets(obo_filename, genemap_filename):
     disease_ontology.populated = True
     disease_ontology.propagate()
 
-    genesets = []
     for term_id, term in disease_ontology.go_terms.items():
         # If a term includes anyvalid gene IDs, add it as a geneset.
         gid_set = set()
@@ -708,62 +706,18 @@ def get_genesets(obo_filename, genemap_filename):
             }
             my_geneset = dict_sweep(my_geneset, vals=[None], remove_invalid_list=True)
             my_geneset = unlist(my_geneset)
-            genesets.append(my_geneset)
-
-    return genesets
-
-
-def load_data(data_dir):
-    """Template function for Biothings SDK."""
-    obo_filename = os.path.join(data_dir, "HumanDO.obo")
-    genemap_filename = os.path.join(data_dir, "genemap2.txt")
-    genesets = get_genesets(obo_filename, genemap_filename)
-    return genesets
-
-
-def download_file(url, saved_filename):
-    """Function to download a file from URL and save it as `saved_filename`."""
-    import requests
-
-    resp = requests.get(url)
-    if resp.status_code != 200:
-        raise Exception(f"Failed to request {url}")
-
-    with open(saved_filename, 'w') as ofh:  # ofh: output file handle
-        ofh.write(resp.text)
+            yield my_geneset
 
 
 # Test harness
 if __name__ == "__main__":
-    # Location of OBO file
-    obo_filename = "data/HumanDO.obo"
-
-    # Location of genemap file
-    # NOTE #1: "confidence" column (#7) in "genemap.txt" is deprecated. All values in
-    # this column are empty, so "genemap.txt" is a deprecated file.
-    # "genemap2.txt" replaces "genemap.txt" now. Since it already maps "MIM Number"
-    # to "Entrez Gene ID", we don't need to read "mim2gene.txt" any more.
-    #
-    # The differences between "genemap.txt" and "genemap2.txt" are described at
-    # the end of both files.
-    #
-    # NOTE #2: When a file in "https://data.omim.org/downloads/<key>/" has
-    # been downloaded frequently, the following response may show up:
-    #   > This data account exceeded its download cap, please contact us at
-    #   > https://omim.org/contact if this is an issue
-    # OMIM maintainers confirmed that the download cap is 10 per day, and genemap2.txt
-    # is updated daily. So there is no reason to download it more than once per day.
-    genemap_filename = "data/omim/genemap2.txt"
-
-    genesets = get_genesets(obo_filename, genemap_filename)
-    print(json.dumps(genesets, indent=2))
+    data_dir = "./data/latest"
+    genesets = list(load_data(data_dir))
+    for gs in genesets:
+        print(json.dumps(gs, indent=2))
 
     print("\nTotal number of gs:", len(genesets))
 
-    # 2020-12-22:
-    #   - genemap.txt:  4,192 genesets
-    #   - genemap2.txt: 4,194 genesets
-
-    # 2020-12-23:
+    # 2020-12-26:
     #   - 2,959 unique Entrez gene IDs to query
     #   - 4,222 genesets
