@@ -58,6 +58,7 @@ class GO:
             return False
 
         self.parse(obo_fh)
+        obo_fh.close()
         return True
 
     def parse(self, obo_fh):
@@ -421,6 +422,7 @@ def build_doid_omim_dict(obo_filename):
                     if omim not in doid_omim_dict[doid]:
                         doid_omim_dict[doid].add(omim)
 
+    obo_fh.close()
     return doid_omim_dict
 
 
@@ -501,6 +503,7 @@ def build_mim_diseases_dict(genemap_filename):
                 if entrez_id not in mim_diseases[mim_disease_id].genes:
                     mim_diseases[mim_disease_id].genes.append(entrez_id)
 
+    genemap_fh.close()
     return mim_diseases
 
 
@@ -660,10 +663,7 @@ def query_mygene(entrez_set, tax_id):
 # Based on `process_do_terms()` in "annotation-refinery/process_do.py".
 # See https://github.com/greenelab/annotation-refinery
 # Changed from a regular function to generator to work with Biothings SDK.
-def load_data(data_dir):
-    obo_filename = os.path.join(data_dir, "HumanDO.obo")
-    genemap_filename = os.path.join(data_dir, "genemap2.txt")
-
+def get_genesets(obo_filename, genemap_filename):
     disease_ontology = GO()
     obo_is_loaded = disease_ontology.load_obo(obo_filename)
 
@@ -684,6 +684,7 @@ def load_data(data_dir):
     disease_ontology.populated = True
     disease_ontology.propagate()
 
+    genesets = list()
     for term_id, term in disease_ontology.go_terms.items():
         # If a term includes anyvalid gene IDs, add it as a geneset.
         gid_set = set()
@@ -706,7 +707,20 @@ def load_data(data_dir):
             }
             my_geneset = dict_sweep(my_geneset, vals=[None], remove_invalid_list=True)
             my_geneset = unlist(my_geneset)
-            yield my_geneset
+            genesets.append(my_geneset)
+
+    return genesets
+
+
+def load_data(data_dir):
+    """Simple generator for Biothings SDK."""
+
+    obo_filename = os.path.join(data_dir, "HumanDO.obo")
+    genemap_filename = os.path.join(data_dir, "genemap2.txt")
+
+    genesets = get_genesets(obo_filename, genemap_filename)
+    for gs in genesets:
+        yield gs
 
 
 # Test harness
