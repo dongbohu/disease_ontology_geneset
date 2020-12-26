@@ -17,7 +17,7 @@ def get_release(self):
 
     # Find the line that is in the following format:
     # "data-version: doid/releases/YYYY-MM-DD/doid-non-classified.obo"
-    # and extract "YYYY-MM-DD" part as the release string.
+    # and extract "YYYY-MM-DD" part as release string in "HumanDO.obo":
     for line in obo_text_lines:
         if line.startswith("data-version: "):
             full_version = line.strip().split(' ')[1]
@@ -32,7 +32,7 @@ def get_release(self):
 
     # Find the line that is in the following format:
     # "# Genearated: YYYY-MM-DD"
-    # and extract "YYYY-MM-DD" part as the release string.
+    # and extract "YYYY-MM-DD" part as the release string in "genemap2.txt":
     for line in genemap2_text_lines:
         if line.startswith("# Generated: "):
             genemap2_release = line.strip().split(': ')[1]
