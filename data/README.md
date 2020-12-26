@@ -14,7 +14,7 @@
    The differences between `genemap.txt` and `genemap2.txt` are described at the end
    of both files.
 
-4. When a file in "https://data.omim.org/downloads/<key>/genemap2.txt" is downloaded
+4. When `https://data.omim.org/downloads/<your_download_key>/genemap2.txt` is downloaded
    more than 10 times a day, the response will become:
      > This data account exceeded its download cap, please contact us at
      > https://omim.org/contact if this is an issue
