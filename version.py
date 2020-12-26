@@ -3,8 +3,8 @@
 
 def get_release(self):
     """
-    Return a string that combines the release dates of both obo and
-    genemap2 data files.
+    Return a string that combines the release dates of both "HumanDO.obo"
+    and "genemap2.txt" files.
     """
 
     import requests
