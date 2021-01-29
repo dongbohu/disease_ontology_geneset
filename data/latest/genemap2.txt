@@ -1,5 +1,5 @@
 # Copyright (c) 1966-2021 Johns Hopkins University. Use of this file adheres to the terms specified at https://omim.org/help/agreement.
-# Generated: 2021-01-28
+# Generated: 2021-01-29
 # See end of file for additional documentation on specific fields
 # Chromosome	Genomic Position Start	Genomic Position End	Cyto Location	Computed Cyto Location	MIM Number	Gene Symbols	Gene Name	Approved Symbol	Entrez Gene ID	Ensembl Gene ID	Comments	Phenotypes	Mouse Gene Symbol/ID
 chr1	0	27600000	1p36		607413	AD7CNTP	Alzheimer disease neuronal thread protein						
@@ -305,7 +305,7 @@ chr1	26787053	26800658	1p36.11	1p36.11	610274	PIGV, HPMRS1	Phosphatidylinositol 
 chr1	26863148	26864455	1p36.11	1p36.11	601290	SFN	Stratifin	SFN	2810	ENSG00000175793			Sfn (MGI:1891831)
 chr1	26890487	26900466	1p36.11	1p36.11	617486	GPATCH3	G-patch domain-containing protein 3	GPATCH3	63906	ENSG00000198746			Gpatch3 (MGI:2442492)
 chr1	26900568	26946870	1p36.11	1p36.11	610325	NUDC	Nuclear distribution C, dynein complex regulator	NUDC	10726	ENSG00000090273			Nudc (MGI:106014)
-chr1	26911488	26914109	1p36.1	1p36.11	604630	NR0B2, SHP	Nuclear receptor subfamily 0, group B, member 2	NR0B2	8431	ENSG00000131910		Obesity, mild, early-onset, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant	Nr0b2 (MGI:1346344)
+chr1	26911488	26914109	1p36.1	1p36.11	604630	NR0B2, SHP	Nuclear receptor subfamily 0, group B, member 2	NR0B2	8431	ENSG00000131910		Obesity, mild, early-onset, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant	Nr0b2 (MGI:1346344)
 chr1	26949555	26960495	1p36	1p36.11	616758	KDF1, C1orf172, ECTD12	Keratinocyte differentiation factor 1	KDF1	126695	ENSG00000175707	mutation identified in 1 ECTD12 family	?Ectodermal dysplasia 12, hypohidrotic/hair/tooth/nail type, 617337 (3), Autosomal dominant	Kdf1 (MGI:1916323)
 chr1	26993662	27000890	1p36.11	1p36.11	616824	TRNP1	TMF1-regulated nuclear protein 1	TRNP1	388610	ENSG00000253368			Trnp1 (MGI:1916789)
 chr1	27005019	27012849	1p36.11	1p36.11	619069	TENT5B, FAM46	Terminal nucleotidyltransferase 5B	TENT5B	115572	ENSG00000158246			Tent5b (MGI:2140500)
@@ -345,7 +345,7 @@ chr1	29192656	29230947	1p35.3	1p35.3	608205	MECR, NRBF1, DYTOABG	Mitochondrial t
 chr1	29236521	29326801	1p35.3	1p35.3	602454	PTPRU, GLEPP1, PTPU2	Protein tyrosine phosphatase, receptor type, U	PTPRU	10076	ENSG00000060656			Ptpru (MGI:1321151)
 chr1	30711276	30723584	1p35	1p35.2	115437	MATN1, CRTM, CMP	Matrilin 1, cartilage matrix protein	MATN1	4146	ENSG00000162510			Matn1 (MGI:106591)
 chr1	30732468	30757839	1p34	1p35.2	601476	LAPTM5	Lysosomal-associated multispanning membrane protein-5	LAPTM5	7805	ENSG00000162511			Laptm5 (MGI:108046)
-chr1	30869465	30909734	1pter-p22.3	1p35.2	186357	SDC3, SYND3, SDCN	Syndecan 3	SDC3	9672	ENSG00000162512		{Obesity, association with}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant	Sdc3 (MGI:1349163)
+chr1	30869465	30909734	1pter-p22.3	1p35.2	186357	SDC3, SYND3, SDCN	Syndecan 3	SDC3	9672	ENSG00000162512		{Obesity, association with}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant	Sdc3 (MGI:1349163)
 chr1	30931505	31065716	1p35.2	1p35.2	607204	PUM1, KIAA0099, SCA47	Pumilio RNA binding family member 1	PUM1	9698	ENSG00000134644		Spinocerebellar ataxia 47, 617931 (3), Autosomal dominant	Pum1 (MGI:1931749)
 chr1	31179269	31239886	1p35.2	1p35.2	612871	NKAIN1	Na+/K+ transporting ATPase-interacting 1	NKAIN1	79570	ENSG00000084628			Nkain1 (MGI:1914399)
 chr1	31259567	31296787	1p35.2	1p35.2	607797	SNRNP40, SPF38, PRPF8BP	Small nuclear ribonucleoprotein 40kDa (U5)	SNRNP40	9410	ENSG00000060688			Snrnp40 (MGI:1913835)
@@ -360,7 +360,7 @@ chr1	31790421	31816050	1p35.2	1p35.2	619038	SPOCD1	SPOC domain-containing protei
 chr1	31906420	31938367	1p35	1p35.2	601584	PTP4A2, PTP4A, PRL2, HH13	Protein tyrosine phosphatase, type 4A, 2	PTP4A2	8073	ENSG00000184007			Ptp4a2 (MGI:1277117)
 chr1	32013867	32060849	1p32	1p35.2	602489	KHDRBS1, SAM68	KH domain-containing, RNA-binding, signal transduction-associated protein 1	KHDRBS1	10657	ENSG00000121774			Khdrbs1 (MGI:893579)
 chr1	32108042	32176562	1p35.1	1p35.2	610563	KPNA6	Karyopherin alpha-6	KPNA6	23633	ENSG00000025800			Kpna6 (MGI:1100836)
-chr1	32200594	32205386	1p35.1	1p35.2	610162	CCDC28B, MGC1203	Coiled-coil domain-containing protein 28B	CCDC28B	79140	ENSG00000160050		{Bardet-Biedl syndrome 1, modifier of}, 209900 (3), Digenic recessive, Autosomal recessive	Ccdc28b (MGI:1913514)
+chr1	32200594	32205386	1p35.1	1p35.2	610162	CCDC28B, MGC1203	Coiled-coil domain-containing protein 28B	CCDC28B	79140	ENSG00000160050		{Bardet-Biedl syndrome 1, modifier of}, 209900 (3), Autosomal recessive, Digenic recessive	Ccdc28b (MGI:1913514)
 chr1	32221583	32231603	1p34.1	1p35.2	603911	EIF3I, EIF3S2, TRIP1	Eukaryotic translation initiation factor 3, subunit I	EIF3I	8668	ENSG00000084623	pseudogene on 7q32		Eif3i (MGI:1860763)
 chr1	32251264	32286164	1p35-p34.3	1p35.2	153390	LCK, IMD22	Lymphocyte-specific protein tyrosine kinase	LCK	3932	ENSG00000182866	LCK/TCRB fusion in leukemia; mutation identified in 1 IMD22 patient	?Immunodeficiency 22, 615758 (3), Autosomal recessive	Lck (MGI:96756)
 chr1	32292082	32333627	1p34.1	1p35.2-p35.1	601241	HDAC1, RPD3L1	Histone deacetylase-1	HDAC1	3065	ENSG00000116478			Hdac1 (MGI:108086)
@@ -1175,7 +1175,7 @@ chr1	156806237	156816852	1q21	1q23.1	604514	SH2D2A, TSAD	SH2 domain protein 2A	S
 chr1	156815749	156881849	1q21-q22	1q23.1	191315	NTRK1, TRKA	Neurotrophic tyrosine kinase, receptor, type 1	NTRK1	4914	ENSG00000198400	TRK = chimera of TPM3 and NTRK1	Insensitivity to pain, congenital, with anhidrosis, 256800 (3), Autosomal recessive	Ntrk1 (MGI:97383)
 chr1	156840062	156859116	1q21-q23	1q23.1	147671	INSRR, IRR	Insulin receptor-related receptor	INSRR	3645	ENSG00000027644			Insrr (MGI:1346037)
 chr1	156893696	156916428	1q23.1	1q23.1	610278	PEAR1	Platelet endothelial aggregation receptor 1	PEAR1	375033	ENSG00000187800			Pear1 (MGI:1920432)
-chr1	157121190	157138574	1q21-q23	1q23.1	164873	ETV3, PE1	ets variant gene 3	ETV3	2117	ENSG00000117036			Etv3 (MGI:1350926)
+chr1	157121190	157138574	1q21-q23	1q23.1	164873	ETV3, PE1	ETS variant transcription factor 3	ETV3	2117	ENSG00000117036			Etv3 (MGI:1350926)
 chr1	157513376	157552532	1q21	1q23.1	605877	IRTA2	Immunoglobulin superfamily receptor translocation-associated gene 2	FCRL5	83416	ENSG00000143297			Fcrl5 (MGI:3053558)
 chr1	157573746	157598084	1q21	1q23.1	605876	IRTA1	Immunoglobulin superfamily receptor translocation-associated gene 1	FCRL4	83417	ENSG00000163518	fused with IGHA1 in multiple myeloma		
 chr1	157676480	157700984	1q21.2-q22	1q23.1	606510	FCRH3	Fc receptor-like protein 3	FCRL3	115352	ENSG00000160856			
@@ -1259,7 +1259,7 @@ chr1	161707021	161714351	1q23	1q23.3	606891	FREB	Fc receptor homolog expressed i
 chr1	161721543	161728142	1q23.3	1q23.3	609251	FCRLB, FCRL2, FREB2, FCRY	Fc receptor-like protein B	FCRLB	127943	ENSG00000162746			Fcrlb (MGI:3576487)
 chr1	161749785	161757237	1q21-q22	1q23.3	604835	DUSP1, YVH1	Dual-specificity phosphatase 12	DUSP12	11266	ENSG00000081721			Dusp12 (MGI:1890614)
 chr1	161766319	161964069	1q22-q23	1q23.3	605537	ATF6, ACHM7	Activating transcription factor-6	ATF6	22926	ENSG00000118217		Achromatopsia 7, 616517 (3), Autosomal recessive	Atf6 (MGI:1926157)
-chr1	162069690	162370474	1q23.3	1q23.3	605551	NOS1AP, CAPON, KIAA0464, NPHS22	Nitric oxide synthase 1 (neuronal) adaptor protein	NOS1AP	9722	ENSG00000198929		Nephrotic syndrome, type 22, 619155 (3)	
+chr1	162069690	162370474	1q23.3	1q23.3	605551	NOS1AP, CAPON, KIAA0464, NPHS22	Nitric oxide synthase 1 (neuronal) adaptor protein	NOS1AP	9722	ENSG00000198929		Nephrotic syndrome, type 22, 619155 (3), Autosomal recessive	
 chr1	162373202	162376961	1q23.3	1q23.3	617257	SPATA46	Spermatogenesis-associated protein 46	SPATA46	284680	ENSG00000171722			Spata46 (MGI:1924175)
 chr1	162395267	162412135	1q22	1q23.3	608510	SH2D1B, EAT2	SH2 domain-containing 1B	SH2D1B	117157	ENSG00000198574			Sh2d1b1 (MGI:1349420)
 chr1	162497173	162529630	1q23.1	1q23.3	608849	KIS	Kinase-interacting stathmin	UHMK1	127933	ENSG00000152332			Uhmk1 (MGI:1341908)
@@ -1817,7 +1817,7 @@ chr2	24793338	24822375	2p23.3	2p23.3	611504	CENPO	Centromeric protein O	CENPO	79
 chr2	24819168	24920236	2p24-p22	2p23.3	600291	ADCY3, BMIQ19	Adenylate cyclase-3	ADCY3	109	ENSG00000138031		{Obesity, susceptibility to, BMIQ19}, 617885 (3), Autosomal recessive	Adcy3 (MGI:99675)
 chr2	24943635	24972093	2p23.3	2p23.3	613527	DNAJC27, RBJ	DNAJ/HSP40 homolog, subfamily, C, member 27	DNAJC27	51277	ENSG00000115137			Dnajc27 (MGI:2443036)
 chr2	25042075	25159136	2p23.3	2p23.3	616797	EFR3B, KIAA0953	Efr3, S. cerevisiae, homolog of, B	EFR3B	22979	ENSG00000084710			Efr3b (MGI:2444851)
-chr2	25160859	25168579	2p23.3	2p23.3	176830	POMC, OBAIRH	Proopiomelanocortin (adrenocorticotropin/beta-lipotropin)	POMC	5443	ENSG00000115138		{Obesity, early-onset, susceptibility to}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant; Obesity, adrenal insufficiency, and red hair due to POMC deficiency, 609734 (3), Autosomal recessive	Pomc (MGI:97742)
+chr2	25160859	25168579	2p23.3	2p23.3	176830	POMC, OBAIRH	Proopiomelanocortin (adrenocorticotropin/beta-lipotropin)	POMC	5443	ENSG00000115138		{Obesity, early-onset, susceptibility to}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant; Obesity, adrenal insufficiency, and red hair due to POMC deficiency, 609734 (3), Autosomal recessive	Pomc (MGI:97742)
 chr2	25227873	25342589	2p23	2p23.3	602769	DNMT3A, TBRS, HESJAS	DNA methyltransferase 3A	DNMT3A	1788	ENSG00000119772		Heyn-Sproul-Jackson syndrome, 618724 (3), Autosomal dominant; Acute myeloid leukemia, somatic, 601626 (3); Tatton-Brown-Rahman syndrome, 615879 (3), Autosomal dominant	Dnmt3a (MGI:1261827)
 chr2	25377242	25673576	2p23-p22	2p23.3	602415	DTNB	Dystrobrevin, beta	DTNB	1838	ENSG00000138101			Dtnb (MGI:1203728)
 chr2	25733752	25878486	2p23.3	2p23.3	612991	ASXL2, KIAA1685, SHAPNS	ASXL transcriptional regulator 2	ASXL2	55252	ENSG00000143970		Shashi-Pena syndrome, 617190 (3), Autosomal dominant	Asxl2 (MGI:1922552)
@@ -1937,7 +1937,7 @@ chr2	44361713	44772591	2p21	2p21	609559	CAMKMT, C2orf34	Calmodulin lysine N-meth
 chr2	44941701	44946070	2p21	2p21	603714	SIX3, HPE2	SIX homeobox 3	SIX3	6496	ENSG00000138083		Holoprosencephaly 2, 157170 (3), Autosomal dominant; Schizencephaly, 269160 (3)	Six3 (MGI:102764)
 chr2	45005181	45009644	2p16-p15	2p21	604994	SIX2	SIX homeobox 2	SIX2	10736	ENSG00000170577			Six2 (MGI:102778)
 chr2	45651314	46187989	2p21	2p21	176975	PRKCE, PKCE	Protein kinase C, epsilon	PRKCE	5581	ENSG00000171132			Prkce (MGI:97599)
-chr2	46297406	46386696	2p21-p16	2p21	603349	EPAS1, MOP2, HIF2A, ECYT4	Endothelial PAS domain protein 1	EPAS1	2034	ENSG00000116016		Erythrocytosis, familial, 4, 611783 (3)	Epas1 (MGI:109169)
+chr2	46297406	46386696	2p21-p16	2p21	603349	EPAS1, MOP2, HIF2A, ECYT4	Endothelial PAS domain protein 1	EPAS1	2034	ENSG00000116016		Erythrocytosis, familial, 4, 611783 (3), Autosomal dominant	Epas1 (MGI:109169)
 chr2	46511846	46542576	2p21	2p21	617385	ATP6V1E2, ATP6E1	ATPase, H+ transporting, V1 subunit E1	ATP6V1E2	90423	ENSG00000250565			Atp6v1e2 (MGI:1922165)
 chr2	46542408	46584687	2p21	2p21	605857	RHOQ, ARHQ, TC10	Ras-homolog gene family, member Q	RHOQ	23433	ENSG00000119729			Rhoq (MGI:1931553)
 chr2	46580936	46617056	2p21-p16	2p21	600153	PIGF	Phosphatidylinositol glycan, class F	PIGF	5281	ENSG00000151665	pseudogene on 5		Pigf (MGI:99462)
@@ -2056,7 +2056,7 @@ chr2	71331781	71435060	2p13.2	2p13.2	614349	ZNF638, NP220	Zinc finger protein 63
 chr2	71453153	71686762	2p13.3-p13.1	2p13.2	603009	DYSF, LGMDR2, MMD1	Dysferlin	DYSF	8291	ENSG00000135636		Miyoshi muscular dystrophy 1, 254130 (3), Autosomal recessive; Muscular dystrophy, limb-girdle, autosomal recessive 2, 253601 (3), Autosomal recessive; Myopathy, distal, with anterior tibial onset, 606768 (3), Autosomal recessive	Dysf (MGI:1349385)
 chr2	72129237	72147861	2p13.2	2p13.2	605207	CYP26B1, CYP26A2, P450RAI2, RHFCA	Cytochrome P450, subfamily XXVIB, polypeptide 1	CYP26B1	56603	ENSG00000003137		Craniosynostosis with radiohumeral fusions and other skeletal and craniofacial anomalies, 614416 (3)	Cyp26b1 (MGI:2176159)
 chr2	72175983	72826032	2p13.2	2p13.2	607880	EXOC6B, SEC15B, KIAA0919, SEMDJL3	Exocyst complex component 6B	EXOC6B	23233	ENSG00000144036		Spondyloepimetaphyseal dysplasia with joint laxity, type 3, 618395 (3), Autosomal recessive	Exoc6b (MGI:1923164)
-chr2	72887407	72892157	2p14-p12	2p13.2	182125	SPR	Sepiapterin reductase	SPR	6697	ENSG00000116096		Dystonia, dopa-responsive, due to sepiapterin reductase deficiency, 612716 (3), ?Autosomal dominant, Autosomal recessive	Spr (MGI:103078)
+chr2	72887407	72892157	2p14-p12	2p13.2	182125	SPR	Sepiapterin reductase	SPR	6697	ENSG00000116096		Dystonia, dopa-responsive, due to sepiapterin reductase deficiency, 612716 (3), Autosomal recessive, ?Autosomal dominant	Spr (MGI:103078)
 chr2	72910948	72936690	2p14-p13	2p13.2	600034	EMX1	Empty spiracles homeobox 1	EMX1	2016	ENSG00000135638	close to VAX2		Emx1 (MGI:95387)
 chr2	72942035	73071711	2p13	2p13.2	615572	SFXN5	Sideroflexin 5	SFXN5	94097	ENSG00000144040			Sfxn5 (MGI:2137681)
 chr2	73073381	73112947	2p13-p12	2p13.2	605536	RAB11RIP5, RIP11, KIAA0857	Rab11 family-interacting protein 5	RAB11FIP5	26056	ENSG00000135631			Rab11fip5 (MGI:1098586)
@@ -2651,7 +2651,7 @@ chr2	218819948	218831802	2q35	2q35	604976	PRKAG3, SMGMQTL	Protein kinase, AMP-ac
 chr2	218859804	218874232	2q35	2q35	604663	WNT6	Wingless-type MMTV integration site family, member 6	WNT6	7475	ENSG00000115596			Wnt6 (MGI:98960)
 chr2	218874115	218893930	2q35	2q35	606268	WNT10A, SSPS, STHAG4, OODD	Wingless-type MMTV integration site family, member 10A	WNT10A	80326	ENSG00000135925		Schopf-Schulz-Passarge syndrome, 224750 (3), Autosomal recessive; Tooth agenesis, selective, 4, 150400 (3), Autosomal recessive, Autosomal dominant; Odontoonychodermal dysplasia, 257980 (3), Autosomal recessive	Wnt10a (MGI:108071)
 chr2	218959665	218962154	2q35	2q35	603764	CDK5R2, NCK5AI	Cyclin-dependent kinase 5, regulatory subunit 2	CDK5R2	8941	ENSG00000171450			Cdk5r2 (MGI:1330828)
-chr2	218981086	218985183	2q36	2q35	607150	FEV	Fifth Ewing sarcoma variant	FEV	54738	ENSG00000163497	fused with EWS in tumors		Fev (MGI:2449712)
+chr2	218981086	218985183	2q36	2q35	607150	FEV	FEV transcription factor, ETS family member	FEV	54738	ENSG00000163497	fused with EWS in tumors		Fev (MGI:2449712)
 chr2	218990189	218993421	2q34-q36	2q35	600836	CRYBA2, CTRCT42	Crystallin, beta A2	CRYBA2	1412	ENSG00000163499	mutation identified in 1 CTRCT42 family	?Cataract 42, 115900 (3), Autosomal dominant	Cryba2 (MGI:104336)
 chr2	219001644	219001707	2q35	2q35	611173	MIR375, MIRN375	Micro RNA 375	MIR375	494324	ENSG00000198973			
 chr2	219002845	219043141	2q35	2q35	614270	CFAP65, CCDC108, SPGF40	Cilia- and flagella-associated protein 65	CFAP65	255101	ENSG00000181378		Spermatogenic failure 40, 618664 (3), Autosomal recessive	Cfap65 (MGI:2444274)
@@ -2863,7 +2863,7 @@ chr3	10115674	10127189	3p25.3	3p25.3	611183	BRK1, C3orf10, HSPC300	BRICK1, SCAR/
 chr3	10141777	10153666	3p26-p25	3p25.3	608537	VHL	von Hippel-Lindau tumor suppressor	VHL	7428	ENSG00000134086		Pheochromocytoma, 171300 (3), Autosomal dominant; Erythrocytosis, familial, 2, 263400 (3), Autosomal recessive; von Hippel-Lindau syndrome, 193300 (3), Autosomal dominant; Renal cell carcinoma, somatic, 144700 (3); Hemangioblastoma, cerebellar, somatic (3)	Vhl (MGI:103223)
 chr3	10164918	10243744	3p25.3	3p25.3	603304	IRAK2	Interleukin 1 receptor-associated kinase 2	IRAK2	3656	ENSG00000134070			Irak2 (MGI:2429603)
 chr3	10280951	10293448	3p25.3	3p25.3	618445	GHRLOS	Ghrelin opposite strand, noncoding	GHRLOS	100126793	ENSG00000240288			
-chr3	10285665	10292946	3p26-p25	3p25.3	605353	GHRL	Ghrelin	GHRL	51738	ENSG00000157017		{Obesity, susceptibility to}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant	Ghrl (MGI:1930008)
+chr3	10285665	10292946	3p26-p25	3p25.3	605353	GHRL	Ghrelin	GHRL	51738	ENSG00000157017		{Obesity, susceptibility to}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant	Ghrl (MGI:1930008)
 chr3	10300930	10321111	3p25-p24	3p25.3	600152	SEC13, SEC13L1, D3S1231E, SEC13R	SEC13 homolog, nuclear pore and COPII coat complex component	SEC13	6396	ENSG00000157020			Sec13 (MGI:99832)
 chr3	10324022	10707961	3p26-p25	3p25.3	108733	ATP2B2, PMCA2	ATPase, Ca++ transporting, plasma membrane, 2	ATP2B2	491	ENSG00000157087		{Deafness, autosomal recessive 12, modifier of}, 601386 (3), Autosomal recessive	Atp2b2 (MGI:105368)
 chr3	10816199	10940713	3p25.3	3p25.3	607952	SLC6A11, GAT3, GAT4	Solute carrier family 6 (neurotransmitter transporter, GABA), member 11	SLC6A11	6538	ENSG00000132164			Slc6a11 (MGI:95630)
@@ -2875,7 +2875,7 @@ chr3	11600000	16300000	3p25.2-p25.1		606661	UVM2	Melanoma, uveal, susceptibility
 chr3	11721895	11846899	3p25.2	3p25.2	614948	TAMM41, RAM41, C3orf31	Translocator assembly and maintenance, mitochondrial, S. cerevisiae, homolog of	TAMM41	132001	ENSG00000144559			Tamm41 (MGI:1916221)
 chr3	12004365	12192031	3p25	3p25.2	600755	SYN2	Synapsin II	SYN2	6854	ENSG00000157152		{Schizophrenia, susceptibility to}, 181500 (3), Autosomal dominant	Syn2 (MGI:103020)
 chr3	12153067	12158911	3p25	3p25.2	601915	TIMP4	Tissue inhibitor of metalloproteinase 4	TIMP4	7079	ENSG00000157150			Timp4 (MGI:109125)
-chr3	12287367	12434343	3p25	3p25.2	601487	PPARG, PPARG1, PPARG2, CIMT1, GLM1	Peroxisome proliferator activated receptor, gamma	PPARG	5468	ENSG00000132170	PPARG1, PPARG2 from same gene	[Obesity, resistance to] (3); Carotid intimal medial thickness 1, 609338 (3); {Diabetes, type 2}, 125853 (3), Autosomal dominant; Insulin resistance, severe, digenic, 604367 (3), Autosomal dominant; Obesity, severe, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant; Lipodystrophy, familial partial, type 3, 604367 (3), Autosomal dominant	Pparg (MGI:97747)
+chr3	12287367	12434343	3p25	3p25.2	601487	PPARG, PPARG1, PPARG2, CIMT1, GLM1	Peroxisome proliferator activated receptor, gamma	PPARG	5468	ENSG00000132170	PPARG1, PPARG2 from same gene	[Obesity, resistance to] (3); Carotid intimal medial thickness 1, 609338 (3); {Diabetes, type 2}, 125853 (3), Autosomal dominant; Insulin resistance, severe, digenic, 604367 (3), Autosomal dominant; Obesity, severe, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant; Lipodystrophy, familial partial, type 3, 604367 (3), Autosomal dominant	Pparg (MGI:97747)
 chr3	12484455	12539623	3p25.1	3p25.2	608753	TSEN2, SEN2, PCH2B	tRNA splicing endonuclease, subunit 2	TSEN2	80746	ENSG00000154743		Pontocerebellar hypoplasia type 2B, 612389 (3), Autosomal recessive	Tsen2 (MGI:2141599)
 chr3	12557086	12583712	3p25	3p25.2	608426	MKRN2	Makorin 2	MKRN2	23609	ENSG00000075975			Mkrn2 (MGI:1914277)
 chr3	12583600	12664116	3p25	3p25.2	164760	RAF1, CRAF, NS5, CMD1NN	Oncogene RAF1	RAF1	5894	ENSG00000132155		LEOPARD syndrome 2, 611554 (3); Noonan syndrome 5, 611553 (3), Autosomal dominant; Cardiomyopathy, dilated, 1NN, 615916 (3), Autosomal dominant	Raf1 (MGI:97847)
@@ -3032,7 +3032,7 @@ chr3	45082276	45146409	3p23-p21	3p21.31	611735	CDCP1, SIMA135	CUB domain-contain
 chr3	45388563	45549406	3p21.3	3p21.31	604544	LARS2, PRLTS4, HLASA	Leucyl-tRNA synthetase, mitochondrial	LARS2	23395	ENSG00000011376		Perrault syndrome 4, 615300 (3), Autosomal recessive; Hydrops, lactic acidosis, and sideroblastic anemia, 617021 (3), Autosomal recessive	Lars2 (MGI:2142973)
 chr3	45594104	45686340	3p21.3	3p21.31	604543	LIMD1	LIM domain-containing protein 1	LIMD1	8994	ENSG00000144791			Limd1 (MGI:1352502)
 chr3	45689361	45745408	3p21.3	3p21.31	606569	SACM1L, SAC1, KIAA0851	SAC1 suppressor of actin mutations 1-like	SACM1L	22908	ENSG00000211456			Sacm1l (MGI:1933169)
-chr3	45755448	45796552	3p21.3	3p21.31	605616	SLC6A20, XT3	X transporter protein 3	SLC6A20	54716	ENSG00000163817		Iminoglycinuria, digenic, 242600 (3), Digenic recessive, Autosomal recessive; Hyperglycinuria, 138500 (3), Autosomal dominant	Slc6a20a (MGI:2143217)
+chr3	45755448	45796552	3p21.3	3p21.31	605616	SLC6A20, XT3	X transporter protein 3	SLC6A20	54716	ENSG00000163817		Iminoglycinuria, digenic, 242600 (3), Autosomal recessive, Digenic recessive; Hyperglycinuria, 138500 (3), Autosomal dominant	Slc6a20a (MGI:2143217)
 chr3	45823315	45916036	3p21.3	3p21.31	606568	LZTFL1, BBS17	Leucine zipper transcription factor-like 1	LZTFL1	54585	ENSG00000163818		Bardet-Biedl syndrome 17, 615994 (3), Autosomal recessive	Lztfl1 (MGI:1934860)
 chr3	45886063	45903173	3p21.3	3p21.31	604738	CCR9	Chemokine, CC motif, receptor 9	CCR9	10803	ENSG00000173585			Ccr9 (MGI:1341902)
 chr3	45917902	45995823	3p21.3	3p21.31	607182	FYCO1, CATC2, CTRCT18	FYVE and coiled-coil domain containing 1	FYCO1	79443	ENSG00000163820		Cataract 18, autosomal recessive, 610019 (3), Autosomal recessive	Fyco1 (MGI:107277)
@@ -3187,7 +3187,7 @@ chr3	55508310	56468472	3p14.3	3p14.3	617250	ERC2, CAST, KIAA0378	ELKS/RAB6-inter
 chr3	56620131	56683264	3p14.3	3p14.3	616493	FAM208A, RAP140, C3orf63, KIAA1105	Family with sequence similarity 208, member A	TASOR	23272	ENSG00000163946			Tasor (MGI:1921694)
 chr3	56727418	57079307	3p21-p13	3p14.3	612115	ARHGEF3, XPLN	RHO guanine nucleotide exchange factor 3	ARHGEF3	50650	ENSG00000163947			Arhgef3 (MGI:1918954)
 chr3	57060663	57075431	3p21.2-p21.1	3p14.3	609869	SPATA12, SRG5	Spermatogenesis-associated protein 12	SPATA12	353324	ENSG00000186451			
-chr3	57089981	57170316	3p14.3-p14.2	3p14.3	606807	IL17RD, SEF, HH18	Interleukin 17, receptor D (Sef, zebrafish, homolog of)	IL17RD	54756	ENSG00000144730		Hypogonadotropic hypogonadism 18 with or without anosmia, 615267 (3), Autosomal recessive, Digenic dominant, Autosomal dominant	Il17rd (MGI:2159727)
+chr3	57089981	57170316	3p14.3-p14.2	3p14.3	606807	IL17RD, SEF, HH18	Interleukin 17, receptor D (Sef, zebrafish, homolog of)	IL17RD	54756	ENSG00000144730		Hypogonadotropic hypogonadism 18 with or without anosmia, 615267 (3), Digenic dominant, Autosomal recessive, Autosomal dominant	Il17rd (MGI:2159727)
 chr3	57197837	57227642	3p21.2-p21.1	3p14.3	601802	HESX1, RPX, CPHD5	Homeo box gene expressed in ES cells	HESX1	8820	ENSG00000163666		Pituitary hormone deficiency, combined, 5, 182230 (3), Autosomal recessive, Autosomal dominant; Septooptic dysplasia, 182230 (3), Autosomal recessive, Autosomal dominant; Growth hormone deficiency with pituitary anomalies, 182230 (3), Autosomal recessive, Autosomal dominant	Hesx1 (MGI:96071)
 chr3	57227728	57273470	3p21.1-p14.3	3p14.3	604299	APPL1, APPL, MODY14	Adaptor protein containing PH domain, PTB domain, and leucine zipper motif 1	APPL1	26060	ENSG00000157500		{Maturity-onset diabetes of the young, type 14}, 616511 (3), Autosomal dominant	Appl1 (MGI:1920243)
 chr3	57293698	57545202	3p21.1	3p14.3	603340	DNAH12, DNAHC3, HL19	Dynein, heavy chain-5	DNAH12	201625	ENSG00000174844			Dnah12 (MGI:107720)
@@ -3263,7 +3263,7 @@ chr3	94000000	108200000	3q11.2-q13.12		114200	CAMPD1	Camptodactyly 1		100381210	
 chr3	94057921	94063388	3q11.2	3q11.2	616588	DHFRL1	Dihydrofolate reductase-like 1	DHFR2	200895	ENSG00000178700			
 chr3	94063060	94131831	3q11.2	3q11.2	617491	NSUN3, COXPD48	NOP2/SUN RNA methyltransferase family, member 3	NSUN3	63899	ENSG00000178694		Combined oxidative phosphorylation deficiency 48, 619012 (3)	Nsun3 (MGI:2146565)
 chr3	96814580	97761531	3q11.2	3q11.2	600066	EPHA6, HEK12, EHK2	Ephrin receptor EphA6	EPHA6	285220	ENSG00000080224			Epha6 (MGI:108034)
-chr3	97762580	97812584	3p12-q13	3q11.2	608845	ARL6, BBS3, RP55	ADP ribosylation factor-like GTPase 6	ARL6	84100	ENSG00000113966		Retinitis pigmentosa 55, 613575 (3); Bardet-Biedl syndrome 3, 600151 (3), Autosomal recessive; {Bardet-Biedl syndrome 1, modifier of}, 209900 (3), Digenic recessive, Autosomal recessive	Arl6 (MGI:1927136)
+chr3	97762580	97812584	3p12-q13	3q11.2	608845	ARL6, BBS3, RP55	ADP ribosylation factor-like GTPase 6	ARL6	84100	ENSG00000113966		Retinitis pigmentosa 55, 613575 (3); Bardet-Biedl syndrome 3, 600151 (3), Autosomal recessive; {Bardet-Biedl syndrome 1, modifier of}, 209900 (3), Autosomal recessive, Digenic recessive	Arl6 (MGI:1927136)
 chr3	97941817	97972430	3q12.1	3q11.2	612049	MINA, MINA53, MDIG	MYC-induced nuclear antigen	RIOX2	84864	ENSG00000170854			Riox2 (MGI:1914264)
 chr3	97985101	98035314	3q11.2	3q11.2	618668	GABRR3	Gamma-aminobutyric acid receptor, RHO-3	GABRR3	200959	ENSG00000183185			Gabrr3 (MGI:3588203)
 chr3	98531977	98534680	3q11.2-q13.1	3q11.2	601166	GPR15	G protein-coupled receptor-15	GPR15	2838	ENSG00000154165			Gpr15 (MGI:1918473)
@@ -3527,8 +3527,8 @@ chr3	148991514	149031774	3q24-q25.1	3q24	603942	GYG1, GSD15	Glycogenin 1	GYG1	29
 chr3	149030062	149086533	3q25.1-q26.1	3q24	603257	SMARCA3, SNF2L3, HIP116	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 3	HLTF	6596	ENSG00000071794			Hltf (MGI:1196437)
 chr3	149129623	149173731	3q24	3q24	606118	HPS3	HPS3 biogenesis of lysosomal organelles complex 2 subunit 1	HPS3	84343	ENSG00000163755		Hermansky-Pudlak syndrome 3, 614072 (3), Autosomal recessive	Hps3 (MGI:2153839)
 chr3	149162409	149222007	3q23-q24	3q24-q25	117700	CP	Ceruloplasmin	CP	1356	ENSG00000047457	~15cM from TF	[Hypoceruloplasminemia, hereditary], 604290 (3), Autosomal recessive; Hemosiderosis, systemic, due to aceruloplasminemia, 604290 (3), Autosomal recessive; Cerebellar ataxia, 604290 (3), Autosomal recessive	Cp (MGI:88476)
-chr3	149200000	188200000	3q25-q27		608638	ASPG1	Asperger syndrome, susceptibility to, 1		431710		max lod with D3S3037	{Asperger syndrome susceptibility 1}, 608638 (2), Multifactorial, Isolated cases	
-chr3	149200000	188200000	3q25-q27		607373	AUTS8	Autism, susceptibility to, 8		282553			{Autism susceptibility 8}, 607373 (2), Multifactorial, Isolated cases	
+chr3	149200000	188200000	3q25-q27		608638	ASPG1	Asperger syndrome, susceptibility to, 1		431710		max lod with D3S3037	{Asperger syndrome susceptibility 1}, 608638 (2), Isolated cases, Multifactorial	
+chr3	149200000	188200000	3q25-q27		607373	AUTS8	Autism, susceptibility to, 8		282553			{Autism susceptibility 8}, 607373 (2), Isolated cases, Multifactorial	
 chr3	149200000	183000000	3q25-q26		612008	CELIAC10	Celiac disease, susceptibility to, 10		100188872		associated with rs17810546	{Celiac disease, susceptibility to, 10}, 612008 (2)	
 chr3	149200000	183000000	3q25-q26		615697	ETL6	Epilepsy, familial temporal lobe, 6		103106902		between D3S1584 and D3S3520	Epilepsy, familial temporal lobe, 6, 615697 (2), Autosomal dominant	
 chr3	149369021	149377780	3q21-q25	3q25.1	191155	TM4SF1, M3S1, TAAL6	Transmembrane-4 superfamily, member 1	TM4SF1	4071	ENSG00000169908			Tm4sf1 (MGI:104678)
@@ -3681,7 +3681,7 @@ chr3	185506261	185552660	3q27-q28	3q27.2	607365	LIPH, LAH2, ARWH2, HYPT7	Lipase 
 chr3	185586294	185633550	3q27	3q27.2	608261	SENP2, SMT3IP2, AXAM2, KIAA1331	Sentrin-specific protease family, member 2	SENP2	59343	ENSG00000163904			Senp2 (MGI:1923076)
 chr3	185643129	185825045	3q28	3q27.2	608289	IGF2BP2, IMP2	Insulin-like growth factor 2 mRNA-binding protein 2	IGF2BP2	10644	ENSG00000073792		{Diabetes mellitus, noninsulin-dependent, susceptibility to}, 125853 (3), Autosomal dominant	Igf2bp2 (MGI:1890358)
 chr3	185914557	185938026	3q26.2-q27	3q27.2	602719	TRA2B, SFRS10	Transformer 2 beta homolog	TRA2B	6434	ENSG00000136527			Tra2b (MGI:106016)
-chr3	186046313	186109088	3q28	3q27.2	601600	ETV5, ERM	ets variant gene 5 (ets-related molecule)	ETV5	2119	ENSG00000244405			Etv5 (MGI:1096867)
+chr3	186046313	186109088	3q28	3q27.2	601600	ETV5, ERM	ETS variant transcription factor 5	ETV5	2119	ENSG00000244405			Etv5 (MGI:1096867)
 chr3	186147200	186362233	3q27-q28	3q27.2-q27.3	601854	DGKG, DAGK3	Diacylglycerol kinase, gamma, 90-kD	DGKG	1608	ENSG00000058866			Dgkg (MGI:105060)
 chr3	186538442	186544379	3q27	3q27.3	123730	CRYGS, CRYG8, CTRCT20	Crystallin, gamma S	CRYGS	1427	ENSG00000213139		Cataract 20, multiple types, 116100 (3), Autosomal dominant	Crygs (MGI:1298216)
 chr3	186570719	186585792	3q27.3	3q27.3	611341	DNAJB11, HEDJ, DJ9, ABBP2, PKD6	DNAJ/HSP40 homolog, subfamily B, member 11	DNAJB11	51726	ENSG00000090520		Polycystic kidney disease 6 with or without polycystic liver disease, 618061 (3), Autosomal dominant	Dnajb11 (MGI:1915088)
@@ -3967,7 +3967,7 @@ chr4	53377640	53462582	4q12	4q12	607686	FIP1L1	Fip1-like 1	FIP1L1	81608	ENSG0000
 chr4	53458263	53652524	4q12	4q12	609732	LNX1, LNX, PDZRN2	Ligand of numb protein X1	LNX1	84708	ENSG00000072201			Lnx1 (MGI:1278335)
 chr4	53996334	54064689	4q11-q12	4q12	604332	CHIC2, BTL	Cysteine-rich hydrophobic domain 2 (Brx-like gene translocated in leukemia)	CHIC2	26511	ENSG00000109220		{Leukemia, acute myeloid}, 601626 (3), Somatic mutation, Autosomal dominant	Chic2 (MGI:1921527)
 chr4	54100162	54102497	4q12	4q12	616253	GSX2, GSH2, DMJDS2	GS homeobox 2	GSX2	170825	ENSG00000180613		Diencephalic-mesencephalic junction dysplasia syndrome 2, 618646 (3), Autosomal recessive	Gsx2 (MGI:95843)
-chr4	54229126	54298244	4q12	4q12	173490	PDGFRA	Platelet-derived growth factor receptor, alpha polypeptide	PDGFRA	5156	ENSG00000134853	same 700bp segment as KIT; fused to BCR or FIP1L1	Gastrointestinal stromal tumor/GIST-plus syndrome, somatic or familial, 175510 (3); Hypereosinophilic syndrome, idiopathic, resistant to imatinib, 607685 (3), Somatic mutation, Isolated cases	Pdgfra (MGI:97530)
+chr4	54229126	54298244	4q12	4q12	173490	PDGFRA	Platelet-derived growth factor receptor, alpha polypeptide	PDGFRA	5156	ENSG00000134853	same 700bp segment as KIT; fused to BCR or FIP1L1	Gastrointestinal stromal tumor/GIST-plus syndrome, somatic or familial, 175510 (3); Hypereosinophilic syndrome, idiopathic, resistant to imatinib, 607685 (3), Isolated cases, Somatic mutation	Pdgfra (MGI:97530)
 chr4	54657956	54740714	4q12	4q12	164920	KIT, PBT, MASTC	Hardy-Zuckerman 4 feline sarcoma (v-kit) oncogene	KIT	3815	ENSG00000157404	same 700bp segment as PDGFRA	Gastrointestinal stromal tumor, familial, 606764 (3), Isolated cases, Autosomal dominant; Mastocytosis, cutaneous, 154800 (3), Autosomal dominant; Germ cell tumors, somatic, 273300 (3); Leukemia, acute myeloid, somatic, 601626 (3); Mastocytosis, systemic, somatic, 154800 (3); Piebaldism, 172800 (3), Autosomal dominant	Kit (MGI:96677)
 chr4	55078480	55125594	4q12	4q12	191306	KDR	Kinase insert domain receptor	KDR	3791	ENSG00000128052	?mutant in TAPVR1	{Hemangioma, capillary infantile, susceptibility to}, 602089 (3), Autosomal dominant; Hemangioma, capillary infantile, somatic, 602089 (3)	Kdr (MGI:96683)
 chr4	55346227	55373099	4q12	4q12	611715	SRD5A3, SRD5A2L, CDG1Q, KRIZI	Steroid 5-alpha-reductase 3	SRD5A3	79644	ENSG00000128039		Kahrizi syndrome, 612713 (3), Autosomal recessive; Congenital disorder of glycosylation, type Iq, 612379 (3), Autosomal recessive	Srd5a3 (MGI:1930252)
@@ -3983,7 +3983,7 @@ chr4	56467616	56503680	4q12	4q12	602122	SRP72, BMFS1	Signal recognition particle
 chr4	56505208	56524452	4q12	4q12	612405	ARL9	ADP ribosylation factor-like GTPase 9	ARL9	132946	ENSG00000196503			Arl9 (MGI:1915496)
 chr4	56647991	56681865	4q11-q12	4q12	607275	HOPX, HOP	HOP homeobox	HOPX	84525	ENSG00000171476			Hopx (MGI:1916782)
 chr4	56809859	56822209	4q12	4q12	605753	SPINK2, SPGF29	Serine protease inhibitor, Kazal-type, 2	SPINK2	6691	ENSG00000128040	mutation identified in 1 SPGF29 family	?Spermatogenic failure 29, 618091 (3), Autosomal recessive	
-chr4	56907899	56935846	4q12	4q12	600571	REST, NRSF, WT6, GINGF5, HGF5, DFNA27	RE1-silencing transcription factor	REST	5978	ENSG00000084093	mutation identified in one DFNA27 family	{Wilms tumor 6, susceptibility to}, 616806 (3); Fibromatosis, gingival, 5, 617626 (3), Autosomal dominant; ?Deafness, autosomal dominant 27, 612431 (3), Autosomal dominant	Rest (MGI:104897)
+chr4	56907899	56935846	4q12	4q12	600571	REST, NRSF, WT6, GINGF5, HGF5, DFNA27	RE1-silencing transcription factor	REST	5978	ENSG00000084093	mutation identified in one DFNA27 family	{Wilms tumor 6, susceptibility to}, 616806 (3), Autosomal dominant; Fibromatosis, gingival, 5, 617626 (3), Autosomal dominant; ?Deafness, autosomal dominant 27, 612431 (3), Autosomal dominant	Rest (MGI:104897)
 chr4	56963349	56977605	4q12	4q12	614919	NOA1, C4orf14	Nitric oxide-associated protein 1	NOA1	84273	ENSG00000084092			Noa1 (MGI:1914306)
 chr4	56978895	57031157	4q12	4q12	180661	POL2RB	Polymerase (RNA) II (DNA directed) polypeptide B, 140kD	POLR2B	5431	ENSG00000047315			Polr2b (MGI:2388280)
 chr4	57030772	57110384	4q12	4q12	602867	IGFBP7, MAC25, RAMSVPS	Insulin-like growth factor-binding protein-7	IGFBP7	3490	ENSG00000163453		Retinal arterial macroaneurysm with supravalvular pulmonic stenosis, 614224 (3), Autosomal recessive	Igfbp7 (MGI:1352480)
@@ -4155,7 +4155,7 @@ chr4	98261380	98443857	4q21-q25	4q23	179502	RAP1GDS1	RAP1, GTP-GDP dissociation 
 chr4	98470366	98658660	4q23	4q23	613136	TSPAN5, NET4	Tetraspanin 5	TSPAN5	10098	ENSG00000168785			Tspan5 (MGI:1928096)
 chr4	98879275	98929132	4q21-q25	4q23	133440	EIF4E, EIF4EL1, AUTS19	Eukaryotic translation initiation factor 4E	EIF4E	1977	ENSG00000151247	pseudogene on 20	{Autism, susceptibility to, 19}, 615091 (3)	Eif4e (MGI:95305)
 chr4	98995692	99063108	4q23	4q23	610151	METAP1, KIAA0094	Methionyl aminopeptidase 1	METAP1	23173	ENSG00000164024			Metap1 (MGI:1922874)
-chr4	99070977	99088787	4q21-q25	4q23	103710	ADH5, FDH, AMEDS, BMFS7	Alcohol dehydrogenase (class III), chi polypeptide	ADH5	128	ENSG00000197894	AMEDS is digenic with ALDH2	AMED syndrome, digenic, 619151 (3)	Adh5 (MGI:87929)
+chr4	99070977	99088787	4q21-q25	4q23	103710	ADH5, FDH, AMEDS, BMFS7	Alcohol dehydrogenase (class III), chi polypeptide	ADH5	128	ENSG00000197894	AMEDS is digenic with ALDH2	AMED syndrome, digenic, 619151 (3), Digenic recessive	Adh5 (MGI:87929)
 chr4	99123657	99144296	4q22	4q23	103740	ADH4	Alcohol dehydrogenase (class II), pi polypeptide	ADH4	127	ENSG00000198099			Adh4 (MGI:1349472)
 chr4	99202638	99219245	4q23-q24	4q23	103735	ADH6	Alcohol dehydrogenase 6 (aldehyde reductase)	ADH6	130	ENSG00000172955			
 chr4	99276368	99290984	4q22	4q23	103700	ADH1A, ADH1	Alcohol dehydrogenase IA (class I), alpha polypeptide	ADH1A	124	ENSG00000187758			
@@ -4373,7 +4373,7 @@ chr4	168356734	168480513	4q32.3	4q32.3	616725	DDX60L	DExD/H-box 60 like	DDX60L	9
 chr4	168497038	168928440	4q32.3	4q32.3	608092	PALLD, KIAA0992, PNCA1	Palladin, cytoskeletal-associated protein	PALLD	23022	ENSG00000129116		{Pancreatic cancer, susceptibility to, 1}, 606856 (3), Autosomal dominant	Palld (MGI:1919583)
 chr4	169094258	169270955	4q32.3	4q32-q33	618642	SH3RF1, POSH, RNF142	SH3 domain-containing RING finger protein 1	SH3RF1	57630	ENSG00000154447			Sh3rf1 (MGI:1913066)
 chr4	169200000	190214555	4q33-qter		607258	HCA1	Hypercalciuria, absorptive, 1		266790			Hypercalciuria, absorptive, 607258 (2)	
-chr4	169392808	169612628	4q33	4q33	604588	NEK1, SRTD6, SRPS2A, ALS24	Never in mitosis gene A-related kinase 1	NEK1	4750	ENSG00000137601	1 patient showed heterozygous NEK2 and DYNC2H1 mutations	{Amyotrophic lateral sclerosis, susceptibility to, 24}, 617892 (3), Autosomal dominant; Short-rib thoracic dysplasia 6 with or without polydactyly, 263520 (3), Digenic recessive, Autosomal recessive	Nek1 (MGI:97303)
+chr4	169392808	169612628	4q33	4q33	604588	NEK1, SRTD6, SRPS2A, ALS24	Never in mitosis gene A-related kinase 1	NEK1	4750	ENSG00000137601	1 patient showed heterozygous NEK2 and DYNC2H1 mutations	{Amyotrophic lateral sclerosis, susceptibility to, 24}, 617892 (3), Autosomal dominant; Short-rib thoracic dysplasia 6 with or without polydactyly, 263520 (3), Autosomal recessive, Digenic recessive	Nek1 (MGI:97303)
 chr4	169620577	169723672	4q33	4q33	600580	CLCN3	Chloride channel-3	CLCN3	1182	ENSG00000109572			Clcn3 (MGI:103555)
 chr4	169729469	169757943	4q33	4q33	616614	HPF1, C4orf27	Histone parylation factor 1	HPF1	54969	ENSG00000056050			Hpf1 (MGI:1919862)
 chr4	169986601	170028740	4q32.3	4q33	616523	MFAP3L, KIAA0626	Microfibrillar-associated protein 3-like	MFAP3L	9848	ENSG00000198948			Mfap3l (MGI:1918556)
@@ -4446,7 +4446,7 @@ chr5	0	42500000	5p15.33-p13.1		608850	MCDR3	Macular dystrophy, retinal, 3		31766
 chr5	0	48800000	5p		601888	MHS6	Malignant hyperthermia susceptibility 6		4266			{Malignant hyperthermia susceptibility 6}, 601888 (2)	
 chr5	0	15000000	5p15.33-p15.2		612554	MYP16	Myopia 16		100270641		max lod at D5S2505	Myopia 16, 612554 (2)	
 chr5	0	18400000	5p15		613637	TST2	Tuberculin skin test reactivity quantitative trait locus		100526823		max lod at 16:2.70Mb	[Tuberculin skin test reactivity QTL], 613637 (2)	
-chr5	218308	264815	5p15	5p15.33	600857	SDHA, SDH1, SDHF, CMD1GG, PGL5	Succinate dehydrogenase complex, subunit A, flavoprotein	SDHA	6389	ENSG00000073578	copy on 3q29	Cardiomyopathy, dilated, 1GG, 613642 (3), Autosomal recessive; Leigh syndrome, 256000 (3), Mitochondrial, Autosomal recessive; Paragangliomas 5, 614165 (3), Autosomal dominant; Mitochondrial respiratory chain complex II deficiency, 252011 (3), Autosomal recessive	Sdha (MGI:1914195)
+chr5	218308	264815	5p15	5p15.33	600857	SDHA, SDH1, SDHF, CMD1GG, PGL5, MC2DN1	Succinate dehydrogenase complex, subunit A, flavoprotein	SDHA	6389	ENSG00000073578	copy on 3q29	Mitochondrial complex II deficiency, nuclear type 1, 252011 (3), Autosomal recessive; Cardiomyopathy, dilated, 1GG, 613642 (3), Autosomal recessive; Leigh syndrome, 256000 (3), Autosomal recessive, Mitochondrial; Paragangliomas 5, 614165 (3), Autosomal dominant	Sdha (MGI:1914195)
 chr5	271645	314973	5p15.33	5p15.33	601057	PDCD6, ALG2	Programmed cell death 6	PDCD6	10016	ENSG00000249915			Pdcd6 (MGI:109283)
 chr5	321713	438284	5p15.3	5p15.33	606517	AHRR, KIAA1234	Arylhydrocarbon receptor repressor	AHRR	57491	ENSG00000063438			Ahrr (MGI:1333776)
 chr5	443175	467289	5p15.33	5p15.33	608186	EXOC3, SEC6	Exocyst complex component 3	EXOC3	11336	ENSG00000180104			Exoc3 (MGI:2443972)
@@ -4457,7 +4457,7 @@ chr5	863734	892802	5p15.33	5p15.33	618465	BRD9	Bromodomain-containing protein 9	
 chr5	892883	919347	5p15.33	5p15.33	604507	TRIP13, 16E1BP, MVA3, OOMD9	Thyroid hormone receptor interactor 13	TRIP13	9319	ENSG00000071539		Mosaic variegated aneuploidy syndrome 3, 617598 (3), Autosomal recessive; Oocyte maturation defect 9, 619011 (3), Autosomal recessive	Trip13 (MGI:1916966)
 chr5	1008801	1038942	5p15.3	5p15.33	607852	NKD2	NKD inhibitor of WNT signaling pathway 2	NKD2	85409	ENSG00000145506			Nkd2 (MGI:1919543)
 chr5	1050383	1155886	5p15.3	5p15.33	604879	SLC12A7, KCC4	Solute carrier family 12 (potassium/chloride transporters), member 7	SLC12A7	10723	ENSG00000113504			Slc12a7 (MGI:1342283)
-chr5	1201594	1225110	5p15.33	5p15.33	608893	SLC6A19, HND	Solute carrier family 6 (neurotransmitter transporter), member 19	SLC6A19	340024	ENSG00000174358		Iminoglycinuria, digenic, 242600 (3), Digenic recessive, Autosomal recessive; Hartnup disorder, 234500 (3), Autosomal recessive; Hyperglycinuria, 138500 (3), Autosomal dominant	Slc6a19 (MGI:1921588)
+chr5	1201594	1225110	5p15.33	5p15.33	608893	SLC6A19, HND	Solute carrier family 6 (neurotransmitter transporter), member 19	SLC6A19	340024	ENSG00000174358		Iminoglycinuria, digenic, 242600 (3), Autosomal recessive, Digenic recessive; Hartnup disorder, 234500 (3), Autosomal recessive; Hyperglycinuria, 138500 (3), Autosomal dominant	Slc6a19 (MGI:1921588)
 chr5	1225380	1246188	5p15.33	5p15.33	610300	SLC6A18, XTRP2	Solute carrier family 6 (neurotransmitter transporter), member 18	SLC6A18	348932	ENSG00000164363			Slc6a18 (MGI:1336892)
 chr5	1253166	1295067	5p15.33	5p15.33	187270	TERT, TCS1, EST2, DKCA2, DKCB4, PFBMFT1, CMM9	Telomerase reverse transcriptase	TERT	7015	ENSG00000164362	deleted in cri du chat	{Melanoma, cutaneous malignant, 9}, 615134 (3); {Pulmonary fibrosis and/or bone marrow failure, telomere-related, 1}, 614742 (3), Autosomal dominant; {Leukemia, acute myeloid}, 601626 (3), Somatic mutation, Autosomal dominant; {Dyskeratosis congenita, autosomal recessive 4}, 613989 (3), Autosomal recessive, Autosomal dominant; {Dyskeratosis congenita, autosomal dominant 2}, 613989 (3), Autosomal recessive, Autosomal dominant	Tert (MGI:1202709)
 chr5	1317751	1345098	5p15.33	5p15.33	612585	CLPTM1L, CRR9	CLPTM1-like protein	CLPTM1L	81037	ENSG00000049656			Clptm1l (MGI:2442892)
@@ -4662,7 +4662,7 @@ chr5	71035123	71109112	5q12.2-q13.3	5q13.2	601748	GTF2H2	General transcription f
 chr5	71375784	71385992	5q12-q13	5q13.2	176794	PMCHL2	Pro-melanin-concentrating hormone-like 2	PMCHL2	5370	ENSG00000169040			
 chr5	71455635	71578287	5q13	5q13.2	607012	BDP1, TFNR, DFNB112	B double prime 1, subunit of RNA polymerase III transcription initiation factor IIIB	BDP1	55814	ENSG00000145734	mutation identified in 1 DFNB112 family	?Deafness, autosomal recessive 112, 618257 (3), Autosomal recessive	Bdp1 (MGI:1347077)
 chr5	71587339	71658705	5q12-q13	5q13.2	609014	MCCC2, MCCB	3-Methylcrotonyl-CoA carboxylase 2	MCCC2	64087	ENSG00000131844		3-Methylcrotonyl-CoA carboxylase 2 deficiency, 210210 (3), Autosomal recessive	Mccc2 (MGI:1925288)
-chr5	71719274	71721044	5q13.2	5q13.2	602606	CARTPT, CART	Cocaine- and amphetamine-regulated transcript prepropeptide	CARTPT	9607	ENSG00000164326	mutation identified in 1 family	{?Obesity, susceptibility to}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant	Cartpt (MGI:1351330)
+chr5	71719274	71721044	5q13.2	5q13.2	602606	CARTPT, CART	Cocaine- and amphetamine-regulated transcript prepropeptide	CARTPT	9607	ENSG00000164326	mutation identified in 1 family	{?Obesity, susceptibility to}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant	Cartpt (MGI:1351330)
 chr5	72107474	72209564	5q13	5q13.2	157129	MAP1B, PVNH9	Microtubule-associated protein-1B	MAP1B	4131	ENSG00000131711		Periventricular nodular heterotopia 9, 618918 (3), Autosomal dominant	Map1b (MGI:1306778)
 chr5	72219402	72320239	5q13.2	5q13.2	611989	MRPS27, KIAA0264	Mitochondrial ribosomal protein S27	MRPS27	23107	ENSG00000113048			Mrps27 (MGI:1919064)
 chr5	72320372	72368394	5q13.2	5q13.2	615484	PTCD2	Pentatricopeptide repeat domain-containing protein 2	PTCD2	79810	ENSG00000049883			Ptcd2 (MGI:1916177)
@@ -5036,7 +5036,7 @@ chr5	148312422	148315918	5q32	5q32	617288	SPINK7, ECRG2	Serine peptidase inhibit
 chr5	148323218	148341973	5q33.1	5q32	613511	SPINK9, LEKTI2	Serine protease inhibitor, Kazal-type, 9	SPINK9	643394	ENSG00000204909			
 chr5	148383956	148442835	5q33.1	5q32	608533	FBXO38, FBX38, MOKA, HMN2D	F-box only protein 38	FBXO38	81545	ENSG00000145868		Neuronopathy, distal hereditary motor, type IID, 615575 (3), Autosomal dominant	
 chr5	148451031	148654526	5q31-q33	5q32	602164	HTR4	5-hydroxytryptamine (serotonin) receptor-4	HTR4	3360	ENSG00000164270			Htr4 (MGI:109246)
-chr5	148826610	148828622	5q32-q34	5q32	109690	ADRB2	Adrenergic, beta-2-, receptor, surface	ADRB2	154	ENSG00000169252		{Asthma, nocturnal, susceptibility to}, 600807 (3), Autosomal dominant; {Obesity, susceptibility to}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant; Beta-2-adrenoreceptor agonist, reduced response to (3)	Adrb2 (MGI:87938)
+chr5	148826610	148828622	5q32-q34	5q32	109690	ADRB2	Adrenergic, beta-2-, receptor, surface	ADRB2	154	ENSG00000169252		{Asthma, nocturnal, susceptibility to}, 600807 (3), Autosomal dominant; {Obesity, susceptibility to}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant; Beta-2-adrenoreceptor agonist, reduced response to (3)	Adrb2 (MGI:87938)
 chr5	148982149	149063061	5q32	5q32	608206	SH3TC2, KIAA1985, MNMN	SH3 domain and tetratricopeptide repeat domain 2	SH3TC2	79628	ENSG00000169247		Charcot-Marie-Tooth disease, type 4C, 601596 (3), Autosomal recessive; Mononeuropathy of the median nerve, mild, 613353 (3), Autosomal dominant	Sh3tc2 (MGI:2444417)
 chr5	149141492	149260541	5q32	5q32	611305	ABLIM3, KIAA0843	Actin-binding LIM protein family, member 3	ABLIM3	22885	ENSG00000173210			Ablim3 (MGI:2442582)
 chr5	149271858	149343636	5q33.1	5q32	614410	AFAP1L1	Actin filament-associated protein 1-like 1	AFAP1L1	134265	ENSG00000157510			Afap1l1 (MGI:2147199)
@@ -5072,7 +5072,7 @@ chr5	151020590	151028987	5q32-q33.1	5q33.1	138321	GPX3	Glutathione peroxidase-3,
 chr5	151029942	151087684	5q32-q33.1	5q33.1	607714	TNIP1, NAF1, KIAA0113	TNFAIP3-interacting protein 1	TNIP1	10318	ENSG00000145901			Tnip1 (MGI:1926194)
 chr5	151100705	151157778	5q32-q34	5q33.1	114070	ANXA6, CBP68	Annexin A6 (calcium-binding protein p68)	ANXA6	309	ENSG00000197043			Anxa6 (MGI:88255)
 chr5	151253184	151270439	5q31.3-q33.1	5q33.1	613109	GM2A	GM2 ganglioside activator protein	GM2A	2760	ENSG00000196743	pseudogene on chr.3	GM2-gangliosidosis, AB variant, 272750 (3), Autosomal recessive	Gm2a (MGI:95762)
-chr5	151314971	151347582	5q33.1	5q33.1	608331	SLC36A2, PAT2	Solute carrier family 36 (proton/amino acid symporter), member 2	SLC36A2	153201	ENSG00000186335		Iminoglycinuria, digenic, 242600 (3), Digenic recessive, Autosomal recessive; Hyperglycinuria, 138500 (3), Autosomal dominant	Slc36a2 (MGI:1891430)
+chr5	151314971	151347582	5q33.1	5q33.1	608331	SLC36A2, PAT2	Solute carrier family 36 (proton/amino acid symporter), member 2	SLC36A2	153201	ENSG00000186335		Iminoglycinuria, digenic, 242600 (3), Autosomal recessive, Digenic recessive; Hyperglycinuria, 138500 (3), Autosomal dominant	Slc36a2 (MGI:1891430)
 chr5	151411343	151556317	5q31-q33	5q33.1	606561	SLC36A1, LYAAT1, PAT1	Solute carrier family 36 (proton/amino acid symporter), member 1 (lysosomal amino acid transporter 1)	SLC36A1	206358	ENSG00000123643			Slc36a1 (MGI:2445299)
 chr5	151504091	151594821	5q32-q33	5q33.1	604269	FAT2, MEGF1, SCA45	FAT atypical cadherin 2	FAT2	2196	ENSG00000086570		Spinocerebellar ataxia 45, 617769 (3), Autosomal dominant	Fat2 (MGI:2685369)
 chr5	151661095	151686914	5q31.3-q32	5q33.1	182120	SPARC, ON, OI17	Osteonectin (secreted protein, acidic, cysteine-rich)	SPARC	6678	ENSG00000113140		Osteogenesis imperfecta, type XVII, 616507 (3), Autosomal recessive	Sparc (MGI:98373)
@@ -5221,11 +5221,11 @@ chr5	180829953	180831617	5q35.3	5q35.3	618615	HEIH, LINC00848	Hepatocellular car
 chr5	180843579	180861275	5q35.3	5q35.3	610281	ZFP62	Zinc finger protein 62	ZFP62	643836	ENSG00000196670			Zfp62 (MGI:99662)
 chr5	180899096	180952165	5q35.3	5q35.3	615606	BTNL8, BTN9.2	Butyrophilin-like protein 8	BTNL8	79908	ENSG00000113303			
 chr5	180988845	181006726	5q35	5q35.3	606192	BTNL3	Butyrophilin-like protein 3	BTNL3	10917	ENSG00000168903			
-chr5	181097069	181097141	5q35.3	5q35.3	612995	TRV-CAC1-2, TRNAV2, TRV2	Transfer RNA valine (CAC) 1-2	TRV-CAC1-2	7240				
+chr5	181097069	181097141	5q35.3	5q35.3	612995	TRV-CAC1-2, TRNAV2, TRV2	tRNA valine (anticodon CAC) 1-2	TRV-CAC1-2	7240				
 chr5	181188853	181188924	5q35.3	5q35.3	189912	TRP-TGG3-5, TRNAP3, TRP3	Transfer RNA-Pro (TGG) 3-5	TRP-TGG3-1	7219				
-chr5	181191686	181191757	5q35.3	5q35.3	189913	TRT-TGT6-1, TRNAT1, TRT1	Transfer RNA-Thr (TGT) 6-1	TRT-TGT6-1	7236				
+chr5	181191686	181191757	5q35.3	5q35.3	189913	TRT-TGT6-1, TRNAT1, TRT1	tRNA threonine (anticodon TGT) 6-1	TRT-TGT6-1	7236				
 chr5	181193923	181218331	5q35.3	5q35.3	609315	TRIM7, GNIP	Tripartite motif-containing protein 7	TRIM7	81786	ENSG00000146054			Trim7 (MGI:2137353)
-chr5	181218269	181218341	5q35.3	5q35.3	189921	TRV-AAC1-4, TRNAV1, TRV1	Transfer RNA valine (AAC) 1-4	TRV-AAC1-4	7239				
+chr5	181218269	181218341	5q35.3	5q35.3	189921	TRV-AAC1-4, TRNAV1, TRV1	tRNA valine (anticodon AAC) 1-4	TRV-AAC1-4	7239				
 chr5	181221978	181222050	5q35.3	5q35.3	612996	TRK-CTT2-4, TRNAK2, TRK2	Transfer RNA lysine (CTT) 2-4	TRK-CTT2-3	790966				
 chr5	181223264	181235807	5q35.3	5q35.3	610530	TRIM41	Tripartite motif-containing 41	TRIM41	90933	ENSG00000146063			Trim41 (MGI:2384814)
 chr5	181236896	181243905	5q35.3	5q35.3	176981	GNB2L1, RACK1	Guanine nucleotide-binding protein, beta-2-like 1	RACK1	10399	ENSG00000204628			Rack1 (MGI:101849)
@@ -5384,7 +5384,7 @@ chr6	26270917	26271412	6p21.3	6p22.2	602815	HIST1H3G, H3FH	Histone 1, H3g	H3C8	8
 chr6	26272930	26273411	6p21.3	6p22.2	602807	HIST1H2BI, H2BFK	Histone 1, H2bi	H2BC10	8346	ENSG00000278588			H2bc4 (MGI:1915274)
 chr6	26285125	26285533	6p21.3	6p22.2	602828	HIST1H4H, H4FH	Histone 1, H4h	H4C8	8365	ENSG00000158406			H4c12 (MGI:2448439)
 chr6	26286525	26286596	6p23-q12	6p22.2	180621	TRNAM1, TRMI2, TRM2, RNTMT1	tRNA methionine-1	TRX-CAT1-2	7210				
-chr6	26299676	26299748	6p22.3-p21.1	6p22.2	601432	TRNAR3, TRR3	tRNA arginine-3	TRR-TCG4-1	7232				
+chr6	26299676	26299748	6p22.3-p21.1	6p22.2	601432	TRR-TCG4-1, TRNAR3, TRR3	tRNA arginine (anticodon TCG) 4-1	TRR-TCG4-1	7232				
 chr6	26365169	26378319	6p22.1	6p22.2	613594	BTN3A2, BTF4	Butyrophilin, subfamily 3, member A2	BTN3A2	11118	ENSG00000186470			
 chr6	26382892	26394873	6p22.1	6p22.2	613591	BTN2A2, BTF2	Butyrophilin, subfamily 2, member A2	BTN2A2	10385	ENSG00000124508			Btn2a2 (MGI:3606486)
 chr6	26402268	26415215	6p22.1	6p22.2	613593	BTN3A1, BTF5, CD277	Butyrophilin, subfamily 3, member A1	BTN3A1	11119	ENSG00000026950			
@@ -5405,8 +5405,9 @@ chr6	27147105	27147561	6p22-p21.3	6p22.1	615013	HIST1H2AH, H2AH	Histone gene clu
 chr6	27235508	27235580	6p22.1	6p22.1	615307	TRNAV12	Transfer RNA valine 12	TRV-AAC5-1	100189014				
 chr6	27247700	27256619	6p22-p21.3	6p22.1	607169	PRSS16, TSSP	Protease, serine, 16	PRSS16	10279	ENSG00000112812			Prss16 (MGI:1859181)
 chr6	27404005	27473104	6p21.3	6p22.1	602277	ZNF184	Zinc finger protein-184	ZNF184	7738	ENSG00000096654			Zfp184 (MGI:1922244)
-chr6	27495813	27495894	6p22.1	6p22.1	189910	TRS-AGA2-4, TRNAS2, TRS2, TRNS	Transfer RNA serine (AGA) 2-4	TRS-AGA2-3	23437				
-chr6	27505827	27505908	6p22.1	6p22.1	606172	TRS-TGA4-1, TRNAS3, TRS3	Transfer RNA serine (TGA) 4-1	TRS-TGA4-1	23540				
+chr6	27495813	27495894	6p22.1	6p22.1	189910	TRS-AGA2-3, TRNAS2, TRS2, TRNS	tRNA serine (anticodon AGA) 2-3	TRS-AGA2-3	23437				
+chr6	27505827	27505908	6p22.1	6p22.1	606172	TRS-TGA4-1, TRNAS3, TRS3	tRNA serine (anticodon TGA) 4-1	TRS-TGA4-1	23540				
+chr6	27545688	27545769	6p22.1	6p22.1	606171	TRS-TGA2-1, TRNAS1, TRS1	tRNA serine (anticodon TGA) 2-1	TRS-TGA2-1	94017				
 chr6	27681105	27681177	6p22.1	6p22.1	615308	TRNAV17	Transfer RNA valine 17	TRV-AAC4-1	100189161				
 chr6	27684694	27684767	6p22.1	6p22.1	615309	TRNAT15	Transfer RNA threonine 15	TRT-AGT2-2	100189340				
 chr6	27777884	27777955	6p23-q12	6p22.1	180620	TRNAM2, TRNAMI2, RNTMI2	tRNA methionine-2	TRX-CAT2-1	7212		2 of 12+ RNTMI genes are on chr. 6		
@@ -5471,7 +5472,7 @@ chr6	30500000	36600000	6p21.3		608710	GPA, WG	Granulomatosis with polyangiitis		
 chr6	30500000	36600000	6p21.3		612735	HLA-DRB3, HLA-DR52	Major histocompatibility complex, class II, DR beta-3	HLA-DRB3	3125				
 chr6	30500000	36600000	6p21.3		604519	IBD3	Inflammatory bowel disease 3		30829			{Inflammatory bowel disease 3}, 604519 (2), Autosomal dominant	
 chr6	30500000	36600000	6p21.3		222100	IDDM1	Insulin-dependent diabetes mellitus-1				linkage or association, with HLA	{Diabetes mellitus, insulin-dependent-1}, 222100 (2), Autosomal recessive	
-chr6	30500000	36600000	6p21.3		137100	IGAD1	Immunoglobulin A deficiency		10986			Immunoglobulin A deficiency, 137100 (2), Autosomal recessive, Isolated cases, Autosomal dominant	
+chr6	30500000	36600000	6p21.3		137100	IGAD1	Immunoglobulin A deficiency		10986			Immunoglobulin A deficiency, 137100 (2), Isolated cases, Autosomal recessive, Autosomal dominant	
 chr6	30500000	36600000	6p21.3		146820	IGAT	Immune response to synthetic polypeptide--IRGAT		7927		in B/D segment		
 chr6	30500000	36600000	6p21.3		147080	IGLP1	Immune response to synthetic polypeptides-1		7925				
 chr6	30500000	36600000	6p21.3		147090	IGLP2	Immune response to synthetic polypeptides-2		7926				
@@ -5583,8 +5584,8 @@ chr6	32393338	32408878	6p21.3	6p21.32	606000	BTNL2, SS2	Butyrophilin-like protei
 chr6	32439886	32445045	6p21.3	6p21.32	142860	HLA-DRA	Major histocompatibility complex, class II, DR alpha	HLA-DRA	3122	ENSG00000204287	1 alpha, 3 different beta chains		H2-Ea (MGI:95900)
 chr6	32517342	32530315	6p21.3	6p21.32	604776	HLA-DRB5	Major histocompatibility complex, class II, DR beta-5	HLA-DRB5	3127	ENSG00000198502			H2-Eb1 (MGI:95901)
 chr6	32578774	32589847	6p21.3	6p21.32	142857	HLA-DRB1, SS1	Major histocompatibility complex, class II, DR beta-1	HLA-DRB1	3123	ENSG00000196126		{Sarcoidosis, susceptibility to, 1}, 181000 (3), Autosomal dominant; {Multiple sclerosis, susceptibility to, 1}, 126200 (3), Multifactorial	
-chr6	32637405	32654845	6p21.3	6p21.32	146880	HLA-DQA1, CELIAC1	Major histocompatibility complex, class II, DQ alpha-1	HLA-DQA1	3117	ENSG00000196735		{Celiac disease, susceptibility to}, 212750 (3), Multifactorial, Autosomal recessive	H2-Aa (MGI:95895)
-chr6	32659466	32666656	6p21.3	6p21.32	604305	HLA-DQB1, CELIAC1	Major histocompatibility complex, class II, DQ beta-1	HLA-DQB1	3119	ENSG00000179344		{Multiple sclerosis, susceptibility to, 1}, 126200 (3), Multifactorial; {Celiac disease, susceptibility to}, 212750 (3), Multifactorial, Autosomal recessive; {Creutzfeldt-Jakob disease, variant, resistance to}, 123400 (3), Autosomal dominant	H2-Ab1 (MGI:103070)
+chr6	32637405	32654845	6p21.3	6p21.32	146880	HLA-DQA1, CELIAC1	Major histocompatibility complex, class II, DQ alpha-1	HLA-DQA1	3117	ENSG00000196735		{Celiac disease, susceptibility to}, 212750 (3), Autosomal recessive, Multifactorial	H2-Aa (MGI:95895)
+chr6	32659466	32666656	6p21.3	6p21.32	604305	HLA-DQB1, CELIAC1	Major histocompatibility complex, class II, DQ beta-1	HLA-DQB1	3119	ENSG00000179344		{Multiple sclerosis, susceptibility to, 1}, 126200 (3), Multifactorial; {Celiac disease, susceptibility to}, 212750 (3), Autosomal recessive, Multifactorial; {Creutzfeldt-Jakob disease, variant, resistance to}, 123400 (3), Autosomal dominant	H2-Ab1 (MGI:103070)
 chr6	32741390	32747197	6p21.32	6p21.32	613503	HLA-DQA2, HLA-DXA	Major histocompatibility complex, class II, DQ alpha-2	HLA-DQA2	3118	ENSG00000237541			
 chr6	32756093	32763552	6p21.32	6p21.32	615161	HLA-DQB2, HLA-DXB	Major histocompatibility complex, class II, DQ beta-2	HLA-DQB2	3120	ENSG00000232629			
 chr6	32812762	32817001	6p21.3	6p21.32	600629	HLA-DOB	Major histocompatibility complex, class II, DO beta	HLA-DOB	3112	ENSG00000241106			H2-Ob (MGI:95925)
@@ -5650,7 +5651,7 @@ chr6	35943515	36024640	6p21.31	6p21.31	608480	SLC26A8, TAT1, SPGF3	Solute carrie
 chr6	36027710	36122963	6p21.3-p21.2	6p21.31	600289	MAPK14, CSBP1	Mitogen-activated protein kinase 14 (cytokine suppressive anti-inflammatory drug binding protein 1)	MAPK14	1432	ENSG00000112062			Mapk14 (MGI:1346865)
 chr6	36196743	36232789	6p21.31	6p21.31	616856	BRPF3, KIAA1286	Bromodomain- and PHD finger-containing protein 3	BRPF3	27154	ENSG00000096070			Brpf3 (MGI:2146836)
 chr6	36242522	36313954	6p21.31	6p21.31	612121	PNPLA1, ARCI10	Patatin-like phospholipase domain-containing protein 1	PNPLA1	285848	ENSG00000180316		Ichthyosis, congenital, autosomal recessive 10, 615024 (3), Autosomal recessive	Pnpla1 (MGI:3617850)
-chr6	36354087	36387668	6p21	6p21.31	605255	ETV7, TEL2, TELB	ETS variant gene 7	ETV7	51513	ENSG00000010030			
+chr6	36354087	36387668	6p21	6p21.31	605255	ETV7, TEL2, TELB	ETS variant transcription factor 7	ETV7	51513	ENSG00000010030			
 chr6	36442771	36491142	6p21.31	6p21.31	615932	KCTD20	Potassium channel tetramerization domain-containing protein 20	KCTD20	222658	ENSG00000112078			Kctd20 (MGI:1914239)
 chr6	36493888	36547478	6p21	6p21.31	606964	STK38, NDR	Serine/threonine protein kinase 38	STK38	11329	ENSG00000112079			Stk38 (MGI:2442572)
 chr6	36594361	36605599	6p21	6p21.3-p21.2	603364	SRSF3, SFRS3, SRP20	Splicing factor, arginine/serine-rich, 3	SRSF3	6428	ENSG00000112081			Srsf3 (MGI:98285)
@@ -5848,7 +5849,7 @@ chr6	73461736	73509235	6q13	6q13	614667	MTO1, COXPD10	Mitochondrial tRNA transla
 chr6	73515749	73521031	6q14	6q13	130590	EEF1A1, EF1A	Eukaryotic translation elongation factor-1, alpha-1	EEF1A1	1915	ENSG00000156508			Eef1a1 (MGI:1096881)
 chr6	73593378	73653991	6q14-q15	6q13	604322	SLC17A5, SIASD, SLD	Solute carrier family 17 (sodium phosphate), member 5	SLC17A5	26503	ENSG00000119899		Sialic acid storage disorder, infantile, 269920 (3), Autosomal recessive; Salla disease, 604369 (3), Autosomal recessive	Slc17a5 (MGI:1924105)
 chr6	73696202	73828312	6q13	6q13	608859	CD109	CD109 antigen	CD109	135228	ENSG00000156535			Cd109 (MGI:2445221)
-chr6	75084325	75206261	6q13-q14.1	6q13-q14	120320	COL12A1, UCMD2, BTHLM2, EDSMYP	Collagen, type XII, alpha-1	COL12A1	1303	ENSG00000111799	mutation identified in 1 UCMD2 family	Bethlem myopathy 2, 616471 (3), Autosomal dominant; ?Ullrich congenital muscular dystrophy 2, 616470 (3)	Col12a1 (MGI:88448)
+chr6	75084325	75206261	6q13-q14.1	6q13-q14	120320	COL12A1, UCMD2, BTHLM2, EDSMYP	Collagen, type XII, alpha-1	COL12A1	1303	ENSG00000111799	mutation identified in 1 UCMD2 family	Bethlem myopathy 2, 616471 (3), Autosomal dominant; ?Ullrich congenital muscular dystrophy 2, 616470 (3), Autosomal recessive	Col12a1 (MGI:88448)
 chr6	75200000	105000000	6q14-q16		608988	ATFB2	Atrial fibrillation, familial, 2		619478		max lod between  D6S286 and D6S1021	Atrial fibrillation, familial, 2, 608988 (2)	
 chr6	75200000	83200000	6q14.1		610685	SHFLD2	Split-hand/foot malformation with long bone deficiency 2		791123		between rs623155 and rs1547251	Split-hand/foot malformation with long bone deficiency 2, 610685 (2)	
 chr6	75237674	75250297	6q12	6q14.1	123996	COX7A2	Cytochrome c oxidase, subunit VIIa, polypeptide-2, liver	COX7A2	1347	ENSG00000112695	previously thought to be on chr.4		Cox7a2 (MGI:1316715)
@@ -6048,7 +6049,7 @@ chr6	130827954	131063250	6q22-q23	6q23.1-q23.2	603237	EPB41L2	Erythrocyte membra
 chr6	131573225	131584328	6q23	6q23.2	608313	ARG1	Arginase, liver	ARG1	383	ENSG00000118520		Argininemia, 207800 (3), Autosomal recessive	Arg1 (MGI:88070)
 chr6	131573965	131628312	6q23.2	6q23.2	605042	MED23, MRT18	Mediator complex subunit 23	MED23	9439	ENSG00000112282		Mental retardation, autosomal recessive 18, 614249 (3), Autosomal recessive	Med23 (MGI:1917458)
 chr6	131637301	131747412	6q22	6q23.2	602182	ENPP3, PDNP3	Ectonucleotide pyrophosphatase/phosphodiesterase 3	ENPP3	5169	ENSG00000154269			Enpp3 (MGI:2143702)
-chr6	131808019	131895154	6q22-q23	6q23.2	173335	ENPP1, PDNP1, NPPS, M6S1, PCA1, ARHR2, COLED	Ectonucleotide pyrophosphatase/phosphodiesterase 1 (Ly-41 antigen, mouse, homolog of)	ENPP1	5167	ENSG00000197594		Hypophosphatemic rickets, autosomal recessive, 2, 613312 (3), Autosomal recessive; Cole disease, 615522 (3), Autosomal dominant; {Obesity, susceptibility to}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant; Arterial calcification, generalized, of infancy, 1, 208000 (3), Autosomal recessive; {Diabetes mellitus, non-insulin-dependent, susceptibility to}, 125853 (3), Autosomal dominant	Enpp1 (MGI:97370)
+chr6	131808019	131895154	6q22-q23	6q23.2	173335	ENPP1, PDNP1, NPPS, M6S1, PCA1, ARHR2, COLED	Ectonucleotide pyrophosphatase/phosphodiesterase 1 (Ly-41 antigen, mouse, homolog of)	ENPP1	5167	ENSG00000197594		Hypophosphatemic rickets, autosomal recessive, 2, 613312 (3), Autosomal recessive; Cole disease, 615522 (3), Autosomal dominant; {Obesity, susceptibility to}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant; Arterial calcification, generalized, of infancy, 1, 208000 (3), Autosomal recessive; {Diabetes mellitus, non-insulin-dependent, susceptibility to}, 125853 (3), Autosomal dominant	Enpp1 (MGI:97370)
 chr6	131948175	131951371	6q23.1	6q23.2	121009	CTGF, NOV2	Connective tissue growth factor	CCN2	1490	ENSG00000118523	proximal to MYB		Ccn2 (MGI:95537)
 chr6	132296054	132401519	6q23.1-q23.3	6q23.2	609000	MOXD1, MOX	Monooxygenase, DBH-like, 1	MOXD1	26002	ENSG00000079931			Moxd1 (MGI:1921582)
 chr6	132445866	132513471	6q23.2	6q23.2	603217	STX7	Syntaxin 7	STX7	8417	ENSG00000079950			Stx7 (MGI:1858210)
@@ -6288,7 +6289,7 @@ chr7	12570719	12660181	7p21.3	7p21.3	613416	SCIN, KIAA1905	Scinderin	SCIN	85477	
 chr7	12686902	12690957	7p21.3	7p21.3	604786	ARL4A, ARL4	ADP ribosylation factor-like GTPase 4A	ARL4A	10124	ENSG00000122644			Arl4a (MGI:99437)
 chr7	13700000	34900000	7p21.2-p14.3		613576	EDSS2	Ectodermal dysplasia-syndactyly syndrome 2		100505394		between D7S488 and D7S817	Ectodermal dysplasia-syndactyly syndrome 2, 613576 (2), Autosomal recessive	
 chr7	13700000	16500000	7p21.2		613462	FGQTL4	Fasting plasma glucose level QTL 4		100499169		associated with rs2191349	[Fasting plasma glucose level QTL 4], 613462 (2)	
-chr7	13891228	13991424	7p22	7p21.2	600541	ETV1	ETS variant gene-1	ETV1	2115	ENSG00000006468	fused with EWS in some Ewing sarcoma		Etv1 (MGI:99254)
+chr7	13891228	13991424	7p22	7p21.2	600541	ETV1	ETS variant transcription factor 1	ETV1	2115	ENSG00000006468	fused with EWS in some Ewing sarcoma		Etv1 (MGI:99254)
 chr7	14145048	14974857	7p21.2	7p21.2	604070	DGKB, DGK, KIAA0718	Diacylglycerol kinase, beta, 90kD	DGKB	1607	ENSG00000136267			Dgkb (MGI:2442474)
 chr7	15117222	15562014	7p21.2	7p21.2	613738	AGMO, TMEM195	Alkylglycerol monooxygenase	AGMO	392636	ENSG00000187546			Agmo (MGI:2442495)
 chr7	15611211	15686682	7p22.1-p21.3	7p21.2	600535	MEOX2	Mesenchyme homeo box 2	MEOX2	4223	ENSG00000106511			Meox2 (MGI:103219)
@@ -6636,7 +6637,7 @@ chr7	98211438	98215456	7q21	7q21.3	608606	BHLHA15, MIST1	Basic helix-loop-helix 
 chr7	98214623	98252234	7q21.3	7q21.3	614781	TECPR1, KIAA1358	Tectonin beta-propeller repeat-containing 1	TECPR1	25851	ENSG00000205356			Tecpr1 (MGI:1917631)
 chr7	98281672	98322397	7q21.3	7q21.3	615628	BRI3	Brain protein I3	BRI3	25798	ENSG00000164713			Bri3 (MGI:1933174)
 chr7	98291649	98401089	7q21.3-q22.1	7q21.3-q22.1	611877	BAIAP2L1, IRTKS	BAI1-associated protein 2-like 1	BAIAP2L1	55971	ENSG00000006453			Baiap2l1 (MGI:1914148)
-chr7	98400000	107800000	7q22		209850	AUTS1	Autism, susceptibility to, 1		100188832			{Autism susceptibility 1}, 209850 (2), Multifactorial, Isolated cases	
+chr7	98400000	107800000	7q22		209850	AUTS1	Autism, susceptibility to, 1		100188832			{Autism susceptibility 1}, 209850 (2), Isolated cases, Multifactorial	
 chr7	98400000	132900000	7q22-q32		148750	G7P1	Kinase-like protein						
 chr7	98400000	104200000	7q22.1		612130	GAEC1	Gene amplified in esophageal cancer 1		100126794				
 chr7	98400000	107800000	7q22		191390	IBD11	Inflammatory bowel disease 11		100529151		associated with MUC3A	{Inflammatory bowel disease 11}, 191390 (2), Multifactorial	
@@ -7212,7 +7213,7 @@ chr8	37762545	37779767	8p11.2	8p11.23	604436	PLPBP, PROSC, EPVB6D	Pyridoxal phos
 chr8	37796882	37844895	8p12	8p11.23	606823	ADGRA2, GPR124, TEM5, KIAA1531	Adhesion G protein-coupled receptor A2	ADGRA2	25960	ENSG00000020181			Adgra2 (MGI:1925810)
 chr8	37843267	37849860	8p11.23	8p11.23	607013	BRF2, BRFU, TFIIIB50	BRF2 subunit of RNA polymerase III transcription initiation factor	BRF2	55290	ENSG00000104221			Brf2 (MGI:1913903)
 chr8	37858617	37899496	8p11.22	8p11.23	608737	RAB11FIP1, RCP	RAB11 family-interacting protein 1	RAB11FIP1	80223	ENSG00000156675			Rab11fip1 (MGI:1923017)
-chr8	37962989	37966598	8p12-p11.2	8p11.23	109691	ADRB3	Adrenergic, beta-3-, receptor	ADRB3	155	ENSG00000188778		{Obesity, susceptibility to}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant	Adrb3 (MGI:87939)
+chr8	37962989	37966598	8p12-p11.2	8p11.23	109691	ADRB3	Adrenergic, beta-3-, receptor	ADRB3	155	ENSG00000188778		{Obesity, susceptibility to}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant	Adrb3 (MGI:87939)
 chr8	38030533	38060364	8p12	8p11.23	602223	EIF4EBP1, 4EBP1	Eukaryotic translation initiation factor-4E binding protein-1	EIF4EBP1	1978	ENSG00000187840			Eif4ebp1 (MGI:103267)
 chr8	38104964	38140079	8p11.2	8p11.23	604782	ASH2L, ASH2L2, ASH2L1	ASH2, Drosophila, homolog of	ASH2L	9070	ENSG00000129691			Ash2l (MGI:1344416)
 chr8	38142699	38150951	8p11.2	8p11.23	600617	STAR	Steroidogenic acute regulatory protein	STAR	6770	ENSG00000147465		Lipoid adrenal hyperplasia, 201710 (3), Autosomal recessive	Star (MGI:102760)
@@ -7559,7 +7560,7 @@ chr8	138900000	145138636	8q24.3		612858	OFC12	Orofacial cleft 12		100302515		ass
 chr8	139600837	139703134	8q24.1-q24.3	8q24.3	605874	KCNK9, TASK32, BIBARS	Potassium channel, subfamily K, member 9	KCNK9	51305	ENSG00000169427		Birk-Barel syndrome, 612292 (3)	Kcnk9 (MGI:3521816)
 chr8	139727724	140458578	8q24.3	8q24.3	611966	TRAPPC9, NIBP, KIAA1882, MRT13	Trafficking protein particle complex 9	TRAPPC9	83696	ENSG00000167632		Mental retardation, autosomal recessive 13, 613192 (3), Autosomal recessive	Trappc9 (MGI:1923760)
 chr8	140511321	140517153	8q11-q12	8q24.3	607268	CHARC1, CHARC15, YCL1	Chromatin accessibility complex, subunit 1	CHRAC1	54108	ENSG00000104472			Chrac1 (MGI:2135796)
-chr8	140520155	140642405	8q24	8q24.3	606229	AGO2, EIF2C2, LESKRES	Argonaute 2, RISC catalytic component	AGO2	27161	ENSG00000123908		Lessel-Kreienkamp syndrome, 619149 (3)	Ago2 (MGI:2446632)
+chr8	140520155	140642405	8q24	8q24.3	606229	AGO2, EIF2C2, LESKRES	Argonaute 2, RISC catalytic component	AGO2	27161	ENSG00000123908		Lessel-Kreienkamp syndrome, 619149 (3), Autosomal dominant	Ago2 (MGI:2446632)
 chr8	140657899	141002078	8q24-qter	8q24.3	600758	PTK2, FADK	PTK2 protein tyrosine kinase	PTK2	5747	ENSG00000169398			Ptk2 (MGI:95481)
 chr8	141128561	141195803	8q24.3	8q24.3	617503	DENND3, KIAA0870	DENN domain-containing protein 3	DENND3	22898	ENSG00000105339			Dennd3 (MGI:2146009)
 chr8	141356469	141367285	8q24.2-q24.3	8q24.3	601908	GPR20	G protein-coupled receptor-20	GPR20	2843	ENSG00000204882			Gpr20 (MGI:2441803)
@@ -8280,6 +8281,7 @@ chr9	137877781	138124618	9q34	9q34.3	601012	CACNA1B, CACNL1A5, NEDNEH	Calcium ch
 chr9	0	138394717	Chr.9		187290	H142T	Temperature sensitivity complementation, H142		8023				
 chr10	0	39800000	10p		603188	BMIQ8	Body mass index quantitative trait locus 8		56694			{Obesity, susceptibility to, BMIQ8}, 603188 (2)	
 chr10	0	39800000	10p		607499	BULN	Bulimia nervosa, susceptibility to		337893		between D10S1430 and D10S1423	{Bulimia nervosa, susceptibility to}, 607499 (2), Multifactorial	
+chr10	0	3000000	10p15.3		619169	GTPBP4, CRFG	CTP-binding protein 4						
 chr10	0	6600000	10p15		611384	PFFE1	Plasmodium falciparum fever episodes QTL1		101910199			{Plasmodium falciparum fever episodes QTL1}, 611384 (2)	
 chr10	0	51100000	10pter-q11		601188	ST12, PAC1	Suppression of tumorigenicity 12, prostate					Prostate adenocarcinoma, 601188 (2)	
 chr10	46436	49503	10p15.3	10p15.3	616768	TUBB8, OOMD2	Tubulin, beta 8	TUBB8	347688	ENSG00000261456		Oocyte maturation defect 2, 616780 (3), Autosomal recessive, Autosomal dominant	
@@ -8475,7 +8477,7 @@ chr10	51100000	59400000	10q21.1		612717	MYP15	Myopia 15		100294716		max lod at D
 chr10	51695485	51699594	10q22-q23	10q21.1	611968	CSTF2T, KIAA0689	Cleavage stimulation factor, 3-prime pre-RNA, subunit 2, 64kD, tau variant	CSTF2T	23283	ENSG00000177613			Cstf2t (MGI:1932622)
 chr10	52314280	52317656	10q11.2	10q21.1	605189	DKK1	Dickkopf WNT signaling pathway inhibitor 1	DKK1	22943	ENSG00000107984			Dkk1 (MGI:1329040)
 chr10	52765379	52772783	10q11.2-q21	10q21.1	154545	MBL2, MBL, MBP1, MBL2D, MBPD	Mannose-binding lectin 2, soluble (opsonic defect)	MBL2	4153	ENSG00000165471	near MEN2A	{Chronic infections, due to MBL deficiency}, 614372 (3), Autosomal dominant	Mbl2 (MGI:96924)
-chr10	53802770	55629181	10q21-q22	10q21.1	605514	PCDH15, DFNB23, USH1F	Protocadherin 15	PCDH15	65217	ENSG00000150275		Usher syndrome, type 1D/F digenic, 601067 (3), Digenic recessive, Autosomal recessive; Usher syndrome, type 1F, 602083 (3), Autosomal recessive; Deafness, autosomal recessive 23, 609533 (3), Autosomal recessive	Pcdh15 (MGI:1891428)
+chr10	53802770	55629181	10q21-q22	10q21.1	605514	PCDH15, DFNB23, USH1F	Protocadherin 15	PCDH15	65217	ENSG00000150275		Usher syndrome, type 1D/F digenic, 601067 (3), Autosomal recessive, Digenic recessive; Usher syndrome, type 1F, 602083 (3), Autosomal recessive; Deafness, autosomal recessive 23, 609533 (3), Autosomal recessive	Pcdh15 (MGI:1891428)
 chr10	56357226	56361272	10q21-q22	10q21.1	609177	ZWINT, SIP30	ZW10 interacting kinetochore protein	ZWINT	11130	ENSG00000122952			Zwint (MGI:1289227)
 chr10	58191516	58269960	10q21	10q21.1	609851	IPMK	Inositol polyphosphate multikinase	IPMK	253430	ENSG00000151151			Ipmk (MGI:1916968)
 chr10	58269161	58289585	10q21.1	10q21.1	611932	CISD1, MITONEET	CDGSH iron sulfur domain protein 1	CISD1	55847	ENSG00000122873			Cisd1 (MGI:1261855)
@@ -8545,7 +8547,7 @@ chr10	70815919	70881183	10q22.1	10q22.1	603729	SGPL1, SPL, NPHS14	Sphingosine-1-
 chr10	70882279	70888564	10q22	10q22.1	126090	PCBD1, DCOH	Pterin-4a-carbinolamine dehydratase 1	PCBD1	5092	ENSG00000166228		Hyperphenylalaninemia, BH4-deficient, D, 264070 (3), Autosomal recessive	Pcbd1 (MGI:94873)
 chr10	71212534	71302878	10q21-q22	10q22.1	607870	UNC5B, UNC5H2	unc-5 netrin receptor B	UNC5B	219699	ENSG00000107731			Unc5b (MGI:894703)
 chr10	71319258	71363386	10q22.1	10q22.1	612373	SLC29A3, ENT3, PHID, HCLAP	Solute carrier family 29 (nucleoside transporter), member 3	SLC29A3	55315	ENSG00000198246		Histiocytosis-lymphadenopathy plus syndrome, 602782 (3), Autosomal recessive	Slc29a3 (MGI:1918529)
-chr10	71396919	71815946	10q21-q22	10q22.1	605516	CDH23, USH1D, DFNB12, PITA5	Cadherin-23 (otocadherin)	CDH23	64072	ENSG00000107736	between D10S529 and D10S573	{Pituitary adenoma 5, multiple types}, 617540 (3), Autosomal dominant; Deafness, autosomal recessive 12, 601386 (3), Autosomal recessive; Usher syndrome, type 1D/F digenic, 601067 (3), Digenic recessive, Autosomal recessive; Usher syndrome, type 1D, 601067 (3), Digenic recessive, Autosomal recessive	Cdh23 (MGI:1890219)
+chr10	71396919	71815946	10q21-q22	10q22.1	605516	CDH23, USH1D, DFNB12, PITA5	Cadherin-23 (otocadherin)	CDH23	64072	ENSG00000107736	between D10S529 and D10S573	{Pituitary adenoma 5, multiple types}, 617540 (3), Autosomal dominant; Deafness, autosomal recessive 12, 601386 (3), Autosomal recessive; Usher syndrome, type 1D/F digenic, 601067 (3), Autosomal recessive, Digenic recessive; Usher syndrome, type 1D, 601067 (3), Autosomal recessive, Digenic recessive	Cdh23 (MGI:1890219)
 chr10	71747555	71773519	10q22.1	10q22.1	615608	VSIR, C10orf54, B7H5	V-set immunoregulatory receptor	VSIR	64115	ENSG00000107738			Vsir (MGI:1921298)
 chr10	71816297	71851250	10q22.1	10q22.1	176801	PSAP, SAP1	Prosaposin (sphingolipid activator protein-1)	PSAP	5660	ENSG00000197746		Gaucher disease, atypical, 610539 (3); Krabbe disease, atypical, 611722 (3), Autosomal recessive; Combined SAP deficiency, 611721 (3), Autosomal recessive; Metachromatic leukodystrophy due to SAP-b deficiency, 249900 (3), Autosomal recessive	Psap (MGI:97783)
 chr10	71964394	72013561	10q22.1	10q22.1	603799	CHST3, C6ST, C6ST1, HSD	Carbohydrate sulfotransferase 3	CHST3	9469	ENSG00000122863		Spondyloepiphyseal dysplasia with congenital joint dislocations, 143095 (3), Autosomal recessive	Chst3 (MGI:1858224)
@@ -8768,7 +8770,7 @@ chr10	102419221	102423137	10q24.32	10q24.32	610287	FBXL15, JET	F-box and leucine
 chr10	102423248	102432573	10q24.32	10q24.32	614142	CUEDC2	Cue domain-containing protein 2	CUEDC2	79004	ENSG00000107874			Cuedc2 (MGI:1914366)
 chr10	102436511	102436583	10q24.32	10q24.32	610567	MIR146B	Micro RNA 146B	MIR146B	574447	ENSG00000202569			
 chr10	102479228	102502711	10q24.32	10q24.32	605143	ACTR1A, ARP1	Actin-related protein 1A	ACTR1A	10121	ENSG00000138107			Actr1a (MGI:1858964)
-chr10	102502800	102633534	10q24-q25	10q24.32	607035	SUFU, SUFUXL, SUFUH, JBTS32	Suppressor of fused	SUFU	51684	ENSG00000107882		Basal cell nevus syndrome, 109400 (3), Autosomal dominant; Medulloblastoma, desmoplastic, 155255 (3), Somatic mutation, Autosomal recessive, Autosomal dominant; {Meningioma, familial, susceptibility to}, 607174 (3), Autosomal dominant; Joubert syndrome 32, 617757 (3), Autosomal recessive	Sufu (MGI:1345643)
+chr10	102502800	102633534	10q24-q25	10q24.32	607035	SUFU, SUFUXL, SUFUH, JBTS32	Suppressor of fused	SUFU	51684	ENSG00000107882		Basal cell nevus syndrome, 109400 (3), Autosomal dominant; Medulloblastoma, desmoplastic, 155255 (3), Autosomal recessive, Somatic mutation, Autosomal dominant; {Meningioma, familial, susceptibility to}, 607174 (3), Autosomal dominant; Joubert syndrome 32, 617757 (3), Autosomal recessive	Sufu (MGI:1345643)
 chr10	102644478	102658318	10q24.3	10q24.32	606125	TRIM8, RNF27, GERP	Tripartite motif-containing 8	TRIM8	81603	ENSG00000171206			Trim8 (MGI:1933302)
 chr10	102673730	102714396	10q23.3	10q24.32	604695	ARL3, ARFL3, JBTS35, RP83	ADP ribosylation factor-like GTPase 3	ARL3	403	ENSG00000138175		Joubert syndrome 35, 618161 (3), Autosomal recessive; Retinitis pigmentosa 83, 618173 (3), Autosomal dominant	Arl3 (MGI:1929699)
 chr10	102714630	102743491	10q24.32	10q24.32	615570	SFXN2	Sideroflexin 2	SFXN2	118980	ENSG00000156398			Sfxn2 (MGI:2137678)
@@ -8840,7 +8842,7 @@ chr10	117241113	117279429	10q25	10q25.3	193001	SLC18A2, VAT2, SVMT, PKDYS2	Solut
 chr10	117277273	117375491	10q25.3-q26.11	10q25.3-q26.1	614235	PDZD8	PDZ domain-containing protein 8	PDZD8	118987	ENSG00000165650			Pdzd8 (MGI:2677270)
 chr10	117300000	133797422	10q26		615163	CORD17	Cone-rod dystrophy 17		101409267		between D10S1757 and D10S1782	Cone-rod dystrophy 17, 615163 (2), Autosomal dominant	
 chr10	117300000	133797422	10q26		609625	DEL10q26, C10q26DEL	Chromosome 10q26 deletion syndrome					Chromosome 10q26 deletion syndrome, 609625 (4), Autosomal dominant	
-chr10	117300000	133797422	10q26		131200	ENDO1	Endometriosis, susceptibility to, 1		100188863		max lod at D10S587	{Endometriosis, susceptibility to, 1}, 131200 (2), Multifactorial, Autosomal recessive	
+chr10	117300000	133797422	10q26		131200	ENDO1	Endometriosis, susceptibility to, 1		100188863		max lod at D10S587	{Endometriosis, susceptibility to, 1}, 131200 (2), Autosomal recessive, Multifactorial	
 chr10	117300000	133797422	10q26		609116	RRIS	Respiratory rhythmicity in sleep		497662			[Respiratory rhythmicity in sleep], 609116 (2)	
 chr10	117484292	117545067	10q26	10q26.11	607637	EMX2OS	EMX2 opposite strand/ antisense RNA	EMX2OS	196047	ENSG00000229847	non-coding RNA		
 chr10	117542745	117549545	10q26.1	10q26.11	600035	EMX2	Empty spiracles homeobox 2	EMX2	2018	ENSG00000170370	close to VAX1	Schizencephaly, 269160 (3)	Emx2 (MGI:95388)
@@ -9322,6 +9324,7 @@ chr11	59829267	59845500	11q13	11q12.1	609342	CBLIF, GIF, IF	Cobalamin-binding in
 chr11	59852807	59866486	11q11-q12	11q12.1	189905	TCN1, TC1	Transcobalamin I	TCN1	6947	ENSG00000134827			
 chr11	60056664	60071115	11q12-q13	11q12.1	606498	MS4A3, HTM4, CD20L	Membrane-spanning 4-domains, subfamily A, member 3	MS4A3	932	ENSG00000149516			Ms4a3 (MGI:2158468)
 chr11	60088260	60098466	11q13	11q12.1	147138	MS4A2, FCER1B	Membrane-spanning 4-domains, subfamily A, member 2 (Fc fragment of IgE, high affinity I, receptor for, beta polypeptide)	MS4A2	2206	ENSG00000149534		{Atopy, susceptibility to}, 147050 (3), Autosomal dominant	Ms4a2 (MGI:95495)
+chr11	60100000	61900000	11q12.2		619168	TMEM109, MG23	Transmembrane protein 109						
 chr11	60171606	60184665	11q12-q13	11q12.2	606548	MS4A6A, MS4A6	Membrane-spanning 4-domains, subfamily A, member 6A	MS4A6A	64231	ENSG00000110077			Ms4a6d (MGI:1916024)
 chr11	60201252	60243136	11q12-q13.1	11q12.2	608401	MS4A4E	Membrane-spanning 4-domains, subfamily A, member 4E	MS4A4E	643680				
 chr11	60280665	60308969	11q12-q13	11q12.2	606547	MS4A4A, MS4A4	Membrane-spanning 4-domains, subfamily A, member 4A	MS4A4A	51338	ENSG00000110079			Ms4a4a (MGI:3643932)
@@ -9518,7 +9521,7 @@ chr11	66408921	66426706	11q13	11q13.2	608554	NPAS4, NXF	Neuronal PAS domain prot
 chr11	66435074	66438859	11q13.3	11q13.2	611826	MRPL11	Mitochondrial ribosomal protein L11	MRPL11	65003	ENSG00000174547			Mrpl11 (MGI:2137215)
 chr11	66466326	66477336	11q13.2	11q13.2	609827	PELI3	Pellino E3 ubiquitin protein ligase 3	PELI3	246330	ENSG00000174516			Peli3 (MGI:1924963)
 chr11	66480433	66509656	11q12-q13.1	11q13.2	606818	DPP3	Dipeptidyl peptidase III	DPP3	10072	ENSG00000254986			Dpp3 (MGI:1922471)
-chr11	66510634	66533597	11q13	11q13.2	209901	BBS1	BBS1 gene	BBS1	582	ENSG00000174483		Bardet-Biedl syndrome 1, 209900 (3), Digenic recessive, Autosomal recessive	Bbs1 (MGI:1277215)
+chr11	66510634	66533597	11q13	11q13.2	209901	BBS1	BBS1 gene	BBS1	582	ENSG00000174483		Bardet-Biedl syndrome 1, 209900 (3), Autosomal recessive, Digenic recessive	Bbs1 (MGI:1277215)
 chr11	66546394	66563333	11q13-q14	11q13.2	102574	ACTN3, ACTN3D	Actinin, alpha-3	ACTN3	89	ENSG00000248746		[Alpha-actinin-3 deficiency], 617749 (3); [Sprinting performance], 617749 (3)	
 chr11	66563462	66568605	11q13.1	11q13.2	603539	CTSF, CLN13	Cathepsin F	CTSF	8722	ENSG00000174080		Ceroid lipofuscinosis, neuronal, 13, Kufs type, 615362 (3), Autosomal recessive	Ctsf (MGI:1861434)
 chr11	66593161	66606018	11q13	11q13.2	603864	CCS	Copper chaperone for superoxide dismutase	CCS	9973	ENSG00000173992			Ccs (MGI:1333783)
@@ -9596,7 +9599,7 @@ chr11	72216793	72221949	11q13.3-q13.5	11q13.4	136425	FOLR2	Folate receptor, beta
 chr11	72223860	72239146	11q23	11q13.4	600829	INPPL1, OPSMD	Inositol polyphosphate phosphatase-like 1	INPPL1	3636	ENSG00000165458		Opsismodysplasia, 258480 (3), Autosomal recessive	Inppl1 (MGI:1333787)
 chr11	72239076	72244175	11q13.3-q13.4	11q13.4	602753	PHOX2A, ARIX, CFEOM2	Paired-like homeobox 2a	PHOX2A	401	ENSG00000165462		Fibrosis of extraocular muscles, congenital, 2, 602078 (3), Autosomal recessive	Phox2a (MGI:106633)
 chr11	72285494	72434556	11q13.4	11q13.4	616254	CLPB, SKD3, MGCA7, MEGCANN	Caseinolytic peptidase B	CLPB	81570	ENSG00000162129		3-methylglutaconic aciduria, type VII, with cataracts, neurologic involvement and neutropenia, 616271 (3), Autosomal recessive	Clpb (MGI:1100517)
-chr11	72576140	72674421	11q13.4	11q13.4	602658	PDE2A, IDDPADS	Phosphodiesterase 2A	PDE2A	5138	ENSG00000186642		Intellectual developmental disorder with paroxysmal dyskinesia or seizures, 619150 (3)	Pde2a (MGI:2446107)
+chr11	72576140	72674421	11q13.4	11q13.4	602658	PDE2A, IDDPADS	Phosphodiesterase 2A	PDE2A	5138	ENSG00000186642		Intellectual developmental disorder with paroxysmal dyskinesia or seizures, 619150 (3), Autosomal recessive	Pde2a (MGI:2446107)
 chr11	72615062	72615129	11q13.4	11q13.4	615017	MIR139, MIR139-3p	Micro RNA 139	MIR139	406931	ENSG00000272036			
 chr11	72685068	72752407	11q13.4	11q13.4	606646	ARAP1, CENTD2, KIAA0782	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 1	ARAP1	116985	ENSG00000186635			Arap1 (MGI:1916960)
 chr11	72754728	72794046	11q13	11q13.4	617382	STARD10	START domain-containing protein 10	STARD10	10809	ENSG00000214530			Stard10 (MGI:1860093)
@@ -9613,7 +9616,7 @@ chr11	73787873	73865132	11q13.2	11q13.4	611853	MRPL48	Mitochondrial ribosomal pr
 chr11	73870257	73876900	11q13.4	11q13.4	608016	COA4, CHCHD8, E2IG2	Cytochrome c oxidase assembly factor 4 homolog	COA4	51287	ENSG00000181924			Coa4 (MGI:1915435)
 chr11	73950620	73970286	11q13.3	11q13.4	610263	DNAJB13, TSARG6, CILD34	DNAJ/HSP40 homolog, subfamily B, member 13	DNAJB13	374407	ENSG00000187726		Ciliary dyskinesia, primary, 34, 617091 (3), Autosomal recessive	Dnajb13 (MGI:1916637)
 chr11	73974670	73983201	11q13	11q13.4	601693	UCP2, BMIQ4	Uncoupling protein-2	UCP2	7351	ENSG00000175567		{Obesity, susceptibility to, BMIQ4}, 607447 (3)	Ucp2 (MGI:109354)
-chr11	74000276	74009084	11q13	11q13.4	602044	UCP3	Uncoupling protein-3	UCP3	7352	ENSG00000175564		{Obesity, severe, and type II diabetes}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant	Ucp3 (MGI:1099787)
+chr11	74000276	74009084	11q13	11q13.4	602044	UCP3	Uncoupling protein-3	UCP3	7352	ENSG00000175564		{Obesity, severe, and type II diabetes}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant	Ucp3 (MGI:1099787)
 chr11	74012577	74171209	11q13.4	11q13.4	615944	C2CD3, OFD14	C2 calcium-dependent domain-containing protein 3	C2CD3	26005	ENSG00000168014		Orofaciodigital syndrome XIV, 615948 (3), Autosomal recessive	C2cd3 (MGI:2142166)
 chr11	74171089	74254702	11q13.4	11q13.4	611117	PPME1	Protein phosphatase methylesterase 1	PPME1	51400	ENSG00000214517			Ppme1 (MGI:1919840)
 chr11	74259922	74311653	11q12	11q13.4	608987	P4HA3	Procollagen-proline, 2-oxoglutarate-4-dioxygenase, alpha subunit, isoform 3	P4HA3	283208	ENSG00000149380			P4ha3 (MGI:2444049)
@@ -9737,7 +9740,7 @@ chr11	102835800	102843608	11q23	11q22.2	185250	MMP3, STMY1, CHDS6	Matrix metallo
 chr11	102862735	102874981	11q22.2-q22.3	11q22.2	601046	MMP12	Matrix metalloproteinase 12 (macrophage elastase)	MMP12	4321	ENSG00000262406			Mmp12 (MGI:97005)
 chr11	102942994	102955731	11q22.3	11q22.2	600108	MMP13, CLG3, MANDP1, MDST	Matrix metalloproteinase 13 (collagenase 3)	MMP13	4322	ENSG00000137745	mutation identified in 1 SEMDM family	Metaphyseal dysplasia, Spahr type, 250400 (3), Autosomal recessive; ?Spondyloepimetaphyseal dysplasia, Missouri type, 602111 (3), Autosomal dominant; Metaphyseal anadysplasia 1, 602111 (3), Autosomal dominant	Mmp13 (MGI:1340026)
 chr11	103050685	103092214	11q22.3	11q22.3	616522	DCUN1D5, SCCRO5	DCN1 domain-containing protein 5	DCUN1D5	84259	ENSG00000137692			Dcun1d5 (MGI:1924113)
-chr11	103109425	103479862	11q22.3	11q22.3	603297	DYNC2H1, DNCH2, DHC2, ATD3, SRPS2B, SRTD3	Dynein, cytoplasmic-2, heavy chain-1	DYNC2H1	79659	ENSG00000187240	1 patient showed heterozygous NEK2 and DYNC2H1 mutations	Short-rib thoracic dysplasia 3 with or without polydactyly, 613091 (3), Digenic recessive, Autosomal recessive	Dync2h1 (MGI:107736)
+chr11	103109425	103479862	11q22.3	11q22.3	603297	DYNC2H1, DNCH2, DHC2, ATD3, SRPS2B, SRTD3	Dynein, cytoplasmic-2, heavy chain-1	DYNC2H1	79659	ENSG00000187240	1 patient showed heterozygous NEK2 and DYNC2H1 mutations	Short-rib thoracic dysplasia 3 with or without polydactyly, 613091 (3), Autosomal recessive, Digenic recessive	Dync2h1 (MGI:107736)
 chr11	103907188	104164146	11q22.3	11q22.3	609673	PDGFD, SCDGFB, IEGF	Platelet-derived growth factor D	PDGFD	80310	ENSG00000170962			Pdgfd (MGI:1919035)
 chr11	104885717	104898459	11q22.3	11q22.3	608633	CASP12, CASP12P1	Caspase 12, apoptosis-related cysteine protease	CASP12	100506742	ENSG00000204403		{Sepsis, susceptibility to} (3)	
 chr11	104942865	104968595	11q22.2-q22.3	11q22.3	602664	CASP4	Caspase 4, apoptosis-related cysteine protease	CASP4	837	ENSG00000196954			Casp4 (MGI:107700)
@@ -9787,7 +9790,7 @@ chr11	111912733	111914092	11q22-q23	11q23.1	602179	HSPB2	Heat-shock 27kD protein
 chr11	111927168	112022652	11q23.1	11q23.1	610493	DIXDC1, CCD1, KIAA1735	DIX domain-containing protein 1	DIXDC1	85458	ENSG00000150764			Dixdc1 (MGI:2679721)
 chr11	112025407	112064403	11q23.1	11q23.1	608770	DLAT, PDCE2	Dihydrolipoamide S-acetyltransferase	DLAT	1737	ENSG00000150768		Pyruvate dehydrogenase E2 deficiency, 245348 (3), Autosomal recessive	Dlat (MGI:2385311)
 chr11	112084799	112086755	11q23.1	11q23.1	606659	TIMM8B, DDP2	Translocase of inner mitochondrial membrane 8B	TIMM8B	26521	ENSG00000150779			Timm8b (MGI:1353424)
-chr11	112086872	112095793	11q23	11q23.1	602690	SDHD, PGL1	Succinate dehydrogenase complex, subunit D, integral membrane protein	SDHD	6392	ENSG00000204370		Paragangliomas 1, with or without deafness, 168000 (3), Autosomal dominant; Mitochondrial complex II deficiency, 252011 (3), Autosomal recessive; Paraganglioma and gastric stromal sarcoma, 606864 (3); Pheochromocytoma, 171300 (3), Autosomal dominant	Sdhd (MGI:1914175)
+chr11	112086872	112095793	11q23	11q23.1	602690	SDHD, PGL1, MC2DN3	Succinate dehydrogenase complex, subunit D, integral membrane protein	SDHD	6392	ENSG00000204370		Paragangliomas 1, with or without deafness, 168000 (3), Autosomal dominant; Mitochondrial complex II deficiency, nuclear type 3, 619167 (3); Paraganglioma and gastric stromal sarcoma, 606864 (3); Pheochromocytoma, 171300 (3), Autosomal dominant	Sdhd (MGI:1914175)
 chr11	112143250	112164103	11q22.2-q22.3	11q23.1	600953	IL18, IGIF	Interleukin-18	IL18	3606	ENSG00000150782			Il18 (MGI:107936)
 chr11	112167371	112172555	Chr.11	11q23.1	605791	TEX12	Testis-expressed gene 12	TEX12	56158	ENSG00000150783			Tex12 (MGI:1913904)
 chr11	112175511	112218945	11q22.3-q23.1	11q23.1	611740	BCO2, BCDO2	Beta-carotene oxygenase 2	BCO2	83875	ENSG00000197580			Bco2 (MGI:2177469)
@@ -9840,7 +9843,7 @@ chr11	118338953	118342704	11q23	11q23.3	186790	CD3D, T3D, IMD19	CD3D antigen, de
 chr11	118344343	118355160	11q23	11q23.3	186740	CD3G, IMD17	CD3G antigen, gamma polypeptide (TiT3 complex)	CD3G	917	ENSG00000160654		Immunodeficiency 17, CD3 gamma deficient, 615607 (3), Autosomal recessive	Cd3g (MGI:88333)
 chr11	118359599	118399210	Chr.11	11q23.3	603753	UBE4A, UFD2, E4	Ubiquitination factor E4A	UBE4A	9354	ENSG00000110344			Ube4a (MGI:2154580)
 chr11	118401605	118409846	11q22.3	11q23.3	617473	ATP5JG	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit G	ATP5MG	10632	ENSG00000167283			Atp5l (MGI:1351597)
-chr11	118436491	118526831	11q23	11q23.3	159555	KMT2A, MLL, HRX, WDSTS	Lysine (K)-specific methyltransferase 2E	KMT2A	4297	ENSG00000118058	fuses with ENL, AF4, AF9, GMPS	Wiedemann-Steiner syndrome, 605130 (3), Autosomal dominant	Kmt2a (MGI:96995)
+chr11	118436491	118526831	11q23	11q23.3	159555	KMT2A, MLL, HRX, WDSTS	Lysine-specific methyltransferase 2E	KMT2A	4297	ENSG00000118058	fuses with ENL, AF4, AF9, GMPS	Wiedemann-Steiner syndrome, 605130 (3), Autosomal dominant	Kmt2a (MGI:96995)
 chr11	118531188	118547285	11q23.3	11q23.3	613934	TMEM25	Transmembrane protein 25	TMEM25	84866	ENSG00000149582			Tmem25 (MGI:1918937)
 chr11	118572395	118603032	11q23.3	11q23.3	600820	ARCN1, SRMMD	Archain 1	ARCN1	372	ENSG00000095139	60kb telomeric to MLL	Short stature, rhizomelic, with microcephaly, micrognathia, and developmental delay, 617164 (3), Autosomal dominant	Arcn1 (MGI:2387591)
 chr11	118606295	118658027	11q23.3	11q23.3	612834	PHLDB1, LL5A, KIAA0638	Pleckstrin homology-like domain, family B, member 1	PHLDB1	23187	ENSG00000019144			Phldb1 (MGI:2143230)
@@ -9927,8 +9930,8 @@ chr11	126283092	126294932	11q23-q24	11q24.2	606252	TIRAP, BACTS1	TIR domain-cont
 chr11	126304059	126350004	11q24.2	11q24.2	610534	DCPS, HINT5, DCS1, ARS	Decapping enzyme, scavenger	DCPS	28960	ENSG00000110063		Al-Raqad syndrome, 616459 (3), Autosomal recessive	Dcps (MGI:1916555)
 chr11	126355685	126414637	11q24.2	11q24.2	104240	ST3GAL4, SIAT4C, SIAT4, CGS23, NANTA3	ST3 beta-galactoside alpha-2,3-sialyltransferase 4	ST3GAL4	6484	ENSG00000110080			St3gal4 (MGI:1316743)
 chr11	126423357	127003459	11q24.2	11q24.2	607761	KIRREL3, NEPH2, KIAA1867, KIRRE	Kirre-like nephrin family adhesion molecule 3	KIRREL3	84623	ENSG00000149571			Kirrel3 (MGI:1914953)
-chr11	128458764	128587592	11q23.3	11q24.3	164720	ETS1	Avian erythroblastosis virus E26 (v-ets) oncogene homolog-1	ETS1	2113	ENSG00000134954	shown by HSR; 19cM distal to THY1; Ewing sarcoma breakpoint region-2 splices to EWSR1		Ets1 (MGI:95455)
-chr11	128685262	128813266	11q24	11q24.3	193067	FLI1, BDPLT21	Friend leukemia virus integration 1	FLI1	2313	ENSG00000151702	fused with EWS in Ewing sarcoma	Bleeding disorder, platelet-type, 21, 617443 (3), Autosomal recessive, Autosomal dominant	Fli1 (MGI:95554)
+chr11	128458764	128587592	11q23.3	11q24.3	164720	ETS1	ETS protooncogene 1, transcription factor	ETS1	2113	ENSG00000134954	shown by HSR; 19cM distal to THY1; Ewing sarcoma breakpoint region-2 splices to EWSR1		Ets1 (MGI:95455)
+chr11	128685262	128813266	11q24	11q24.3	193067	FLI1, BDPLT21	FLI1 protooncogene, ETS transcription factor	FLI1	2313	ENSG00000151702	fused with EWS in Ewing sarcoma	Bleeding disorder, platelet-type, 21, 617443 (3), Autosomal recessive, Autosomal dominant	Fli1 (MGI:95554)
 chr11	128691671	128696022	11q24.1	11q24.3	615815	SENCR, lncRNA9	Smooth muscle- and endothelial cell-enriched migration/differentiation-associated long noncoding RNA	SENCR	100507392	ENSG00000254703			
 chr11	128838019	128867295	11q24	11q24.3	600359	KCNJ1, ROMK1	Potassium inwardly-rectifying channel, subfamily J, member 1	KCNJ1	3758	ENSG00000151704		Bartter syndrome, type 2, 241200 (3), Autosomal recessive	Kcnj1 (MGI:1927248)
 chr11	128891355	128921162	11q24	11q24.3	600734	KCNJ5, GIRK4, KATP1, LQT13	Potassium inwardly-rectifying channel, subfamily J, member 5	KCNJ5	3762	ENSG00000120457		Long QT syndrome 13, 613485 (3), Autosomal dominant; Hyperaldosteronism, familial, type III, 613677 (3), Autosomal dominant	Kcnj5 (MGI:104755)
@@ -10119,7 +10122,7 @@ chr12	11265913	11269706	12p13.2	12p13.2	168840	PRB3	Proline-rich protein BstNI, 
 chr12	11307076	11310435	12p13.2	12p13.2	180990	PRB4	Proline-rich protein BstNI, subfamily-4	PRB4	5545	ENSG00000230657	Po, CON1, CON2 alleles		
 chr12	11351820	11355590	12p13.2	12p13.2	180989	PRB1	Proline-rich protein BstNI, subfamily-1	PRB1	5542	ENSG00000251655			
 chr12	11391539	11395566	12p13.2	12p13.2	168810	PRB2	Proline-rich protein BstNI, subfamily-2 (parotid size variant)	PRB2	653247	ENSG00000121335	Ps allele		
-chr12	11649600	11895385	12p13	12p13.2	600618	ETV6, TEL, THC5	ETS variant gene-6 (TEL oncogene)	ETV6	2120	ENSG00000139083	fused to PDGFRB or AML1 in leukemia	Leukemia, acute myeloid, somatic, 601626 (3); Thrombocytopenia 5, 616216 (3), Autosomal dominant	Etv6 (MGI:109336)
+chr12	11649600	11895385	12p13	12p13.2	600618	ETV6, TEL, THC5	ETS variant transcription factor 6	ETV6	2120	ENSG00000139083	fused to PDGFRB or AML1 in leukemia	Leukemia, acute myeloid, somatic, 601626 (3); Thrombocytopenia 5, 616216 (3), Autosomal dominant	Etv6 (MGI:109336)
 chr12	12049848	12099694	12p12	12p13.2	606126	BCLG	Apoptosis regulator BCLG	BCL2L14	79370	ENSG00000121380			Bcl2l14 (MGI:1914063)
 chr12	12116024	12267043	12p13.3-p11.2	12p13.2	603507	LRP6, ADCAD2, STHAG7	Low density lipoprotein receptor-related protein 6	LRP6	4040	ENSG00000070018		{Coronary artery disease, autosomal dominant, 2}, 610947 (3), Autosomal dominant; Tooth agenesis, selective, 7, 616724 (3), Autosomal dominant	Lrp6 (MGI:1298218)
 chr12	12357077	12471232	12p13.2	12p13.2	616598	BORCS5, LOH12CR1, MYRLYSIN	BLOC1-related complex, subunit 5	BORCS5	118426	ENSG00000165714			Borcs5 (MGI:1915024)
@@ -10925,7 +10928,7 @@ chr13	31600000	54700000	13q13-q14.3		600631	ENUR1	Enuresis, nocturnal, 1		2031		
 chr13	31600000	33400000	13q13.1		612089	HPRHP	Hypophosphatemic rickets and hyperparathyroidism		100188880		?due to altered KLOTHO expression	Hypophosphatemic rickets and hyperparathyroidism, 612089 (2), Autosomal dominant	
 chr13	31739525	31803388	13q13.1	13q13.1	606655	LGR8, GREAT	Leucine-rich repeat-containing G protein-coupled receptor 8	RXFP2	122042	ENSG00000133105			Rxfp2 (MGI:2153463)
 chr13	32031773	32299124	13q13.1	13q13.1	614818	FRY, C13orf14	FRY microtubule-binding protein	FRY	10129	ENSG00000073910			Fry (MGI:2443895)
-chr13	32315507	32400267	13q12.3	13q13.1	600185	BRCA2, FANCD1, BROVCA2, GLM3, PNCA2	BRCA2 gene	BRCA2	675	ENSG00000139618		{Pancreatic cancer 2}, 613347 (3); {Breast cancer, male, susceptibility to}, 114480 (3), Somatic mutation, Autosomal dominant; {Glioblastoma 3}, 613029 (3), Autosomal recessive; Wilms tumor, 194070 (3), Somatic mutation, Autosomal dominant; Fanconi anemia, complementation group D1, 605724 (3), Autosomal recessive; {Medulloblastoma}, 155255 (3), Somatic mutation, Autosomal recessive, Autosomal dominant; {Prostate cancer}, 176807 (3), Somatic mutation, Autosomal dominant; {Breast-ovarian cancer, familial, 2}, 612555 (3), Autosomal dominant	Brca2 (MGI:109337)
+chr13	32315507	32400267	13q12.3	13q13.1	600185	BRCA2, FANCD1, BROVCA2, GLM3, PNCA2	BRCA2 gene	BRCA2	675	ENSG00000139618		{Pancreatic cancer 2}, 613347 (3); {Breast cancer, male, susceptibility to}, 114480 (3), Somatic mutation, Autosomal dominant; {Glioblastoma 3}, 613029 (3), Autosomal recessive; Wilms tumor, 194070 (3), Somatic mutation, Autosomal dominant; Fanconi anemia, complementation group D1, 605724 (3), Autosomal recessive; {Medulloblastoma}, 155255 (3), Autosomal recessive, Somatic mutation, Autosomal dominant; {Prostate cancer}, 176807 (3), Somatic mutation, Autosomal dominant; {Breast-ovarian cancer, familial, 2}, 612555 (3), Autosomal dominant	Brca2 (MGI:109337)
 chr13	32432484	32542709	13q13.1	13q13.1	615788	N4BP2L2, PFAAP5	NEDD4-binding protein 2-like 2	N4BP2L2	10443	ENSG00000244754			N4bp2l2 (MGI:2687207)
 chr13	32586431	32778018	13q12.3	13q13.1	605333	PDS5B, AS3, APRIN	PDS5 cohesin-associated factor B	PDS5B	23047	ENSG00000083642			Pds5b (MGI:2140945)
 chr13	33016062	33066142	13q12	13q13.1	604824	KL, KLOTHO, HFTC3	Klotho	KL	9365	ENSG00000133116	mutation identified in 1 HFTC3 patient	?Tumoral calcinosis, hyperphosphatemic, familial, 3, 617994 (3), Autosomal recessive	Kl (MGI:1101771)
@@ -10933,7 +10936,7 @@ chr13	33103136	33676828	13q12.3	13q13.1-q13.2	609866	STARD13, DLC2	Start domain-
 chr13	33818074	33973945	13q12.3-q13	13q13.2	600405	RFC3	Replication factor C3, 38kD (activator 1, 38kD)	RFC3	5983	ENSG00000133119			Rfc3 (MGI:1916513)
 chr13	34900000	39500000	13q13.3		612796	IBD27	Inflammatory bowel disease 27		100302059			{Inflammatory bowel disease 27}, 612796 (2)	
 chr13	34900000	72800000	13q13.3-q21		263450	PAPA5	Polydactyly, postaxial, type A5		101241897		between D13S1288 and D13S632	Polydactyly, postaxial, type A5, 263450 (2), Autosomal recessive	
-chr13	34942269	35672735	13q13.2	13q13.3	604889	NBEA, NEDEGE	Neurobeachin	NBEA	26960	ENSG00000172915	site of FRA13A	Neurodevelopmental disorder with or without early-onset generalized epilepsy, 619157 (3)	Nbea (MGI:1347075)
+chr13	34942269	35672735	13q13.2	13q13.3	604889	NBEA, NEDEGE	Neurobeachin	NBEA	26960	ENSG00000172915	site of FRA13A	Neurodevelopmental disorder with or without early-onset generalized epilepsy, 619157 (3), Autosomal dominant	Nbea (MGI:1347075)
 chr13	35473788	35476688	13q13	13q13.3	601280	MAB21L1, COFG	mab-21 like 1	MAB21L1	4081	ENSG00000180660		Cerebellar, ocular, craniofacial, and genital syndrome, 618479 (3), Autosomal recessive	Mab21l1 (MGI:1333773)
 chr13	35768651	36131938	13q13	13q13.3	604742	DCLK1, DCAMKL1, CLICK1, CL1, KIAA0369	Doublecortin-like kinase 1	DCLK1	9201	ENSG00000133083			Dclk1 (MGI:1330861)
 chr13	36168216	36214555	13q13.3	13q13.3	616066	SOHLH2	Spermatogenesis- and oogenesis-specific basic helix-loop-helix protein 2	SOHLH2	54937	ENSG00000120669			
@@ -10991,7 +10994,7 @@ chr13	45954464	46052793	13q14.13	13q14.13	616453	ZC3H13, KIAA0853	Zinc finger CC
 chr13	46053065	46105032	13q14.11	13q14.13	603101	CPB2, CPU, TAFI	Carboxypeptidase B2, plasma (carboxypeptidase U)	CPB2	1361	ENSG00000080618			Cpb2 (MGI:1891837)
 chr13	46125922	46182176	13q14.1-q14.3	13q14.13	153430	LCP1	Lymphocyte cytosolic protein-1 (plasmin)	LCP1	3936	ENSG00000136167			Lcp1 (MGI:104808)
 chr13	46553169	46753040	13q14	13q14.1-q14.2	610368	LRCH1, KIAA1016	Leucine-rich repeats and calponin homology domain-containing 1	LRCH1	23143	ENSG00000136141			Lrch1 (MGI:2443390)
-chr13	46700000	46700000	13q14.2-q14.1		608049	AUTS3	Autism, susceptibility to, 3		387577			{Autism susceptibility 3}, 608049 (2), Multifactorial, Isolated cases	
+chr13	46700000	46700000	13q14.2-q14.1		608049	AUTS3	Autism, susceptibility to, 3		387577			{Autism susceptibility 3}, 608049 (2), Isolated cases, Multifactorial	
 chr13	46771255	46797699	13q14.11	13q14.2	133280	ESD	Esterase D; S-formylglutathione hydrolase	ESD	2098	ENSG00000139684	proximal to RB1, WND		Esd,Esd-ps (MGI:3781082,MGI:95421)
 chr13	46831545	46898081	13q14-q21	13q14.2	182135	HTR2A	5-hydroxytryptamine (serotonin) receptor-2A	HTR2A	3356	ENSG00000102468		{Major depressive disorder, response to citalopram therapy in}, 608516 (3); {Alcohol dependence, susceptibility to}, 103780 (3), Multifactorial; {Schizophrenia, susceptibility to}, 181500 (3), Autosomal dominant; {Anorexia nervosa, susceptibility to}, 606788 (3); {Obsessive-compulsive disorder, susceptibility to}, 164230 (3), Autosomal dominant; {Seasonal affective disorder, susceptibility to}, 608516 (3)	Htr2a (MGI:109521)
 chr13	47942655	48001272	13q14.2	13q14.2	603921	SUCLA2, MTDPS5	Succinate-CoA ligase, ADP-forming, beta subunit	SUCLA2	8803	ENSG00000136143		Mitochondrial DNA depletion syndrome 5 (encephalomyopathic with or without methylmalonic aciduria), 612073 (3), Autosomal recessive	Sucla2 (MGI:1306775)
@@ -11080,8 +11083,9 @@ chr13	80335975	80341125	13q31.1	13q31.1	602466	SPRY2, IGAN3	Sprouty RTK signalin
 chr13	83877204	83882473	13q31	13q31.1	609678	SLITRK1, KIAA1910, TTM	SLIT- and NTRK-like family, member 1	SLITRK1	114798	ENSG00000178235	mutation identified in 1 TTM patient	?Trichotillomania, 613229 (3), Multifactorial, Autosomal dominant; Tourette syndrome, 137580 (3), Autosomal dominant	Slitrk1 (MGI:2679446)
 chr13	85792789	85799418	13q31	13q31.1	609681	SLITRK6, DFNMYP	SLIT- and NTRK-like family, member 6	SLITRK6	84189	ENSG00000184564		Deafness and myopia, 221200 (3), Autosomal recessive	Slitrk6 (MGI:2443198)
 chr13	87671370	87679615	13q31	13q31.2	609680	SLITRK5, KIAA0918	SLIT- and NTRK-like family, member 5	SLITRK5	26050	ENSG00000165300			Slitrk5 (MGI:2679448)
+chr13	89400000	94400000	13q31.3		614326	FGLDS2	Feingold syndrome 2				contiguous gene deletion syndrome	Feingold syndrome 2, 614326 (4), Autosomal dominant	
 chr13	89400000	94400000	13q31.3		609572	PPR2	Photoparoxysmal response 2		780910		max lod at D13S1230	Photoparoxysmal response 2, 609572 (2)	
-chr13	91347819	91354574	13q31.3	13q31.3	609415	MIR17HG, MIRH1, MIHG1, MIRHG1, C13orf25, FGLDS2	Micro RNA 17 host gene	MIR17HG	407975	ENSG00000215417		Feingold syndrome 2, 614326 (3), Autosomal dominant	
+chr13	91347819	91354574	13q31.3	13q31.3	609415	MIR17HG, MIRH1, MIHG1, MIRHG1, C13orf25	Micro RNA 17 host gene	MIR17HG	407975	ENSG00000215417			
 chr13	91350604	91350687	13q31.3	13q31.3	609416	MIR17, MIR91, MIRN17	Micro RNA 17	MIR17	406952	ENSG00000284536	within C13orf25; sequence encodes 2 micro RNAs		
 chr13	91350750	91350820	13q31.3	13q31.3	609417	MIR18A, MIRN18A	Micro RNA 18A	MIR18A	406953	ENSG00000283815	within C13orf25		
 chr13	91350890	91350971	13q31.3	13q31.3	609418	MIR19A, MIRN19A	Micro RNA 19A	MIR19A	406979	ENSG00000284204	within C13orf25		
@@ -11095,7 +11099,7 @@ chr13	94400000	101100000	13q32		156600	MCOR, C13DELq32, DEL13q32	Microcoria, con
 chr13	94400000	101100000	13q32		603176	SCZD7	Schizophrenia susceptibility locus, chromosome 13q-related		8401			{Schizophrenia}, 181500 (2), Autosomal dominant	
 chr13	94400000	101100000	13q32		609903	SLEB5	Systemic lupus erythematosus, susceptibility to, 5		100188798		max lod at D13S892	{Systemic lupus erythematosus, susceptibility to, 5}, 609903 (2)	
 chr13	94400000	109600000	13q32-q33		606258	STQTL4	Stature quantitative trait locus 4		282550		max lod at D13S779 and D13S797	{Stature QTL 4}, 606258 (2)	
-chr13	94436810	94549405	13q31-q32	13q32.1	191275	DCT, TYRP2	Dopachrome tautomerase (dopachrome delta-isomerase; tyrosinase-related protein 2)	DCT	1638	ENSG00000080166			Dct (MGI:102563)
+chr13	94436810	94549405	13q31-q32	13q32.1	191275	DCT, TYRP2, OCA8	Dopachrome tautomerase (dopachrome delta-isomerase; tyrosinase-related protein 2)	DCT	1638	ENSG00000080166		Oculocutaneous albinism, type VIII, 619165 (3), Autosomal recessive	Dct (MGI:102563)
 chr13	94574053	94596273	13q32.1	13q32.1	616146	TGDS, SDR2E1, CATMANS	TDP-glucose 4,6-dehydratase	TGDS	23483	ENSG00000088451		Catel-Manzke syndrome, 616145 (3), Autosomal recessive	Tgds (MGI:1923605)
 chr13	94601856	94634660	13q31	13q32.1	607787	GPR180, ITR	G protein-coupled receptor 180	GPR180	160897	ENSG00000152749			Gpr180 (MGI:1930949)
 chr13	94709621	94712544	13q31-q32	13q32.1	604974	SOX21	SRY-box 21	SOX21	11166	ENSG00000125285			Sox21 (MGI:2654070)
@@ -11122,7 +11126,7 @@ chr13	100089019	100530434	13q32	13q32.3	232000	PCCA	Propionyl Coenzyme A carboxy
 chr13	100530179	100588788	13q32.3	13q32.3	613378	A2LD1, GGACT	AIG1-like domain-containing protein 1	GGACT	87769	ENSG00000134864			Ggact (MGI:2385008)
 chr13	100603624	100675630	13q32.3	13q32.3	618203	TMTC4	Transmembrane and tetratricopeptide repeat domains-containing protein 4	TMTC4	84899	ENSG00000125247			Tmtc4 (MGI:1921050)
 chr13	101053773	101417205	13q33.11	13q32.3-q33.1	611549	NALCN, IHPRF1, CLIFAHDD	Sodium leak channel, nonselective	NALCN	259232	ENSG00000102452		Hypotonia, infantile, with psychomotor retardation and characteristic facies 1, 615419 (3), Autosomal recessive; Congenital contractures of the limbs and face, hypotonia, and developmental delay, 616266 (3), Autosomal dominant	Nalcn (MGI:2444306)
-chr13	101100000	114364328	13q33-q34		619148	DEL13q33q34, C13DELq33q34	Chromosome 13q33-q34 deletion syndrome					Chromosome 13q33-q34 deletion syndrome, 619148 (4)	
+chr13	101100000	114364328	13q33-q34		619148	DEL13q33q34, C13DELq33q34	Chromosome 13q33-q34 deletion syndrome					Chromosome 13q33-q34 deletion syndrome, 619148 (4), Autosomal dominant	
 chr13	101100000	114364328	13q33.1-q34		610361	OFC9	Orofacial cleft 9		100462724		associated with rs1830756	Orofacial cleft 9, 610361 (2)	
 chr13	101452635	101720855	13q33	13q33.1	604234	ITGBL1, TIED	Integrin, beta-like 1	ITGBL1	9358	ENSG00000198542			Itgbl1 (MGI:2443439)
 chr13	101710803	102402442	13q34	13q33.1	601515	FGF14, FHF4, SCA27	Fibroblast growth factor-14	FGF14	2259	ENSG00000102466		Spinocerebellar ataxia 27, 609307 (3), Autosomal dominant	Fgf14 (MGI:109189)
@@ -11197,7 +11201,7 @@ chr14	20556092	20560930	14q11.2	14q11.2	614014	RNAE9	Ribonuclease A family, 9	RN
 chr14	20609335	20609406	14q11	14q11.2	189930	TRNAP1, TRP1	tRNA proline-1	TRP-AGG2-5	7217				
 chr14	20610131	20610212	14q11-q12	14q11.2	189932	TRL-AAG2-1, TRNAL1, TRL1	tRNA leucine (AAG) 2-1	TRL-AAG2-3	7207				
 chr14	20613400	20613471	14q11-q12	14q11.2	189931	TRNAP2, TRP2	tRNA proline-2	TRP-AGG2-6	7218				
-chr14	20613789	20613861	14q11-q12	14q11.2	189933	TRNAT2, TRT2	tRNA threonine-2	TRT-TGT3-1	7237				
+chr14	20613789	20613861	14q11-q12	14q11.2	189933	TRT-TGT3-1, TRNAT2, TRT2	tRNA threonine (anticodon TGT) 3-1	TRT-TGT3-1	7237				
 chr14	20684176	20694185	14q11.2	14q11.2	105850	ANG, RNASE5, ALS9	Angiogenin	ANG	283	ENSG00000214274	proximal to TCRA/TCRD	Amyotrophic lateral sclerosis 9, 611895 (3)	Ang (MGI:88022)
 chr14	20684559	20701215	14q11.2	14q11.2	601030	RNASE4, RNS4	Ribonuclease, RNase A family, 4	RNASE4	6038	ENSG00000258818			Rnase4 (MGI:1926217)
 chr14	20722390	20748379	14q11.2	14q11.2	611580	EDDM3A, FAM12A, HE3A	Epididymal protein 3A	EDDM3A	10876	ENSG00000181562			
@@ -12260,8 +12264,8 @@ chr16	77006	85845	16pter-p13.3	16p13.3	156565	MPG, MDG	N-methylpurine DNA glycos
 chr16	85385	138672	16p13.3	16p13.3	600928	NPRL3, CGTHBA, FFEVF3	Nitrogen permease regulator-like 3	NPRL3	8131	ENSG00000103148		Epilepsy, familial focal, with variable foci 3, 617118 (3), Autosomal dominant	Nprl3 (MGI:109258)
 chr16	152643	154502	16pter-p13.3	16p13.3	142310	HBZ	Hemoglobin, zeta	HBZ	3050	ENSG00000130656			Hba-x (MGI:96019)
 chr16	165977	166763	16p13.3	16p13.3	609639	HBM	Hemoglobin mu	HBM	3042	ENSG00000206177	?functional		
-chr16	172875	173709	16pter-p13.3	16p13.3	141850	HBA2, HBH, ECYT7	Hemoglobin alpha-2	HBA2	3040	ENSG00000188536		Thalassemia, alpha-, 604131 (3); Erythrocytosis 7, 617981 (3); Heinz body anemia, 140700 (3), Autosomal dominant; Hemoglobin H disease, deletional and nondeletional, 613978 (3)	Hba-a1,Hba-a2 (MGI:96016,MGI:96015)
-chr16	176679	177521	16pter-p13.3	16p13.3	141800	HBA1, HBH, METHBA, ECYT7	Hemoglobin alpha-1	HBA1	3039	ENSG00000206172	1, 2, or 3 loci; 5'-zeta-pseudozeta-pseudoalpha-alpha-2-alpha-1-3'	Hemoglobin H disease, nondeletional, 613978 (3); Thalassemias, alpha-, 604131 (3); Erythrocytosis 7, 617981 (3); Methemoglobinemia, alpha type, 617973 (3); Heinz body anemias, alpha-, 140700 (3), Autosomal dominant	Hba-a1,Hba-a2 (MGI:96016,MGI:96015)
+chr16	172875	173709	16pter-p13.3	16p13.3	141850	HBA2, HBH, ECYT7	Hemoglobin alpha-2	HBA2	3040	ENSG00000188536		Thalassemia, alpha-, 604131 (3); Erythrocytosis 7, 617981 (3), Autosomal dominant; Heinz body anemia, 140700 (3), Autosomal dominant; Hemoglobin H disease, deletional and nondeletional, 613978 (3)	Hba-a1,Hba-a2 (MGI:96016,MGI:96015)
+chr16	176679	177521	16pter-p13.3	16p13.3	141800	HBA1, HBH, METHBA, ECYT7	Hemoglobin alpha-1	HBA1	3039	ENSG00000206172	1, 2, or 3 loci; 5'-zeta-pseudozeta-pseudoalpha-alpha-2-alpha-1-3'	Hemoglobin H disease, nondeletional, 613978 (3); Thalassemias, alpha-, 604131 (3); Erythrocytosis 7, 617981 (3), Autosomal dominant; Methemoglobinemia, alpha type, 617973 (3), Autosomal dominant; Heinz body anemias, alpha-, 140700 (3), Autosomal dominant	Hba-a1,Hba-a2 (MGI:96016,MGI:96015)
 chr16	180458	181178	16pter-p13.3	16p13.3	142240	HBQ1	Hemoglobin theta-1	HBQ1	3049	ENSG00000086506			Hbq1b (MGI:3613460)
 chr16	188968	229448	16p13.3	16p13.3	607782	LUC7L	LUC7-like	LUC7L	55692	ENSG00000007392			Luc7l (MGI:1914228)
 chr16	268300	275943	16p13.3	16p13.3	603895	RS11	Regulator of G protein signaling 11	RGS11	8786	ENSG00000076344			Rgs11 (MGI:1354739)
@@ -12760,7 +12764,7 @@ chr16	67277819	67289484	16q22.1	16q22.1	609526	PLEKHG4	Pleckstrin homology domai
 chr16	67389806	67393497	16q22.1	16q22.1	616957	TPPP3, p20	Tubulin polymerization-promoting protein family, member 3	TPPP3	51673	ENSG00000159713			Tppp3 (MGI:1915221)
 chr16	67431120	67437552	16q22	16q22.1	614232	HSD11B2, HSD11K, AME	Hydroxysteroid (11-beta) dehydrogenase 2	HSD11B2	3291	ENSG00000176387		Apparent mineralocorticoid excess, 218030 (3), Autosomal recessive	Hsd11b2 (MGI:104720)
 chr16	67438018	67481156	16q22	16q22.1	607028	ATP6V0D1	ATPase, H+ transporting, V0 subunit D1	ATP6V0D1	9114	ENSG00000159720			Atp6v0d1 (MGI:1201778)
-chr16	67482570	67483546	16q22	16q22.1	602311	AGRP, ART, AGRT	Agouti-related neuropeptide	AGRP	181	ENSG00000159723		{Obesity, late-onset}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant; {Leanness, inherited}, 601665 (3), Multifactorial, Autosomal recessive, Autosomal dominant	Agrp (MGI:892013)
+chr16	67482570	67483546	16q22	16q22.1	602311	AGRP, ART, AGRT	Agouti-related neuropeptide	AGRP	181	ENSG00000159723		{Obesity, late-onset}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant; {Leanness, inherited}, 601665 (3), Autosomal recessive, Multifactorial, Autosomal dominant	Agrp (MGI:892013)
 chr16	67562525	67639184	16q22.1	16q22.1	604167	CTCF, MRD21	CCCTC-binding factor	CTCF	10664	ENSG00000102974		Mental retardation, autosomal dominant 21, 615502 (3), Autosomal dominant	Ctcf (MGI:109447)
 chr16	67645003	67657568	16q22.1	16q22.1	610859	CARMIL2, RLTPR, IMD58	Capping protein regulator and myosin 1 linker 2	CARMIL2	146206	ENSG00000159753		Immunodeficiency 58, 618131 (3), Autosomal recessive	Carmil2 (MGI:2685431)
 chr16	67657511	67660831	16q22.1	16q22.1	609377	ACD, PTOP, PIP1, TINT1	ACD shelterin complex subunit and telomerase recruitment factor	ACD	65057	ENSG00000102977	mutation has been identified in 1 DKCA7 and 1 DKCB7 family	?Dyskeratosis congenita, autosomal dominant 6, 616553 (3), Autosomal recessive, Autosomal dominant; ?Dyskeratosis congenita, autosomal recessive 7, 616553 (3), Autosomal recessive, Autosomal dominant	Acd (MGI:87873)
@@ -12958,7 +12962,7 @@ chr16	0	90338345	Chr.16		138060	GRLL1	Glucocorticoid receptor-like 1	NR3C1P1	291
 chr16	0	90338345	Chr.16		147573	IFNR	Interferon production regulator	IFNR	3466				
 chr16	0	90338345	Chr.16		247980	LIPB	Lipase B, lysosomal acid	LIPB	3989				
 chr16	0	90338345	Chr.16		118870	NHCP1	Nonhistone chromosomal protein-1						
-chr17	0	10800000	17p13		608631	ASPG2	Asperger syndrome, susceptibility to, 2		431711		breakpoints between CHRNE and GP1BA	{Asperger syndrome susceptibility 2}, 608631 (2), Multifactorial, Isolated cases	
+chr17	0	10800000	17p13		608631	ASPG2	Asperger syndrome, susceptibility to, 2		431711		breakpoints between CHRNE and GP1BA	{Asperger syndrome susceptibility 2}, 608631 (2), Isolated cases, Multifactorial	
 chr17	0	3400000	17p13.3		113721	BCPR	Breast cancer-related regulator of TP53					Breast cancer (1)	
 chr17	0	10800000	17p13		601202	CTRCT24, CTAA2	Cataract 24, anterior polar		1484			Cataract 24, anterior polar, 601202 (2), Autosomal dominant	
 chr17	0	3400000	17p13.3		615674	DDD3	Dowling-Degos disease 3		102997065		max lod at D17S1529	Dowling-Degos disease 3, 615674 (2), Autosomal dominant	
@@ -13137,10 +13141,10 @@ chr17	8039058	8049133	17p13.1	17p13.1	603697	ALOX15B	Arachidonate 15-lipoxygenas
 chr17	8072635	8087715	17p13.1	17p13.1	603741	ALOX12B, ARCI2	Archidonate 12-lipoxygenase, R type	ALOX12B	242	ENSG00000179477		Ichthyosis, congenital, autosomal recessive 2, 242100 (3), Autosomal recessive	Alox12b (MGI:1274782)
 chr17	8095899	8118915	17p13.1	17p13.1	607206	ALOXE3, ARCI3	Arachidonate lipoxygenase 3	ALOXE3	59344	ENSG00000179148		Ichthyosis, congenital, autosomal recessive 3, 606545 (3), Autosomal recessive	Aloxe3 (MGI:1345140)
 chr17	8119154	8119226	17p13.1	17p13.1	189918	TRNAK1, TRK1, TRK-TTT3-5	Transfer RNA lysine (TTT) 3-5	TRK-TTT3-5	7206				
-chr17	8119751	8119822	17p13.1	17p13.1	189919	TRNAQ1, TRQ1	tRNA glutamine-1	TRQ-CTG1-5	7228				
+chr17	8119751	8119822	17p13.1	17p13.1	189919	TRQ-CTG1-5, TRNAQ1, TRQ1	tRNA glutamine (anticodon CTG) 1-5	TRQ-CTG1-5	7228				
 chr17	8120313	8120394	17p13.1	17p13.1	189920	TRNAL2, TRL2	tRNA leucine-2	TRL-TAG1-1	7208				
 chr17	8120589	8126031	17p13.2	17p13.1	608059	HES7, SCDO4	Hes family bHLH transcription factor 7	HES7	84667	ENSG00000179111		Spondylocostal dysostosis 4, autosomal recessive, 613686 (3), Autosomal recessive	Hes7 (MGI:2135679)
-chr17	8120924	8121011	17p13.1	17p13.1	610406	TRNAR1, TRR1	tRNA arginine-1	TRR-TCT2-1	7230				
+chr17	8120924	8121011	17p13.1	17p13.1	610406	TRR-TCT2-1, TRNAR1, TRR1	tRNA arginine (anticodon TCT) 2-1	TRR-TCT2-1	7230				
 chr17	8125745	8125815	17p13.1	17p13.1	610407	TRG-GCC2-6, TRNAG2, TRG2	tRNA glycine (anticodon GCC) 2-6	TRG-GCC2-6	7196		at least 8 copies in this region		
 chr17	8140469	8156359	17p12	17p13.1	602260	PER1, PER, RIGUI	Period circadian regulator 1	PER1	5187	ENSG00000179094			Per1 (MGI:1098283)
 chr17	8159146	8162947	17p12	17p13.1	185881	VAMP2, SYB2, NEDHAHM	Vesicle-associated membrane protein-2 (synaptobrevin-2)	VAMP2	6844	ENSG00000220205		Neurodevelopmental disorder with hypotonia and autistic features with or without hyperkinetic movements, 618760 (3), Autosomal dominant	Vamp2 (MGI:1313277)
@@ -13541,7 +13545,7 @@ chr17	43170309	43211687	17q21.1	17q21.31	166945	NBR1, M17S2	NBR1 autophagy cargo
 chr17	43233789	43233976	17q21-q22	17q21.31	180690	RNU2-1, RNU2	RNA, U2 small nuclear, 1	RNU2-1	6066	ENSG00000274585			
 chr17	43398992	43401136	17q12-q21	17q21.31	600732	ARL4D, ARF4L	ADP ribosylation factor-like GTPase 4D	ARL4D	379	ENSG00000175906			Arl4d (MGI:1933155)
 chr17	43483974	43544798	17q21.31	17q21.31	600396	DHX8, DDX8, HRH1	DEAH-box helicase 8	DHX8	1659	ENSG00000067596			Dhx8 (MGI:1306823)
-chr17	43527842	43546339	17q21	17q21.31	600711	ETV4	ETS variant gene-4 (E1A enhancer-binding protein, E1AF)	ETV4	2118	ENSG00000175832			Etv4 (MGI:99423)
+chr17	43527842	43546339	17q21	17q21.31	600711	ETV4	ETS variant transcription factor 4	ETV4	2118	ENSG00000175832			Etv4 (MGI:99423)
 chr17	43640388	43661976	17q21	17q21.31	600147	MEOX1, MOX1, KFS2	Mesenchyme homeo box 1 (Mox1, mouse, homolog of)	MEOX1	4222	ENSG00000005102		Klippel-Feil syndrome 2, 214300 (3), Autosomal recessive	Meox1 (MGI:103220)
 chr17	43753737	43758790	17q12-q21	17q21.31	605740	SOST, VBCH, CDD, SOST1	Sclerostin	SOST	50964	ENSG00000167941		Sclerosteosis 1, 269500 (3), Autosomal recessive; Van Buchem disease, 239100 (3), Autosomal recessive; Craniodiaphyseal dysplasia, autosomal dominant, 122860 (3), Autosomal dominant	Sost (MGI:1921749)
 chr17	43766124	43778976	17q21	17q21.31	600183	DUSP3, VHR	Dual specificity phosphatase-3 (vaccinia virus phosphatase VH1-related)	DUSP3	1845	ENSG00000108861			Dusp3 (MGI:1919599)
@@ -13634,6 +13638,7 @@ chr17	48929315	48944841	17q21.32	17q21.32	610904	SNF8, VPS22, EAP30	SNF8 subunit
 chr17	48958553	48968595	17q21.3-q22	17q21.32	137240	GIP	Gastric inhibitory polypeptide	GIP	2695	ENSG00000159224			Gip (MGI:107504)
 chr17	48997384	49056144	17q21.3	17q21.32	608288	IGF2BP1, IMP1, CRDBP, ZBP1	Insulin-like growth factor 2 mRNA-binding protein 1	IGF2BP1	10642	ENSG00000159217			Igf2bp1 (MGI:1890357)
 chr17	49120346	49176839	17q21.2	17q21.32	111730	B4GALGT2, GALGT2, SD	Beta-1,4-N-acetyl-galactosaminyl transferase 2	B4GALNT2	124872	ENSG00000167080			B4galnt2 (MGI:1342058)
+chr17	49192527	49192598	17q21.32	17q21.32	189923	TRQ-TTG1-1, TRNAQ2, TRQ2	tRNA glutamine (anticodon TTG) 1-1	TRQ-TTG1-1	7229				
 chr17	49206233	49210573	17q21	17q21.32	139391	GNGT2	Guanine nucleotide-binding protein, gamma-transducing activity polypeptide 2	GNGT2	2793	ENSG00000167083			Gngt2 (MGI:893584)
 chr17	49210581	49223224	17q21.3	17q21.32	606363	NESH	NESH protein	ABI3	51225	ENSG00000108798			Abi3 (MGI:1913860)
 chr17	49289205	49362472	17q21.32	17q21.32-q21.33	613907	ZNF652, KIAA0924	Zinc finger protein 652	ZNF652	22834	ENSG00000198740			Zfp652 (MGI:2442221)
@@ -14762,11 +14767,11 @@ chr19	35533455	35545318	19q13.1	19q13.12	609169	GAPDHS, GAPD2	Glyceraldehyde-3-p
 chr19	35550030	35563657	19q13.1	19q13.12	137216	ATP4A, ATP6A	ATPase, H+, K+ transporting, alpha	ATP4A	495	ENSG00000105675			Atp4a (MGI:88113)
 chr19	35612734	35625354	19q13.12	19q13.12	613432	HAUS5, DGT5, KIAA0841	HAUS augmin-like complex, subunit 5	HAUS5	23354	ENSG00000249115			Haus5 (MGI:1919159)
 chr19	35629035	35637684	19q13.12	19q13.12	613232	RBM42	RNA-binding motif protein 42	RBM42	79171	ENSG00000126254			Rbm42 (MGI:1915285)
-chr19	35641174	35644870	19q13.1	19q13.12	609358	ETV2, ETSRP71	ETS variant gene 2	ETV2	2116	ENSG00000105672			Etv2 (MGI:99253)
+chr19	35641174	35644870	19q13.1	19q13.12	609358	ETV2, ETSRP71	ETS variant transcription factor 2	ETV2	2116	ENSG00000105672			Etv2 (MGI:99253)
 chr19	35648322	35658781	19q13.1	19q13.12	124089	COX6B1, MC4DN7	Cytochrome c oxidase, subunit VIb polypeptide 1 (ubiquitous)	COX6B1	1340	ENSG00000126267		Mitochondrial complex IV deficiency, nuclear type 7, 619051 (3), Autosomal recessive	Cox6b1 (MGI:107460)
 chr19	35666515	35678484	19q13.1	19q13.12	611557	UPK1A, UPIA	Uroplakin 1A	UPK1A	11045	ENSG00000105668			Upk1a (MGI:98911)
 chr19	35704480	35717047	19q13.1	19q13.12	605859	ZBTB32, FAXF, TZFP, ROG	Zinc finger- and BTB domain-containing protein 32	ZBTB32	27033	ENSG00000011590			Zbtb32 (MGI:1891838)
-chr19	35717817	35738877	19q13.1	19q13.12	606834	KMT2B, MLL4, KIAA0304, DYT28	Lysine (K)-specific methyltransferase 2B	KMT2B	9757	ENSG00000272333		Dystonia 28, childhood-onset, 617284 (3), Autosomal dominant	Kmt2b (MGI:109565)
+chr19	35717817	35738877	19q13.1	19q13.12	606834	KMT2B, MLL4, KIAA0304, DYT28	Lysine-specific methyltransferase 2B	KMT2B	9757	ENSG00000272333		Dystonia 28, childhood-onset, 617284 (3), Autosomal dominant	Kmt2b (MGI:109565)
 chr19	35738800	35742451	19q13.12	19q13.12	614143	IGFLR1, TMEM149	IGF-like family receptor 1	IGFLR1	79713	ENSG00000126246			Igflr1 (MGI:3655979)
 chr19	35742463	35745417	19q13.2	19q13.12	601080	U2AF1L4, U2AF1RS3	U2 small nuclear RNA auxillary factor 1-like 4	U2AF1L4	199746	ENSG00000161265			
 chr19	35745650	35747518	19q13.1	19q13.12	607632	PSENEN, PEN2, ACNINV2	Presenilin enhancer, gamma-secretase subunit	PSENEN	55851	ENSG00000205155		Acne inversa, familial, 2, with or without Dowling-Degos disease, 613736 (3), Autosomal dominant	Psenen (MGI:1913590)
@@ -14780,7 +14785,7 @@ chr19	35887629	35902302	19q13.2	19q13.12	618887	NFKBID, IKBNS	Nuclear factor kap
 chr19	35902364	35904376	19q13.1	19q13.12	604089	DAP10	DNAX-activation protein 10	HCST	10870	ENSG00000126264			Hcst (MGI:1344360)
 chr19	35904402	35908294	19q13.1	19q13.12	604142	TYROBP, DAP12, PLOSL1	TYRO protein tyrosine kinase-binding protein	TYROBP	7305	ENSG00000011600		Polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1, 221770 (3), Autosomal recessive	Tyrobp (MGI:1277211)
 chr19	35936373	35946623	19q13.2	19q13.12	612809	LRFN3, SALM4	Leucine-rich repeat and fibronectin type III domain-containing protein 3	LRFN3	79414	ENSG00000126243			Lrfn3 (MGI:2442512)
-chr19	35995187	35996311	19q12-q13.2	19q13.12	612848	SDHAF1	Succinate dehydrogenase complex assembly factor 1	SDHAF1	644096	ENSG00000205138		Mitochondrial complex II deficiency, 252011 (3), Autosomal recessive	Sdhaf1 (MGI:1915582)
+chr19	35995187	35996311	19q12-q13.2	19q13.12	612848	SDHAF1, MC2DN2	Succinate dehydrogenase complex assembly factor 1	SDHAF1	644096	ENSG00000205138		Mitochondrial complex II deficiency, nuclear type 2, 619166 (3)	Sdhaf1 (MGI:1915582)
 chr19	36003306	36008812	19q13.12	19q13.12	615535	SYNE4, NESP4, C19orf46, DFNB76	Spectrin repeat-containing nuclear envelope protein 4	SYNE4	163183	ENSG00000181392		Deafness, autosomal recessive 76, 615540 (3), Autosomal recessive	Syne4 (MGI:2141950)
 chr19	36009119	36014254	19q13.12	19q13.12	613304	ALKBH6, ABH6	AlkB homolog 6	ALKBH6	84964	ENSG00000239382			Alkbh6 (MGI:2142037)
 chr19	36014659	36032872	19q13	19q13.12	607382	CLIP3, CLIPR59	CAP-GLY domain-containing linker protein 3, 607382 (3)	CLIP3	25999	ENSG00000105270			Clip3 (MGI:1923936)
@@ -14806,7 +14811,7 @@ chr19	37906821	38208368	19q13.1	19q13.1-q13.2	616655	SIPA1L3, SPAL3, SPAR3, KIAA
 chr19	38200000	58617616	19q13.2-q13.4		603855	CFM1	Cystic fibrosis modifier-1		10167			{Meconium ileus in cystic fibrosis, susceptibility to}, 603855 (2)	
 chr19	38200000	50900000	19q13.2-q13.3		611097	MRT11	Mental retardation, autosomal recessive, 11		100101426		between rs2109075 and rs8101149	Mental retardation, autosomal recessive, 11, 611097 (2), Autosomal recessive	
 chr19	38200000	42900000	19q13.2		227050	TEC	Transient erythroblastopenia of childhood		100124696			Transient erythroblastopenia of childhood, 227050 (2), Autosomal recessive	
-chr19	38200000	50900000	19q13.2-q13.3		165060	TRNAU1, TRSP	Transfer RNA selenocysteine 1 (anticodon UCA)	TRU-TCA1-1	7234		pseudogene on 22		
+chr19	38200000	50900000	19q13.2-q13.3		165060	TRU-TCA1-1, TRNAU1, TRSP	tRNA selenocysteine (anticodon TCA) 1-1	TRU-TCA1-1	7234		pseudogene on 22		
 chr19	38211005	38229694	19q13.13-q13.2	19q13.2	601670	DPF1, NEUD4	D4, zinc, and double PHD fingers family, member 1	DPF1	8193	ENSG00000011332			Dpf1 (MGI:1352748)
 chr19	38251236	38256373	19q13.1	19q13.2	608153	PPP1R14A, CPI17	Protein phosphatase 1, regulatory subunit 14A	PPP1R14A	94274	ENSG00000167641			Ppp1r14a (MGI:1931139)
 chr19	38264572	38292614	19q13.1	19q13.2	605124	SPINT2, HAI2, DIAR3	Serine protease inhibitor, Kunitz-type, 2 (hepatocyte growth factor activator inhibitor 2; bikunin, placental)	SPINT2	10653	ENSG00000167642		Diarrhea 3, secretory sodium, congenital, syndromic, 270420 (3), Autosomal recessive	Spint2 (MGI:1338031)
@@ -15865,9 +15870,9 @@ chr21	37607372	37916456	21q22.1	21q22.13	600877	KCNJ6, GIRK2, KCNJ7, KPLBS	Potas
 chr21	38054010	38121359	21q22.2	21q22.13	604829	DSCR4, DSCRB	Down syndrome critical region gene 4	DSCR4	10281	ENSG00000184029			
 chr21	38121450	38156510	21q22.2	21q22.13	613396	DSCR8, MMA1	Down syndrome critical region gene 8	DSCR8	84677	ENSG00000198054			
 chr21	38229925	38307356	21q22.2	21q22.1-q22.2	602106	KCNJ15	Potassium inwardly-rectifying channel, subfamily J, member 15	KCNJ15	3772	ENSG00000157551			Kcnj15 (MGI:1310000)
-chr21	38367260	38661782	21q22.3	21q22.2	165080	ERG	Erythroblastosis virus E26, avian, (v-ets) oncogene related	ERG	2078	ENSG00000157554	fused with EWS in Ewing sarcoma, with FUS in leukemia		Erg (MGI:95415)
+chr21	38367260	38661782	21q22.3	21q22.2	165080	ERG	ETS transcription factor ERG	ERG	2078	ENSG00000157554	fused with EWS in Ewing sarcoma, with FUS in leukemia		Erg (MGI:95415)
 chr21	38739020	38773476	21q22.2-q22.3	21q22.2	611723	C21orf24	Chromosome 21 open reading frame 24	LINC00114	400866	ENSG00000223806			
-chr21	38805182	38824954	21q22.3	21q22.2	164740	ETS2	Oncogene ETS-2	ETS2	2114	ENSG00000157557	proximal q22.3		Ets2 (MGI:95456)
+chr21	38805182	38824954	21q22.3	21q22.2	164740	ETS2	ETS protooncogene 2, transcription factor	ETS2	2114	ENSG00000157557	proximal q22.3		Ets2 (MGI:95456)
 chr21	39174768	39183513	21q22.3	21q22.2	605296	PSMG1, DSCR2, C21LRP	Proteasome (prosome, macropain) assembly chaperone 1	PSMG1	8624	ENSG00000183527			Psmg1 (MGI:1860263)
 chr21	39184175	39321594	21q22.2-q22.3	21q22.2	617824	BRWD1, WRD9, C21orf107	Bromodomain and WD repeat domain-containing protein 1	BRWD1	54014	ENSG00000185658			Brwd1 (MGI:1890651)
 chr21	39342314	39349087	21q22.3	21q22.2	163920	HMGN1, HMG14	High-mobility group nucleosomal binding protein 1	HMGN1	3150	ENSG00000205581			Hmgn1 (MGI:96120)
@@ -16035,6 +16040,7 @@ chr22	22822775	22822870	22q11.22	22q11.22	615379	MIR650	Micro RNA 650	MIR650	723
 chr22	22895374	22895693	22q11.2	22q11.22	147220	IGLC1, IGLC	Constant region of lambda light chains	IGLC1	3537		several genes		
 chr22	23059407	23180047	22q11.2	22q11.22-q11.23	605663	RSPH14, RTDR1	Radial spoke head 14 homolog	RSPH14	27156	ENSG00000100218			Rsph14 (MGI:1918486)
 chr22	23070518	23125036	22q11.2	22q11.22-q11.23	139160	GNAZ	Guanine nucleotide-binding protein (G protein), alpha z polypeptide	GNAZ	2781	ENSG00000128266			Gnaz (MGI:95780)
+chr22	23100000	25500000	22q11.23		619171	GUCD1	Guanylyl cyclase domain-containing protein 1						
 chr22	23145297	23169284	22q11.2	22q11.23	605662	RAB36	Ras family, member 36	RAB36	9609	ENSG00000100228			Rab36 (MGI:1924127)
 chr22	23180508	23318036	22q11.21	22q11.23	151410	BCR, CML, PHL, ALL	Breakpoint cluster region	BCR	613	ENSG00000186716	Ph1=t(9;22) (q34.1;q11.21); fused with ABL in CML	Leukemia, chronic myeloid, Philadelphia chromosome positive, somatic, 608232 (4); Leukemia, acute lymphocytic, Philadelphia chromosome positive, somatic, 613065 (4)	Bcr (MGI:88141)
 chr22	23573124	23580289	22q11.21	22q11.23	146770	IGLL1, IGO, IGL5, VPREB2, AGM2	Immunoglobulin lambda-like polypeptide 1 (immunoglobulin omega peptide)	IGLL1	3543	ENSG00000128322	between BCR2 and BCR4; distal to IGLC	Agammaglobulinemia 2, 613500 (3), Autosomal recessive	Igll1 (MGI:96529)
@@ -16084,7 +16090,7 @@ chr22	28741991	28757509	22q11-q12	22q12.1	608142	HSC20, HSCB, JAC1	HSCB mitochon
 chr22	28794559	28800568	22q12	22q12.1	194355	XBP1, XBP2	X-box-binding protein-1	XBP1	7494	ENSG00000100219	pseudogene on chr.5	{Major affective disorder-7, susceptibility to}, 612371 (3)	Xbp1 (MGI:98970)
 chr22	28800656	29057487	22q12.1	22q12.1	612062	ZNRF3, KIAA1133	Zinc finger and ring finger protein 3	ZNRF3	84133	ENSG00000183579			Znrf3 (MGI:3039616)
 chr22	29073034	29168332	22q12.1	22q12.1	609898	KREMEN1, KRM1, ECTD13	Kringle domain-containing transmembrane protein 1	KREMEN1	83999	ENSG00000183762		Ectodermal dysplasia 13, hair/tooth type, 617392 (3), Autosomal recessive	Kremen1 (MGI:1933988)
-chr22	29268253	29300522	22q12	22q12.2	133450	EWSR1, EWS	Ewing sarcoma breakpoint region-1	EWSR1	2130	ENSG00000182944	t(11;22)(q24;q12); t(21;22)(q22;q12)	Neuroepithelioma, 612219 (3); Ewing sarcoma, 612219 (3)	
+chr22	29268253	29300522	22q12	22q12.2	133450	EWSR1, EWS	EWS RNA-binding protein 1	EWSR1	2130	ENSG00000182944	t(11;22)(q24;q12); t(21;22)(q22;q12)	Neuroepithelioma, 612219 (3); Ewing sarcoma, 612219 (3)	
 chr22	29306649	29312786	22q12	22q12.2	602128	GAS2L1, GAR22	Growth arrest-specific 2 like 1	GAS2L1	10634	ENSG00000185340			Gas2l1 (MGI:1926176)
 chr22	29312932	29319617	22q12	22q12.2	602220	RASL10A, RRP22	Ras-like, family 10, member A	RASL10A	10633	ENSG00000100276			Rasl10a (MGI:1922918)
 chr22	29327679	29388569	22q12	22q12.2	600157	AP1B1, ADTB1, BAM22, CLAPB2, KIDAR	Adaptor-related protein complex 1, beta 1 subunit (adaptin, beta)	AP1B1	162	ENSG00000100280		Keratitis-ichthyosis-deafness syndrome, autosomal recessive, 242150 (3), Autosomal recessive	Ap1b1 (MGI:1096368)
@@ -16368,7 +16374,7 @@ chrX	3040233	3112726	Xp22.3	Xp22.33	300003	ARSF	Arylsulfatase F	ARSF	416	ENSG000
 chrX	3308564	3346651	Xp22.33	Xp22.33	300938	MXRA5	Matrix remodeling-associated protein 5	MXRA5	25878	ENSG00000101825			
 chrX	3604339	3713648	Xp22.3	Xp22.33	300083	PRKX	Protein kinase, X-linked	PRKX	5613	ENSG00000183943			Prkx (MGI:1309999)
 chrX	4400000	6100000	Xp22.32		314705	XGR	XG/MIC2 regulator				?between XG and MIC2		
-chrX	5890041	6228877	Xp22.33	Xp22.32-p22.31	300427	NLGN4, KIAA1260, AUTSX2, ASPGX2	Neuroligin 4	NLGN4X	57502	ENSG00000146938		Mental retardation, X-linked, 300495 (3), X-linked, Multifactorial, Isolated cases; {Asperger syndrome susceptibility, X-linked 2}, 300497 (3), X-linked; {Autism susceptibility, X-linked 2}, 300495 (3), X-linked, Multifactorial, Isolated cases	
+chrX	5890041	6228877	Xp22.33	Xp22.32-p22.31	300427	NLGN4, KIAA1260, AUTSX2, ASPGX2	Neuroligin 4	NLGN4X	57502	ENSG00000146938		Mental retardation, X-linked, 300495 (3), X-linked, Isolated cases, Multifactorial; {Asperger syndrome susceptibility, X-linked 2}, 300497 (3), X-linked; {Autism susceptibility, X-linked 2}, 300495 (3), X-linked, Isolated cases, Multifactorial	
 chrX	6533617	6535117	Xp22.3	Xp22.31	300533	VCX3A, VCX8R, VCXA	Variably charged, X chromosome, 3A	VCX3A	51481	ENSG00000169059			
 chrX	6768839	7148152	Xp22.32	Xp22.31	306480	HDHD1A, DXF68S1E, GS1	Haloacid dehalogenase-like hydrolase domain-containing 1A	PUDP	8226	ENSG00000130021	escapes X-inactivation; 100kb telomeric to STS		Pudp (MGI:1914615)
 chrX	7147289	7354640	Xp22.32	Xp22.31	300747	STS, ARSC1, ARSC, SSDD, XLI	Steroid sulfatase, microsomal (arylsulfatase C, isozyme S)	STS	412	ENSG00000101846	nonlyonizing	Ichthyosis, X-linked, 308100 (3), X-linked recessive	
@@ -16500,7 +16506,7 @@ chrX	40051245	40177389	Xp11.4	Xp11.4	300485	BCOR, KIAA1575, MCOPS2, MAA2, ANOP2	
 chrX	40580969	40606847	Xp11.4	Xp11.4	300556	ATP6AP2, ATP6M8-9, XMRE, MRXSH, XPDS, CDG2R	ATPase, H+ transporting, lysosomal, accessory protein 2	ATP6AP2	10159	ENSG00000182220	mutation identified in 1 XPDS family	Congenital disorder of glycosylation, type IIr, 301045 (3), X-linked recessive; Mental retardation, X-linked, syndromic, Hedera type, 300423 (3), X-linked recessive; ?Parkinsonism with spasticity, X-linked, 300911 (3), X-linked recessive	Atp6ap2 (MGI:1917745)
 chrX	40648304	40736121	Xp11.4-p11.2	Xp11.4	300182	MED14, CRSP2, CXorf4, TRAP170, EXLM1	Mediator complex subunit 14	MED14	9282	ENSG00000180182			Med14 (MGI:1349442)
 chrX	41085419	41236578	Xp11.4	Xp11.4	300072	USP9X, DFFRX, MRX99, MRXS99F	Ubiquitin-specific protease-9, X chromosome (Drosophila fat facets related, X-linked)	USP9X	8239	ENSG00000124486		Mental retardation, X-linked 99, 300919 (3), X-linked recessive; Mental retardation, X-linked 99, syndromic, female-restricted, 300968 (3), X-linked dominant	Usp9x (MGI:894681)
-chrX	41333307	41364471	Xp11.3-p11.23	Xp11.4	300160	DDX3X, DDX3, DBX, MRX102, MRXSSB	DEAD-box helicase 3, X-linked	DDX3X	1654	ENSG00000215301		Intellectual developmental disorder, X-linked, syndrome, Snijders Blok type, 300958 (3), X-linked dominant, X-linked recessive	Ddx3x (MGI:103064)
+chrX	41333307	41364471	Xp11.3-p11.23	Xp11.4	300160	DDX3X, DDX3, DBX, MRX102, MRXSSB	DEAD-box helicase 3, X-linked	DDX3X	1654	ENSG00000215301		Intellectual developmental disorder, X-linked, syndrome, Snijders Blok type, 300958 (3), X-linked recessive, X-linked dominant	Ddx3x (MGI:103064)
 chrX	41447342	41475651	Xp11.4	Xp11.4	300278	NYX, CSNB1A, NBM1	Nyctalopin	NYX	60506	ENSG00000188937		Night blindness, congenital stationary (complete), 1A, X-linked, 310500 (3), X-linked recessive	Nyx (MGI:2448607)
 chrX	41514933	41923553	Xp11.4	Xp11.4	300172	CASK, MICPCH, FGS4, CMG, MRXSNA	Calcium/calmodulin-dependent serine protein kinase	CASK	8573	ENSG00000147044		Mental retardation, with or without nystagmus, 300422 (3); Mental retardation and microcephaly with pontine and cerebellar hypoplasia, 300749 (3), X-linked dominant; FG syndrome 4, 300422 (3)	Cask (MGI:1309489)
 chrX	41686396	41697274	Xp11.4	Xp11.4	300241	GPR34	G protein-coupled receptor 34	GPR34	2857	ENSG00000171659			Gpr34 (MGI:1346334)
@@ -16517,7 +16523,7 @@ chrX	42500000	109400000	Xp11.3-q22		300218	MRXS7	Mental retardation, X-linked, s
 chrX	42777365	42778162	Xp11.3	Xp11.3	301017	PPP1R2C	Protein phosphatase 1, regulatory subunit 2C	PPP1R2C	80316	ENSG00000102055			
 chrX	43655005	43746816	Xp11.23	Xp11.3	309850	MAOA, BRNRS	Monoamine oxidase A	MAOA	4128	ENSG00000189221	NDP, MAOA, MAOB closely linked	Brunner syndrome, 300615 (3), X-linked recessive; {Antisocial behavior}, 300615 (3), X-linked recessive	Maoa (MGI:96915)
 chrX	43766609	43882449	Xp11.23	Xp11.3	309860	MAOB	Monoamine oxidase B	MAOB	4129	ENSG00000069535			Maob (MGI:96916)
-chrX	43948775	43973389	Xp11.4	Xp11.3	300658	NDP, ND, EVR2	Norrin	NDP	4693	ENSG00000124479		Exudative vitreoretinopathy 2, X-linked, 305390 (3), X-linked dominant, X-linked recessive; Norrie disease, 310600 (3), X-linked recessive	Ndp (MGI:102570)
+chrX	43948775	43973389	Xp11.4	Xp11.3	300658	NDP, ND, EVR2	Norrin	NDP	4693	ENSG00000124479		Exudative vitreoretinopathy 2, X-linked, 305390 (3), X-linked recessive, X-linked dominant; Norrie disease, 310600 (3), X-linked recessive	Ndp (MGI:102570)
 chrX	44146253	44343671	Xp11.3	Xp11.3	300817	EFHC2	EF-hand domain (C-terminal)-containing protein 2	EFHC2	80258	ENSG00000183690			Efhc2 (MGI:1921655)
 chrX	44523638	44542858	Xp11.3	Xp11.3	300871	FUNDC1	FUN14 domain-containing protein 1	FUNDC1	139341	ENSG00000069509			Fundc1 (MGI:1919268)
 chrX	44844020	44844887	Xp11.3	Xp11.3	300678	DUSP21, LMWDSP21	Dual-specificity phosphatase 21	DUSP21	63904	ENSG00000189037			
@@ -16541,7 +16547,7 @@ chrX	47233008	47248327	Xp21.2-p11.2	Xp11.3	300050	USP11, UHX1	Ubiquitin-specific
 chrX	47370577	47414497	Xp11.2	Xp11.3	300024	ZNF157	Zinc finger protein-157 (HZF22)	ZNF157	7712	ENSG00000147117			
 chrX	47444690	47485933	Xp22.1-cen	Xp11.3	314995	ZNF41	Zinc finger protein-41	ZNF41	7592	ENSG00000147124			
 chrX	47561204	47571907	Xp11.4-p11.2	Xp11.3	311010	ARAF1, RAFA1, PKS2	Oncogene ARAF1	ARAF	369	ENSG00000078061			Araf (MGI:88065)
-chrX	47571900	47619856	Xp11.4-p11.2	Xp11.3-p11.2	313440	SYN1	Synapsin I	SYN1	6853	ENSG00000008056	5kb from PFC	Epilepsy, X-linked, with variable learning disabilities and behavior disorders, 300491 (3), X-linked dominant, X-linked recessive	Syn1 (MGI:98460)
+chrX	47571900	47619856	Xp11.4-p11.2	Xp11.3-p11.2	313440	SYN1	Synapsin I	SYN1	6853	ENSG00000008056	5kb from PFC	Epilepsy, X-linked, with variable learning disabilities and behavior disorders, 300491 (3), X-linked recessive, X-linked dominant	Syn1 (MGI:98460)
 chrX	47582407	47586788	Xp11.3-p11.23	Xp11.3	305370	TIMP1, TIMP, EPA	Erythroid-potentiating activity (tissue inhibitor of metalloproteinases)	TIMP1	7076	ENSG00000102265	in intron of SYN1		Timp1 (MGI:98752)
 chrX	47600000	54800000	Xp11.23-p11.22		300801	DUPXp11.23p11.22, CXDUPp11.23p11.22	Chromosome Xp11.23-p11.22 duplication syndrome					Chromosome Xp11.23-p11.22 duplication syndrome, 300801 (4), X-linked dominant	
 chrX	47600000	50100000	Xp11.23		300726	GAGE2B	G antigen 2B	GAGE2B	645037				
@@ -16583,7 +16589,7 @@ chrX	48826512	48829868	Xp11.2	Xp11.23	300437	HRAS2, HRASP	v-Ha-ras harvey rat sa
 chrX	48831095	48835609	Xp11.3	Xp11.23	300399	PCSK1N, PROSAAS	Proprotein convertase, subtilisin/kexin-type, 1, inhibitor of	PCSK1N	27344	ENSG00000102109			Pcsk1n (MGI:1353431)
 chrX	48893446	48898142	Xp11.2	Xp11.23	300249	TIMM17B, TIM17B	Translocase of inner mitochondrial membrane 17B	TIMM17B	10245	ENSG00000126768			Timm17b (MGI:1343176)
 chrX	48897861	48903142	Xp11.23	Xp11.23	300463	PQBP1, NPW38, SHS, MRX55, MRXS3, RENS1, MRXS8	Polyglutamine-binding protein 1	PQBP1	10084	ENSG00000102103		Renpenning syndrome, 309500 (3), X-linked recessive	Pqbp1 (MGI:1859638)
-chrX	48903182	48911957	Xp11.23-p11.22	Xp11.23	314375	SLC35A2, UGALT, UGTL, UGT2, CDGX, CDG2M	Solute carrier family 35 (UDP-galactose transporter), member 2	SLC35A2	7355	ENSG00000102100		Congenital disorder of glycosylation, type IIm, 300896 (3), X-linked dominant, Somatic mosaicism	
+chrX	48903182	48911957	Xp11.23-p11.22	Xp11.23	314375	SLC35A2, UGALT, UGTL, UGT2, CDGX, CDG2M	Solute carrier family 35 (UDP-galactose transporter), member 2	SLC35A2	7355	ENSG00000102100		Congenital disorder of glycosylation, type IIm, 300896 (3), Somatic mosaicism, X-linked dominant	
 chrX	48913181	48919023	Chr.X	Xp11.23	300295	PIM2	Oncogene PIM2	PIM2	11040	ENSG00000102096			Pim2 (MGI:97587)
 chrX	48922023	48960782	Xp11.23	Xp11.23	300713	OTUD5, DUBA	OTU domain-containing protein 5	OTUD5	55593	ENSG00000068308			
 chrX	48960982	48972102	Xp11.23	Xp11.23	300281	KCND1	Potassium voltage-gated channel, SHAL-related subfamily, member 1	KCND1	3750	ENSG00000102057			Kcnd1 (MGI:96671)
@@ -16722,7 +16728,7 @@ chrX	71059246	71073425	Xq13.1	Xq13.1	300883	SNX12	Sorting nexin 12	SNX12	29934	E
 chrX	71095850	71103533	Xq13.1	Xq13.1	300033	FOXO4, MLLT7, AFX1	Forkhead box O4	FOXO4	4303	ENSG00000184481			Foxo4 (MGI:1891915)
 chrX	71107403	71111576	Xq13	Xq13.1	308380	IL2RG, SCIDX1, SCIDX, IMD4	Interleukin-2 receptor, gamma	IL2RG	3561	ENSG00000147168	linked to DXS159	Severe combined immunodeficiency, X-linked, 300400 (3), X-linked recessive; Combined immunodeficiency, X-linked, moderate, 312863 (3), X-linked recessive	Il2rg (MGI:96551)
 chrX	71118595	71142449	Xq13	Xq13.1	300188	MED12, TNRC11, TRAP230, HOPA, KIAA0192, OKS, FGS1, OHDOX	Mediator of RNA polymerase II transcription, subunit 12, S. cerevisiae, homolog of	MED12	9968	ENSG00000184634		Ohdo syndrome, X-linked, 300895 (3), X-linked recessive; Lujan-Fryns syndrome, 309520 (3), X-linked recessive; Opitz-Kaveggia syndrome, 305450 (3), X-linked recessive	Med12 (MGI:1926212)
-chrX	71144388	71175306	Xq13	Xq13.1	300336	NLGN3, ASPGX1, AUTSX1	Neuroligin 3	NLGN3	54413	ENSG00000196338		{Autism susceptibility, X-linked 1}, 300425 (3), X-linked; {Asperger syndrome susceptibility, X-linked 1}, 300494 (3), X-linked, Multifactorial, Isolated cases	Nlgn3 (MGI:2444609)
+chrX	71144388	71175306	Xq13	Xq13.1	300336	NLGN3, ASPGX1, AUTSX1	Neuroligin 3	NLGN3	54413	ENSG00000196338		{Autism susceptibility, X-linked 1}, 300425 (3), X-linked; {Asperger syndrome susceptibility, X-linked 1}, 300494 (3), X-linked, Isolated cases, Multifactorial	Nlgn3 (MGI:2444609)
 chrX	71215238	71225515	Xq13.1	Xq13.1	304040	GJB1, CX32, CMTX1	Gap junction protein, beta-1, 32kD (connexin 32)	GJB1	2705	ENSG00000169562		Charcot-Marie-Tooth neuropathy, X-linked dominant, 1, 302800 (3), X-linked dominant	Gjb1 (MGI:95719)
 chrX	71239623	71255196	Xq13.1	Xq13.1	300061	ZMYM3, ZNF261, DXS6673E	Zinc finger, MYM-type 3	ZMYM3	9203	ENSG00000147130			Zmym3 (MGI:1927231)
 chrX	71283634	71301167	Xq13.1	Xq13.1	300084	NONO, NRB54, MRXS34	Non-Pou domain-containing octamer (ATGCAAAT) binding protein (nuclear RNA-binding protein, 54-kD)	NONO	4841	ENSG00000147140	2Mb proximal to PHKA1	Mental retardation, X-linked, syndromic 34, 300967 (3), X-linked	Nono (MGI:1855692)
@@ -16956,12 +16962,12 @@ chrX	121800000	129500000	Xq25		300779	XECD	Corneal dystrophy, endothelial, X-lin
 chrX	123184277	123490914	Xq25-q26	Xq25	305915	GRIA3, GLUR3, MRXSW	Glutamate receptor, ionotropic, AMPA 3	GRIA3	2892	ENSG00000125675		Intellectual developmental disorder, X-linked, syndromic, Wu type, 300699 (3), X-linked recessive	Gria3 (MGI:95810)
 chrX	123600562	123733053	Xq25	Xq25	300395	THOC2, THO2, MRX12, MRX35	THO complex 2 (Tho2, yeast, homolog of)	THOC2	57187	ENSG00000125676		Mental retardation, X-linked 12/35, 300957 (3), X-linked recessive	Thoc2 (MGI:2442413)
 chrX	123859707	123913971	Xq25	Xq25	300079	XIAP, BIRC4, API3, XLP2	Inhibitor of apoptosis, X-linked	XIAP	331	ENSG00000101966		Lymphoproliferative syndrome, X-linked, 2, 300635 (3), X-linked recessive	Xiap (MGI:107572)
-chrX	123960559	124102655	Xq25	Xq25	300826	STAG2, SA2, MKMS, HPE13	Stromal antigen 2	STAG2	10735	ENSG00000101972		Mullegama-Klein-Martinez syndrome, 301022 (3), X-linked; Holoprosencephaly 13, X-linked, 301043 (3), X-linked dominant, X-linked recessive	Stag2 (MGI:1098583)
+chrX	123960559	124102655	Xq25	Xq25	300826	STAG2, SA2, MKMS, HPE13	Stromal antigen 2	STAG2	10735	ENSG00000101972		Mullegama-Klein-Martinez syndrome, 301022 (3), X-linked; Holoprosencephaly 13, X-linked, 301043 (3), X-linked recessive, X-linked dominant	Stag2 (MGI:1098583)
 chrX	124346562	124373159	Xq25	Xq25	300490	SH2D1A, LYP, IMD5, XLP, XLPD1	SH2 domain protein 1A	SH2D1A	4068	ENSG00000183918	1cM from DXS42; no recombination with DXS37	Lymphoproliferative syndrome, X-linked, 1, 308240 (3), X-linked recessive	Sh2d1a (MGI:1328352)
 chrX	124375902	125204380	Xq25	Xq25	300588	TENM1, ODZ1, TNM1	Teneurin transmembrane protein 1	TENM1	10178	ENSG00000009694			Tenm1 (MGI:1345185)
 chrX	128050961	128052402	Xq25	Xq25	300487	ACTRT1, ARPT1	Actin-related protein T1	ACTRT1	139741	ENSG00000123165			Actrt1 (MGI:1920610)
 chrX	129446500	129523519	Xq26.1	Xq25-q26	300012	SMARCA1, SNF2L1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 1	SMARCA1	6594	ENSG00000102038			Smarca1 (MGI:1935127)
-chrX	129500000	148000000	Xq26-q27		300712	CFSS	Craniofacioskeletal syndrome		100188773			?Craniofacioskeletal syndrome, 300712 (2), X-linked dominant, X-linked recessive	
+chrX	129500000	148000000	Xq26-q27		300712	CFSS	Craniofacioskeletal syndrome		100188773			?Craniofacioskeletal syndrome, 300712 (2), X-linked recessive, X-linked dominant	
 chrX	129500000	138900000	Xq26		302802	CMTX3	Charcot-Marie-Tooth neuropathy, X-linked recessive, 3				genomic rearrangement between 8q24.3 and Xq27.1	Charcot-Marie-Tooth neuropathy, X-linked recessive, 3, 302802 (4), X-linked recessive	
 chrX	129500000	138900000	Xq26		309555	GUST	Gustavson mental retardation syndrome (with microcephaly, optic atrophy, deafness)		8258			Gustavson syndrome, 309555 (2), X-linked	
 chrX	129500000	156040895	Xq26-qter		300076	INDX	Immunoneurologic syndrome X-linked, of Woods, Black, and Norbury		8259			Woods-Black-Norbury syndrome, 300076 (2), X-linked dominant	
@@ -17139,7 +17145,7 @@ chrX	153802165	153830543	Xq28	Xq28	300634	PDZD4, PDZK4, PDZRN4L, KIAA1444, LU1	P
 chrX	153861513	153886172	Xq28	Xq28	308840	L1CAM, CAML1, HSAS1, MASA, SPG1	L1 cell adhesion molecule	L1CAM	3897	ENSG00000198910	between RCP/GCP cluster and G6PD	MASA syndrome, 303350 (3), X-linked recessive; Hydrocephalus with Hirschsprung disease, 307000 (3), X-linked recessive; Hydrocephalus with congenital idiopathic intestinal pseudoobstruction, 307000 (3), X-linked recessive; Corpus callosum, partial agenesis of, 304100 (3), X-linked recessive; CRASH syndrome, 303350 (3), X-linked recessive; Hydrocephalus due to aqueductal stenosis, 307000 (3), X-linked recessive	L1cam (MGI:96721)
 chrX	153902624	153907165	Xq28	Xq28	300538	AVPR2, DIR, DI1, ADHR	Arginine vasopressin receptor-2	AVPR2	554	ENSG00000126895		Nephrogenic syndrome of inappropriate antidiuresis, 300539 (3), X-linked recessive; Diabetes insipidus, nephrogenic, 304800 (3), X-linked recessive	Avpr2 (MGI:88123)
 chrX	153907377	153926263	Xq28	Xq28	300023	RGC1	Rho-GAP hematopoietic protein C1	ARHGAP4	393	ENSG00000089820			Arhgap4 (MGI:2159577)
-chrX	153929224	153935036	Xq28	Xq28	300013	NAA10, ARD1A, ARD1, TE2, NATD, OGDNS, MCOPS1	N-alpha-acetyltransferase 10, NatA catalytic subunit	NAA10	8260	ENSG00000102030		Ogden syndrome, 300855 (3), X-linked dominant, X-linked recessive; Microphthalmia, syndromic 1, 309800 (3), X-linked	Naa10 (MGI:1915255)
+chrX	153929224	153935036	Xq28	Xq28	300013	NAA10, ARD1A, ARD1, TE2, NATD, OGDNS, MCOPS1	N-alpha-acetyltransferase 10, NatA catalytic subunit	NAA10	8260	ENSG00000102030		Ogden syndrome, 300855 (3), X-linked recessive, X-linked dominant; Microphthalmia, syndromic 1, 309800 (3), X-linked	Naa10 (MGI:1915255)
 chrX	153935262	153944642	Xq28	Xq28	312420	RENBP	Renin-binding protein	RENBP	5973	ENSG00000102032			Renbp (MGI:105940)
 chrX	153947555	153972359	Xq28	Xq28	300019	HCFC1, HCF1, MRX3	Host cell factor C1 (VP16-accessory protein)	HCFC1	3054	ENSG00000172534	50kb distal to V2R	Mental retardation, X-linked 3 (methylmalonic acidemia and homocysteinemia, cblX type ), 309541 (3), X-linked recessive	Hcfc1 (MGI:105942)
 chrX	153972753	153983193	Xq28	Xq28	300059	TMEM187, CXorf12, DXS9878E, ITBA1 gene	Transmembrane protein 187	TMEM187	8269	ENSG00000177854			
