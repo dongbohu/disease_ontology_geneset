@@ -1,5 +1,5 @@
 # Copyright (c) 1966-2021 Johns Hopkins University. Use of this file adheres to the terms specified at https://omim.org/help/agreement.
-# Generated: 2021-05-02
+# Generated: 2021-05-03
 # See end of file for additional documentation on specific fields
 # Chromosome	Genomic Position Start	Genomic Position End	Cyto Location	Computed Cyto Location	MIM Number	Gene Symbols	Gene Name	Approved Symbol	Entrez Gene ID	Ensembl Gene ID	Comments	Phenotypes	Mouse Gene Symbol/ID
 chr1	0	27600000	1p36		607413	AD7CNTP	Alzheimer disease neuronal thread protein						
@@ -16095,7 +16095,7 @@ chr22	20859006	20891213	22q11.2	22q11.21	604202	SNAP29, CEDNIK	Synaptosomal-asso
 chr22	20917406	20953746	22q11	22q11.21	602007	CRKL	v-crk avian sarcoma virus CT10 oncogene homolog-like	CRKL	1399	ENSG00000099942			Crkl (MGI:104686)
 chr22	20965171	20981357	22q11.21	22q11.21	617298	AIFM3, AIFL	Apoptosis-inducing factor, mitochondria-associated, 3	AIFM3	150209	ENSG00000183773			Aifm3 (MGI:1919418)
 chr22	20982296	20999031	22q11.1-q11.2	22q11.21	600574	LZTR1, SWNTS2, NS10, NS2	Leucine-zipper-like regulator-1	LZTR1	8216	ENSG00000099949		{Schwannomatosis-2, susceptibility to}, 615670 (3), Autosomal dominant; Noonan syndrome 2, 605275 (3), Autosomal recessive; Noonan syndrome 10, 616564 (3), Autosomal dominant	Lztr1 (MGI:1914113)
-chr22	21009698	21028012	22q11	22q11.21	608077	P2RXL1, P2XM, P2X6	Purinergic receptor P2X-like 1	P2RX6	9127				P2rx6 (MGI:1337113)
+chr22	21009698	21028012	22q11	22q11.21	608077	P2RXL1, P2XM, P2X6	Purinergic receptor P2X-like 1	P2RX6	9127	ENSG00000099957			P2rx6 (MGI:1337113)
 chr22	21028717	21032560	22q11.2	22q11.21	603752	SLC7A4, CAT4	Solute carrier family 7 (cationic amino acid transporter, y+ system), member 4	SLC7A4	6545	ENSG00000099960			Slc7a4 (MGI:2146512)
 chr22	21207971	21283022	22q11.1	22q11.21	137181	GGT2	Gamma-glutamyltransferase-2	GGT2	728441	ENSG00000133475		[Gamma-glutamyltransferase, familial high serum], 137181 (2)	
 chr22	21383750	21389168	22q11.21	22q11.21	612700	RIMBP3B	RIMS-binding protein 3B	RIMBP3B	440804	ENSG00000274600			Rimbp3 (MGI:2685449)
